@@ -29,6 +29,8 @@ You can find information and Api documentation related to Eon Technology at http
     //Default constructor uses testnet address, this default will change at mainnet launch.
     var eonClient = new EonClient();
     
+    //As HttpTransportLogger was injected in the object graph for type ITransportContext
+    //and it implements ILog we can cast the TransportContext instance to ILog
     var logger = m_eonClient.TransportContext as EonSharp.Logging.ILog;
     logger.LogChanged += (s, e) => Console.WriteLine(e.ToString());
     
@@ -40,13 +42,14 @@ You can find information and Api documentation related to Eon Technology at http
 
 ```csharp
     //Default constructor generates a new seed.
-    //To load an existing account just pass the seed to the constructor and all account related info will be derived from that seed.
+    //To load an existing account just pass the seed to the constructor
+    //and all account related info will be derived from that seed.
     var account = new EonSharp.Generators.AccountGenerator();
-    string acId = account.AccountId;
-    long acNmb = account.AccountNumber;
-    string acPriv = account.PrivateKeyToString(); //Equals seed
-    string acPub = account.PublicKeyToString();
-    string acExpd = account.ExpandedPrivateKeyToString(); //combined priv+pub keys
+    Console.WriteLine($"AccountId:      {account.AccountId}");
+    Console.WriteLine($"Account Number: {account.AccountNumber}");
+    Console.WriteLine($"Private Key:    {account.PrivateKeyToString()}"); //Equals seed
+    Console.WriteLine($"Public Key:     {account.PublicKeyToString()}"); 
+    Console.WriteLine($"Expanded Key:   {account.ExpandedPrivateKeyToString()}"); //combined priv+pub keys
 ```
 
 ### Processing a Transaction
