@@ -1,0 +1,3 @@
+[submodule "Src/Externals/Chaos.NaCl"]
+	path = Src/Externals/Chaos.NaCl
+	url = https://github.com/CodesInChaos/Chaos.NaCl.git
