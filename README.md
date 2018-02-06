@@ -5,14 +5,24 @@ The library provides an object oriented abstraction of the underlying Api and im
 The supported Api features include Account generation, Transaction processing, node specific calls to obtain metrics, Blocks and Transactions, Multi Signature and Colored Coins.
 The library also implements a simple/pure DI approach using a ClassMapper class for custom extensibility.
 
+
+---
+
+[![GitHub Releases](https://img.shields.io/github/release/zof-r/EonSharp.svg)](https://github.com/zof-r/EonSharp/releases)
+[![Documentation](https://img.shields.io/badge/docs-docfx-blue.svg)](http://zof-r.github.io/EonSharp)
+[![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/zof-r/EonSharp/master/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/zof-r/EonSharp.svg)](http://github.com/zof-r/EonSharp/issues)
+
+
+
 ## Resources
 
-You can find information and Api documentation related to **Eon Technology** at https://eontechnology.org/
+You can find information and JsonRpc Api documentation related to **Eon Technology** at https://eontechnology.org/
 
 
 ## Simple usage example
 
-### initialization
+### Initialization
 
 ```csharp
     //Usefull only during beta. Default is false. Afects all transport contexts for now.

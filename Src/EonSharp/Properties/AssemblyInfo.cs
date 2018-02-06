@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EonSharp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("EonSharp is a .Net integration library for Eon's JsonRpc Api")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Zof")]
 [assembly: AssemblyProduct("EonSharp")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

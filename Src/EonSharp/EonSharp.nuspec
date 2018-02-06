@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/Zof-R/EonSharp/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Zof-R/EonSharp</projectUrl>
+    <iconUrl>https://github.com/Zof-R/EonSharp/raw/master/images/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>exscudo eon blockchain</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Chaos.NaCl.dll" target="lib/net461" />
+    <file src="bin\Release\*.pdb" target="lib/net461" />
+  </files>
+</package>
