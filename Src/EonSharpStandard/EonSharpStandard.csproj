@@ -8,6 +8,19 @@
     <Copyright>Copyright ©  2018</Copyright>
     <AssemblyVersion>0.12.0</AssemblyVersion>
     <Version>0.12.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>EonSharp</PackageId>
+    <Description>EonSharp is a .Net integration library for Eon's JsonRpc Api</Description>
+    <PackageLicenseUrl>https://github.com/Zof-R/EonSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Zof-R/EonSharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>exscudo eon eontechnology blockchain</PackageTags>
+    <PackageProjectUrl>https://github.com/Zof-R/EonSharp</PackageProjectUrl>
+    <Title>EonSharp</Title>
+    <AssemblyName>EonSharp</AssemblyName>
+    <RootNamespace>EonSharp</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
 
   <ItemGroup>

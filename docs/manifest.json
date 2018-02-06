@@ -1,0 +1,1333 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Documents/Visual Studio 2017/Projects/_GitHub/EonSharp/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BDictionary.html",
+          "hash": "515cYSusCvCrngZ//3MDMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BElement.html",
+          "hash": "Q12BoBCP6VqYFuQsP8BNxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BInteger.html",
+          "hash": "2HNdgESLbe3YIoj934Y4Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BList.html",
+          "hash": "jRbJ5myMVU1DwjHeQwekHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BString.html",
+          "hash": "QGW6Ef/2ldvJA7eVKG5ACw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BencodeDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BencodeDecoder.html",
+          "hash": "H23h+qJGyN2hgFBwNaSkJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BencodingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BencodingException.html",
+          "hash": "Wf2NzXV9rALbYZ0672HIqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.BencodingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.BencodingExtensions.html",
+          "hash": "A97FA7IBnnIfBKMQIyhmjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BEncoding.html",
+          "hash": "75zeoNs5ZlbmONnvg+DWAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.ActivatorDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.ActivatorDescriptor.html",
+          "hash": "0U05YCQ7RwOH/c01H5c8RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Block.html",
+          "hash": "EN81mfWHBtIyBF0Qch1N1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.BotEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.BotEndpoint.html",
+          "hash": "Zg3nwU3uhqoQcEFg5UHgOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.IAccounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.IAccounts.html",
+          "hash": "PXss8zvGmdAODgxjCPxKnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.IColoredCoin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.IColoredCoin.html",
+          "hash": "YrwI0x+lJur6d7yYD4+nBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.IHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.IHistory.html",
+          "hash": "1woqRVEeHI4gvbSuQ0p1fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.ITime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.ITime.html",
+          "hash": "d6hcB5pYLiNCPhyEsyVbTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.ITransactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.ITransactions.html",
+          "hash": "KkZxjHgFwPL9zXKCzwuW6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Bot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Bot.html",
+          "hash": "/OHFyorB4kC9hVUZ42KYkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.ColoredInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.ColoredInfo.html",
+          "hash": "reMfsEGLXvkbgqDzDz2Uig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Deposit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Deposit.html",
+          "hash": "R0CDfWH3YDTq9vqe28KCIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Difficulty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Difficulty.html",
+          "hash": "jaMccsycX2poNSrnfHD2FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.EONBalance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.EONBalance.html",
+          "hash": "24HEgILsF4Q9ZE00YtxRMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.EndpointBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.EndpointBase.html",
+          "hash": "8lS8jtdKFIWcX6eb27lxMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Explorer.ExplorerEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Explorer.ExplorerEndpoint.html",
+          "hash": "aiXCjz38dYys+oq7wZMOrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Explorer.IAccounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Explorer.IAccounts.html",
+          "hash": "7SflhNBclofTBlclCLX+ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Explorer.IExplorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Explorer.IExplorer.html",
+          "hash": "vMR5eP0esjh3nDGfRLsplg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Explorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Explorer.html",
+          "hash": "aZvZmlmDFprjPN+fSMu0vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.IBot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.IBot.html",
+          "hash": "/90DAWDdtzuln5ZrzDNqUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.IExplorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.IExplorer.html",
+          "hash": "4CCo9HVSyoPZrCBy4z3rKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.IMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.IMetrics.html",
+          "hash": "jk12zs+G5jfInZC4JJIOqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.IPeer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.IPeer.html",
+          "hash": "iBr4jtvppCki3j+xFHI2gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Info.html",
+          "hash": "uaIDjDKNUdgN1+N4tzbS9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Metrics.MetricsEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Metrics.MetricsEndpoint.html",
+          "hash": "V/XWZbLK+M+NpMFF9HxVkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Metrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Metrics.html",
+          "hash": "9obs4H+CipXdLmuKuEaLKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Peer.IBlocks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Peer.IBlocks.html",
+          "hash": "vQF46/ojJWnGq3378yXS2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Peer.IMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Peer.IMetadata.html",
+          "hash": "JzUnCi6TtJjffxnZxhFqaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Peer.ITransactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Peer.ITransactions.html",
+          "hash": "GzrsxDC6F6xRQ3xfcg/4+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Peer.PeerEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Peer.PeerEndpoint.html",
+          "hash": "BrdrDW3vNa5Gra84wyDCyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Peer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Peer.html",
+          "hash": "Tzp7bdnNiZ5DKOZN+raK+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Quorum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Quorum.html",
+          "hash": "VmRwgC4xx7hFmvo9+4sslA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.SalientAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.SalientAttributes.html",
+          "hash": "kNBwXWygifnp4YBmKrJndA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.State.html",
+          "hash": "RUPFbgypxQezMH9jMbGWSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transaction.html",
+          "hash": "vLNtWNKbHPyKXEbzq3cdyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.AccountPublication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.AccountPublication.html",
+          "hash": "d93iIyWL1tdnjIPprvSAKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.AccountRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.AccountRegistration.html",
+          "hash": "ocWjIkiFY8h8WWNy6BZqYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html",
+          "hash": "ntn+V+78xZTN+Dbag/dR4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html",
+          "hash": "A8pFMM0jXoSCG8MGCWpKtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.ColoredCoinPaymentAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.ColoredCoinPaymentAttachment.html",
+          "hash": "Y3vPn0AkIkwcDQjc6sTxHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.ColoredCoinRegistrationAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.ColoredCoinRegistrationAttachment.html",
+          "hash": "/ooEEhIN0RTeTgQkVbAH3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.ColoredCoinSupplyAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.ColoredCoinSupplyAttachment.html",
+          "hash": "749MgwWR9YWpYgZl/fNZUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.DelegateAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.DelegateAttachment.html",
+          "hash": "s8jQivUJ9ZqymklDJj0zZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html",
+          "hash": "TS1x+45wILOamI++kFAKpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html",
+          "hash": "T8Da2xpWhRg29ueTUMlwgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html",
+          "hash": "myEgNWY6YphLQio/3hzgjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.QuorumAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.QuorumAttachment.html",
+          "hash": "2zJq0rJmn84S716V5/smIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.RejectionAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.RejectionAttachment.html",
+          "hash": "cGaA/Vc0UCNMvqLGtTf5gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.html",
+          "hash": "FX0h31CChP+yZNuD2llq+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.ColoredCoinPayment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.ColoredCoinPayment.html",
+          "hash": "HhLECMjQ4rRuCwCcEdm4+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.ColoredCoinRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.ColoredCoinRegistration.html",
+          "hash": "/RGbNhznaPq/KP9fAYfWPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.ColoredCoinSupply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.ColoredCoinSupply.html",
+          "hash": "BV2Zem2hW/4KOtiEYzNmwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Delegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Delegate.html",
+          "hash": "QOQP5x8TJP2IvHHPSapG3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.DepositRefill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.DepositRefill.html",
+          "hash": "LI2UrPBT0NfI/0Ul5i5O+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.DepositWithdraw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.DepositWithdraw.html",
+          "hash": "ncmFweWz+fMOyrJ87dpIQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.ExtensionMethods.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.ExtensionMethods.ExtensionMethods.html",
+          "hash": "j4zwNgyfxByd7ra7iS9GcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.ExtensionMethods.html",
+          "hash": "j6wEXjMjHALbRN/Tcv3WrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.OrdinaryPayment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.OrdinaryPayment.html",
+          "hash": "QWyiI/5ZBsDqIPyriY4ENw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Quorum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Quorum.html",
+          "hash": "16QQbn+xL1ZAsNLdSPYCnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Rejection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Rejection.html",
+          "hash": "VOKV22N63HjCplamoZtarA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.html",
+          "hash": "yRaxQXn0DDSL1/KVOoWlHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.VotingRights.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.VotingRights.html",
+          "hash": "NRRW9A9ySjMymeenAetb5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.html",
+          "hash": "vXjVbM8rdLL53DuFsqonEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Configuration.html",
+          "hash": "/ux5h02VZdSQ1c4xJwKvgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.EonClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.EonClient.html",
+          "hash": "592l76x3qDQTNX9aALSWIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Generators.AccountGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Generators.AccountGenerator.html",
+          "hash": "WDHwcWC2mhxmiZASKMM8sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Generators.KeyPairGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Generators.KeyPairGenerator.html",
+          "hash": "ulz3jw89cNMR9XkbGEwitA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Generators.SeedGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Generators.SeedGenerator.html",
+          "hash": "Mx0X0LV8tRYplfQ0UVU2cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Generators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Generators.html",
+          "hash": "AF6l+AramIww0+qhwzk/YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Helpers.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Helpers.ExtensionMethods.html",
+          "hash": "1uAig+xLXotfOPApZR26bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Helpers.HexHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Helpers.HexHelper.html",
+          "hash": "rzA16eympHJ9dBw68gF1LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Helpers.html",
+          "hash": "VeEDIXmJt1c6dTYJaVJjAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Logging.HttpTransportLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Logging.HttpTransportLogger.html",
+          "hash": "vMiNegDFbnhtPEgA63glgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Logging.ILog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Logging.ILog.html",
+          "hash": "pGVQN4y5WAy9+/VyEN81iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Logging.LogMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Logging.LogMessage.html",
+          "hash": "Q8/QQlWQyhcYHcJuDTaD6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Logging.LogMessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Logging.LogMessageType.html",
+          "hash": "LEPFdz/0L58ha3FUreOz7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Logging.html",
+          "hash": "2gNeiOeGec1RdXYf4bXsSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Network.ITransportContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Network.ITransportContext.html",
+          "hash": "FydkDex4+Q9F53zddsDCHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Network.Transports.HttpTransportClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Network.Transports.HttpTransportClient.html",
+          "hash": "oITVqYVek3Q/jti2k2DdUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Network.Transports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Network.Transports.html",
+          "hash": "7UHfdPeGJUabuPt8xTiw9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Network.html",
+          "hash": "9QxgBQLBNJPKsNkEPFfOwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.ExtensionMethods.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.ExtensionMethods.ExtensionMethods.html",
+          "hash": "N0wsSmXGqLNbIbLrtVa+Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.ExtensionMethods.html",
+          "hash": "PE+ZlyYQ9ApibzdUNNqzcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.ProtocolException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.ProtocolException.html",
+          "hash": "syts4lFffl3LU3oNuNjCVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.RpcError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.RpcError.html",
+          "hash": "5GGohMeLmQkKy3R29s/Jjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.RpcRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.RpcRequest.html",
+          "hash": "BlsJCXS4g8EvwXwupegNpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.RpcResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.RpcResponse.html",
+          "hash": "q/oH7mvBTQGXDwqM4unvTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Protocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Protocol.html",
+          "hash": "OXaGMWrwUJezbYksY5libg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Providers.IdProvider.IdType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Providers.IdProvider.IdType.html",
+          "hash": "x2CJhhr4+IJqJJtfDmHSgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Providers.IdProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Providers.IdProvider.html",
+          "hash": "X/Z+pKp3kULDCkRkvQlgmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Providers.html",
+          "hash": "ewz70HqQEEAew7eKL8a4jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.html",
+          "hash": "vZEBg74yuSR8ruNmWuQVcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "pTURg6Ql6iJdTX1KmPuaFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "2Mqv9fMsXSdJkgGjV7T8Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "DKuHTbJMEJkmvbR4qcqU5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "xVlQaX7Tk85omoiWv3O+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "DjX/ZloWry8eEt88Na+YOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "MZaQmfVumzId5slLPAMpqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

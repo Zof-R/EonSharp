@@ -1,13 +1,14 @@
-﻿# ![EonSharp](images/logo.png)
+# **EonSharp**
 
-EonSharp is a .Net integration library for **[Eon's](https://github.com/EonTechnology)** JsonRpc Api, at the time of writing at version 0.8.0 of the Eon blockchain.
-The library provides an object oriented abstraction of the underlying Api and implements support for both the documented and undocumented Api calls as of 4th of February of 2018.
+EonSharp is a .Net integration library for **[Eon's](https://github.com/EonTechnology)** JsonRpc Api and it provides an object oriented abstraction of the underlying Api.
 The supported Api features include Account generation, Transaction processing, node specific calls to obtain metrics, Blocks and Transactions, Multi Signature and Colored Coins.
 The library also implements a simple/pure DI approach using a ClassMapper class for custom extensibility.
 
 ## Resources
 
 You can find information and Api documentation related to **Eon Technology** at https://eontechnology.org/
+
+For detailed **EonSharp** Api documentation click [here](api/EonSharp.yml)
 
 
 ## Simple usage example
@@ -65,35 +66,4 @@ You can find information and Api documentation related to **Eon Technology** at 
     //Sends the Transaction to the network  
     await eonClient.Bot.Transactions.PutTransactionAsync(refill);
 ```
-
-## Documentation
-
-It's still a work in progress but an early version can be found [here](http://Zof-R.github.io/EonSharp)
-
-
-## Changelog
-
-You can check the full [changelog](CHANGELOG.md)
-
-
-
-## Thanks and Credits
-
-To @acidburn and @gassman for testing and suggestions, also some of the IdProvider class methods where initially based on @gassman's port from java to c# of the EonTechnology Format.java src.
-
-
-
-## Acknowledgements
-
-The EonSharp library uses code from the following external dependencies:
-
-- [Chaos.NaCl by CodesInChaos.](https://github.com/CodesInChaos/Chaos.NaCl)
-- [BEncode source originally posted at http://snipplr.com/view/37790/ by SuprDewd.](http://snipplr.com/view/37790/)
-- [Json.NET by Newtonsoft](https://www.newtonsoft.com/json)
-
-
-
-## License
-
-The EonSharp library is licensed under the terms of the [GPL Open Source license](LICENSE) and is available for free.
 

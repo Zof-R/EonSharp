@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>EonSharp | EonSharp </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="EonSharp | EonSharp ">
+    <meta name="generator" content="docfx 2.31.0.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="eonsharp"><strong>EonSharp</strong></h1>
+
+<p>EonSharp is a .Net integration library for <strong><a href="https://github.com/EonTechnology">Eon&#39;s</a></strong> JsonRpc Api and it provides an object oriented abstraction of the underlying Api.
+The supported Api features include Account generation, Transaction processing, node specific calls to obtain metrics, Blocks and Transactions, Multi Signature and Colored Coins.
+The library also implements a simple/pure DI approach using a ClassMapper class for custom extensibility.</p>
+<h2 id="resources">Resources</h2>
+<p>You can find information and Api documentation related to <strong>Eon Technology</strong> at <a href="https://eontechnology.org/">https://eontechnology.org/</a></p>
+<p>For detailed <strong>EonSharp</strong> Api documentation click <a href="api/EonSharp.html">here</a></p>
+<h2 id="simple-usage-example">Simple usage example</h2>
+<h3 id="initialization">initialization</h3>
+<pre><code class="lang-csharp">    //Usefull only during beta. Default is false. Afects all transport contexts for now.
+    EonSharp.Configuration.IgnoreSslErrors = true;
+
+    //Example of logging class injection to default EonClient&#39;s object graph construction
+    EonClient.ClassMapper[typeof(EonSharp.Network.ITransportContext)] = new ActivatorDescriptor[]
+    {
+        new ActivatorDescriptor(typeof(EonSharp.Network.Transports.HttpTransportClient)),
+        new ActivatorDescriptor(typeof(EonSharp.Logging.HttpTransportLogger), new object[]{ &quot;[HTTP TRANSPORT] &quot; })
+    };
+
+    //Instantiation of EonClient root class. All calls are made through this class.
+    //Default constructor uses testnet address, this default will change at mainnet launch.
+    var eonClient = new EonClient();
+
+    //As HttpTransportLogger was injected in the object graph for type ITransportContext
+    //and it implements ILog we can cast the TransportContext instance to ILog
+    var logger = m_eonClient.TransportContext as EonSharp.Logging.ILog;
+    logger.LogChanged += (s, e) =&gt; Console.WriteLine(e.ToString());
+
+    //Needs to be called at least once to update internal variables related to blockchain state.
+    await eonClient.UpdateBlockchainDetails();
+</code></pre><h3 id="creating-an-account">Creating an account</h3>
+<pre><code class="lang-csharp">    //Default constructor generates a new seed.
+    //To load an existing account just pass the seed to the constructor
+    //and all account related info will be derived from that seed.
+    var account = new EonSharp.Generators.AccountGenerator();
+
+    Console.WriteLine($&quot;AccountId:      {account.AccountId}&quot;);
+    Console.WriteLine($&quot;Account Number: {account.AccountNumber}&quot;);
+    Console.WriteLine($&quot;Private Key:    {account.PrivateKeyToString()}&quot;); //Equals seed
+    Console.WriteLine($&quot;Public Key:     {account.PublicKeyToString()}&quot;); 
+    Console.WriteLine($&quot;Expanded Key:   {account.ExpandedPrivateKeyToString()}&quot;); //combined priv+pub keys
+</code></pre><h3 id="processing-a-transaction">Processing a Transaction</h3>
+<pre><code class="lang-csharp">    //Creates a DepositRefill transaction object providing an account id and amount in microeons
+    var refill = new EonSharp.Api.Transactions.DepositRefill(account.AccountId, 10);
+
+    //Signs the Transaction
+    refill.SignTransaction(account.ExpandedPrivateKey);
+
+    //Sends the Transaction to the network  
+    await eonClient.Bot.Transactions.PutTransactionAsync(refill);
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Zof-R/EonSharp/blob/master/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright &#9400; 2018 José Filipe Rodrigues<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
