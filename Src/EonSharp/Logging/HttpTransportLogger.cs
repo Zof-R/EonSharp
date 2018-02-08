@@ -15,11 +15,20 @@ namespace EonSharp.Logging
 
 		public event EventHandler<LogMessage> LogChanged;
 
+		HashSet<string> ExcludeFilter;
 
 		public HttpTransportLogger(ITransportContext ctx, string prefix)
 		{
 			Context = ctx;
 			Prefix = prefix;
+
+		}
+		public HttpTransportLogger(ITransportContext ctx, string prefix, IEnumerable<string> excludeFilter) : this(ctx, prefix)
+		{
+			if (excludeFilter != null)
+			{
+				ExcludeFilter = new HashSet<string>(excludeFilter.Select(f => f.ToLower().Replace("async", "")));
+			}
 		}
 
 
@@ -29,7 +38,7 @@ namespace EonSharp.Logging
 
 		public string Password => Context.Password;
 
-		public ITransportContext CreateNewTransportContext(string serverAddress, string user = null, string password = null) => new HttpTransportLogger(Context.CreateNewTransportContext(serverAddress, user, password), Prefix);
+		public ITransportContext CreateNewTransportContext(string serverAddress, string user = null, string password = null) => new HttpTransportLogger(Context.CreateNewTransportContext(serverAddress, user, password), Prefix, ExcludeFilter);
 
 		public async Task<string> GetPageAsync(string endpointUrl) => await Context.GetPageAsync(endpointUrl);
 
@@ -43,8 +52,20 @@ namespace EonSharp.Logging
 				var handler = LogChanged;
 				if (handler != null)
 				{
-					handler(this, new LogMessage(Prefix, response.RawRpcRequest));
-					handler(this, new LogMessage(Prefix, response.RawRpcResponse));
+					var log = true;
+					if (ExcludeFilter != null)
+					{
+						var urlf = endpointUrl.ToLower().Trim("/ ".ToCharArray());
+						var methf = rpcrequest.Method.ToLower();
+						var meth = methf.Split('.').Last();
+						var filtertypes = new string[] { $"{urlf}.{methf}", urlf, methf, meth };
+						log = !filtertypes.Any(ft => ExcludeFilter.Contains(ft));
+					}
+					if (log)
+					{
+						handler(this, new LogMessage(Prefix, response.RawRpcRequest));
+						handler(this, new LogMessage(Prefix, response.RawRpcResponse));
+					}
 				}
 				return response;
 			}

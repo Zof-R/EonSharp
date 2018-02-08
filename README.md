@@ -10,7 +10,7 @@ The library also implements a simple/pure DI approach using a ClassMapper class 
 
 [![GitHub Releases](https://img.shields.io/github/release/zof-r/EonSharp.svg)](https://github.com/zof-r/EonSharp/releases)
 [![Documentation](https://img.shields.io/badge/docs-docfx-blue.svg)](http://zof-r.github.io/EonSharp)
-[![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/zof-r/EonSharp/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/Zof-R/EonSharp/blob/master/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/zof-r/EonSharp.svg)](http://github.com/zof-r/EonSharp/issues)
 
 
