@@ -76,8 +76,7 @@ namespace EonSharp.Api.Transactions
 		{
 			return new BEncoding.BDictionary
 			{
-				[nameof(AccountId).ToLower()] = new BEncoding.BString(AccountId),
-				[nameof(PublicKey).ToLower()] = new BEncoding.BString(PublicKey)
+				[AccountId] = new BEncoding.BString(PublicKey),
 			};
 		}
 	}
