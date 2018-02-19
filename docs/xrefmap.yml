@@ -6448,12 +6448,30 @@ references:
   fullName.vb: EonSharp.Wallet.Wallet(System.String, System.Byte(), System.String)
   nameWithType: Wallet.Wallet(String, Byte[], String)
   nameWithType.vb: Wallet.Wallet(String, Byte(), String)
+- uid: EonSharp.Wallet.#ctor(System.String,System.String)
+  name: Wallet(String, String)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet__ctor_System_String_System_String_
+  commentId: M:EonSharp.Wallet.#ctor(System.String,System.String)
+  fullName: EonSharp.Wallet.Wallet(System.String, System.String)
+  nameWithType: Wallet.Wallet(String, String)
 - uid: EonSharp.Wallet.#ctor*
   name: Wallet
   href: api/EonSharp.Wallet.html#EonSharp_Wallet__ctor_
   commentId: Overload:EonSharp.Wallet.#ctor
   fullName: EonSharp.Wallet.Wallet
   nameWithType: Wallet.Wallet
+- uid: EonSharp.Wallet.AccountDetails
+  name: AccountDetails
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_AccountDetails
+  commentId: P:EonSharp.Wallet.AccountDetails
+  fullName: EonSharp.Wallet.AccountDetails
+  nameWithType: Wallet.AccountDetails
+- uid: EonSharp.Wallet.AccountDetails*
+  name: AccountDetails
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_AccountDetails_
+  commentId: Overload:EonSharp.Wallet.AccountDetails
+  fullName: EonSharp.Wallet.AccountDetails
+  nameWithType: Wallet.AccountDetails
 - uid: EonSharp.Wallet.FromJsonString(System.String)
   name: FromJsonString(String)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_FromJsonString_System_String_
@@ -6466,6 +6484,18 @@ references:
   commentId: Overload:EonSharp.Wallet.FromJsonString
   fullName: EonSharp.Wallet.FromJsonString
   nameWithType: Wallet.FromJsonString
+- uid: EonSharp.Wallet.GetExpandedKey(System.String)
+  name: GetExpandedKey(String)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetExpandedKey_System_String_
+  commentId: M:EonSharp.Wallet.GetExpandedKey(System.String)
+  fullName: EonSharp.Wallet.GetExpandedKey(System.String)
+  nameWithType: Wallet.GetExpandedKey(String)
+- uid: EonSharp.Wallet.GetExpandedKey*
+  name: GetExpandedKey
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetExpandedKey_
+  commentId: Overload:EonSharp.Wallet.GetExpandedKey
+  fullName: EonSharp.Wallet.GetExpandedKey
+  nameWithType: Wallet.GetExpandedKey
 - uid: EonSharp.Wallet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: GetObjectData(SerializationInfo, StreamingContext)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
@@ -6505,18 +6535,6 @@ references:
   commentId: Overload:EonSharp.Wallet.GetPrivateKey
   fullName: EonSharp.Wallet.GetPrivateKey
   nameWithType: Wallet.GetPrivateKey
-- uid: EonSharp.Wallet.GetPublicAccountGenerator(System.String)
-  name: GetPublicAccountGenerator(String)
-  href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetPublicAccountGenerator_System_String_
-  commentId: M:EonSharp.Wallet.GetPublicAccountGenerator(System.String)
-  fullName: EonSharp.Wallet.GetPublicAccountGenerator(System.String)
-  nameWithType: Wallet.GetPublicAccountGenerator(String)
-- uid: EonSharp.Wallet.GetPublicAccountGenerator*
-  name: GetPublicAccountGenerator
-  href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetPublicAccountGenerator_
-  commentId: Overload:EonSharp.Wallet.GetPublicAccountGenerator
-  fullName: EonSharp.Wallet.GetPublicAccountGenerator
-  nameWithType: Wallet.GetPublicAccountGenerator
 - uid: EonSharp.Wallet.Id
   name: Id
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_Id
@@ -6553,6 +6571,12 @@ references:
   commentId: Overload:EonSharp.Wallet.Name
   fullName: EonSharp.Wallet.Name
   nameWithType: Wallet.Name
+- uid: EonSharp.Wallet.PropertyChanged
+  name: PropertyChanged
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_PropertyChanged
+  commentId: E:EonSharp.Wallet.PropertyChanged
+  fullName: EonSharp.Wallet.PropertyChanged
+  nameWithType: Wallet.PropertyChanged
 - uid: EonSharp.Wallet.ToJsonString
   name: ToJsonString()
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_ToJsonString
@@ -6565,6 +6589,18 @@ references:
   commentId: Overload:EonSharp.Wallet.ToJsonString
   fullName: EonSharp.Wallet.ToJsonString
   nameWithType: Wallet.ToJsonString
+- uid: EonSharp.Wallet.UnlockAccountDetails(System.String)
+  name: UnlockAccountDetails(String)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_UnlockAccountDetails_System_String_
+  commentId: M:EonSharp.Wallet.UnlockAccountDetails(System.String)
+  fullName: EonSharp.Wallet.UnlockAccountDetails(System.String)
+  nameWithType: Wallet.UnlockAccountDetails(String)
+- uid: EonSharp.Wallet.UnlockAccountDetails*
+  name: UnlockAccountDetails
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_UnlockAccountDetails_
+  commentId: Overload:EonSharp.Wallet.UnlockAccountDetails
+  fullName: EonSharp.Wallet.UnlockAccountDetails
+  nameWithType: Wallet.UnlockAccountDetails
 - uid: EonSharp.Wallet.Version
   name: Version
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_Version

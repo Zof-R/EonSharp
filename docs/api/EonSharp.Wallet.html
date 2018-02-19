@@ -84,7 +84,7 @@
   <h6><strong>Assembly</strong>: EonSharp.dll</h6>
   <h5 id="EonSharp_Wallet_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Wallet : ISerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Wallet : ISerializable, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -93,7 +93,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet__ctor.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L35">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L58">View Source</a>
   </span>
   <a id="EonSharp_Wallet__ctor_" data-uid="EonSharp.Wallet.#ctor*"></a>
   <h4 id="EonSharp_Wallet__ctor" data-uid="EonSharp.Wallet.#ctor">Wallet()</h4>
@@ -108,7 +108,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.%23ctor(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L46">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L78">View Source</a>
   </span>
   <a id="EonSharp_Wallet__ctor_" data-uid="EonSharp.Wallet.#ctor*"></a>
   <h4 id="EonSharp_Wallet__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="EonSharp.Wallet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">Wallet(SerializationInfo, StreamingContext)</h4>
@@ -145,7 +145,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet__ctor_System_String_System_Byte___System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.%23ctor(System.String%2CSystem.Byte%5B%5D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L39">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L68">View Source</a>
   </span>
   <a id="EonSharp_Wallet__ctor_" data-uid="EonSharp.Wallet.#ctor*"></a>
   <h4 id="EonSharp_Wallet__ctor_System_String_System_Byte___System_String_" data-uid="EonSharp.Wallet.#ctor(System.String,System.Byte[],System.String)">Wallet(String, Byte[], String)</h4>
@@ -182,14 +182,81 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L61">View Source</a>
+  </span>
+  <a id="EonSharp_Wallet__ctor_" data-uid="EonSharp.Wallet.#ctor*"></a>
+  <h4 id="EonSharp_Wallet__ctor_System_String_System_String_" data-uid="EonSharp.Wallet.#ctor(System.String,System.String)">Wallet(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Wallet(string name, string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_AccountDetails.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.AccountDetails%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L47">View Source</a>
+  </span>
+  <a id="EonSharp_Wallet_AccountDetails_" data-uid="EonSharp.Wallet.AccountDetails*"></a>
+  <h4 id="EonSharp_Wallet_AccountDetails" data-uid="EonSharp.Wallet.AccountDetails">AccountDetails</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PublicAccountGenerator AccountDetails { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="EonSharp.Generators.PublicAccountGenerator.html">PublicAccountGenerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_Id.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L17">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L30">View Source</a>
   </span>
   <a id="EonSharp_Wallet_Id_" data-uid="EonSharp.Wallet.Id*"></a>
   <h4 id="EonSharp_Wallet_Id" data-uid="EonSharp.Wallet.Id">Id</h4>
@@ -220,7 +287,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_Keystore.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.Keystore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L32">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L45">View Source</a>
   </span>
   <a id="EonSharp_Wallet_Keystore_" data-uid="EonSharp.Wallet.Keystore*"></a>
   <h4 id="EonSharp_Wallet_Keystore" data-uid="EonSharp.Wallet.Keystore">Keystore</h4>
@@ -251,7 +318,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_Name.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L22">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L35">View Source</a>
   </span>
   <a id="EonSharp_Wallet_Name_" data-uid="EonSharp.Wallet.Name*"></a>
   <h4 id="EonSharp_Wallet_Name" data-uid="EonSharp.Wallet.Name">Name</h4>
@@ -282,7 +349,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_Version.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L27">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L40">View Source</a>
   </span>
   <a id="EonSharp_Wallet_Version_" data-uid="EonSharp.Wallet.Version*"></a>
   <h4 id="EonSharp_Wallet_Version" data-uid="EonSharp.Wallet.Version">Version</h4>
@@ -315,7 +382,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_FromJsonString_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.FromJsonString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L93">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L128">View Source</a>
   </span>
   <a id="EonSharp_Wallet_FromJsonString_" data-uid="EonSharp.Wallet.FromJsonString*"></a>
   <h4 id="EonSharp_Wallet_FromJsonString_System_String_" data-uid="EonSharp.Wallet.FromJsonString(System.String)">FromJsonString(String)</h4>
@@ -359,10 +426,57 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_GetExpandedKey_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.GetExpandedKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L109">View Source</a>
+  </span>
+  <a id="EonSharp_Wallet_GetExpandedKey_" data-uid="EonSharp.Wallet.GetExpandedKey*"></a>
+  <h4 id="EonSharp_Wallet_GetExpandedKey_System_String_" data-uid="EonSharp.Wallet.GetExpandedKey(System.String)">GetExpandedKey(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetExpandedKey(string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.GetObjectData(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L56">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L85">View Source</a>
   </span>
   <a id="EonSharp_Wallet_GetObjectData_" data-uid="EonSharp.Wallet.GetObjectData*"></a>
   <h4 id="EonSharp_Wallet_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="EonSharp.Wallet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
@@ -399,7 +513,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_GetPrivateAndExpandedKeys_System_String_System_Byte____System_Byte____.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.GetPrivateAndExpandedKeys(System.String%2CSystem.Byte%5B%5D%40%2CSystem.Byte%5B%5D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L73">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L113">View Source</a>
   </span>
   <a id="EonSharp_Wallet_GetPrivateAndExpandedKeys_" data-uid="EonSharp.Wallet.GetPrivateAndExpandedKeys*"></a>
   <h4 id="EonSharp_Wallet_GetPrivateAndExpandedKeys_System_String_System_Byte____System_Byte____" data-uid="EonSharp.Wallet.GetPrivateAndExpandedKeys(System.String,System.Byte[]@,System.Byte[]@)">GetPrivateAndExpandedKeys(String, out Byte[], out Byte[])</h4>
@@ -441,7 +555,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_GetPrivateKey_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.GetPrivateKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L69">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L103">View Source</a>
   </span>
   <a id="EonSharp_Wallet_GetPrivateKey_" data-uid="EonSharp.Wallet.GetPrivateKey*"></a>
   <h4 id="EonSharp_Wallet_GetPrivateKey_System_String_" data-uid="EonSharp.Wallet.GetPrivateKey(System.String)">GetPrivateKey(String)</h4>
@@ -485,57 +599,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_GetPublicAccountGenerator_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.GetPublicAccountGenerator(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L65">View Source</a>
-  </span>
-  <a id="EonSharp_Wallet_GetPublicAccountGenerator_" data-uid="EonSharp.Wallet.GetPublicAccountGenerator*"></a>
-  <h4 id="EonSharp_Wallet_GetPublicAccountGenerator_System_String_" data-uid="EonSharp.Wallet.GetPublicAccountGenerator(System.String)">GetPublicAccountGenerator(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PublicAccountGenerator GetPublicAccountGenerator(string password)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">password</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="EonSharp.Generators.PublicAccountGenerator.html">PublicAccountGenerator</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_ToJsonString.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.ToJsonString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L84">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L119">View Source</a>
   </span>
   <a id="EonSharp_Wallet_ToJsonString_" data-uid="EonSharp.Wallet.ToJsonString*"></a>
   <h4 id="EonSharp_Wallet_ToJsonString" data-uid="EonSharp.Wallet.ToJsonString">ToJsonString()</h4>
@@ -560,6 +627,69 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_UnlockAccountDetails_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.UnlockAccountDetails(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L95">View Source</a>
+  </span>
+  <a id="EonSharp_Wallet_UnlockAccountDetails_" data-uid="EonSharp.Wallet.UnlockAccountDetails*"></a>
+  <h4 id="EonSharp_Wallet_UnlockAccountDetails_System_String_" data-uid="EonSharp.Wallet.UnlockAccountDetails(System.String)">UnlockAccountDetails(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockAccountDetails(string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet_PropertyChanged.md&amp;value=---%0Auid%3A%20EonSharp.Wallet.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L18">View Source</a>
+  </span>
+  <h4 id="EonSharp_Wallet_PropertyChanged" data-uid="EonSharp.Wallet.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -571,7 +701,7 @@
                     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_Wallet.md&amp;value=---%0Auid%3A%20EonSharp.Wallet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/Wallet.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

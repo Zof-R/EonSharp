@@ -39,9 +39,9 @@ namespace EonSharp.Generators
 		public static byte[] ComputeExpandedPrivateKey(byte[] privatekey)
 		{
 			var sec = new PublicKeyPairGenerator(privatekey);
-			var buffer = new byte[privatekey.Length + sec.PublicKey.Length];
+			var buffer = new byte[privatekey.Length + sec.PublicKeyArray.Length];
 			Buffer.BlockCopy(privatekey, 0, buffer, 0, privatekey.Length);
-			Buffer.BlockCopy(sec.PublicKeyArray, 0, buffer, privatekey.Length, sec.PublicKey.Length);
+			Buffer.BlockCopy(sec.PublicKeyArray, 0, buffer, privatekey.Length, sec.PublicKeyArray.Length);
 			return buffer;
 		}
 	}

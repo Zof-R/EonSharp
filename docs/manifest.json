@@ -1365,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Wallet.html",
-          "hash": "t0eTNZDfQnKw9kbSqUKbYA=="
+          "hash": "Y0ibQz9ffXV3Rpap/xZ/Bw=="
         }
       },
       "is_incremental": true,
@@ -1479,6 +1479,10 @@
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
@@ -1486,10 +1490,6 @@
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }

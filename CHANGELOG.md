@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+- Refactored Wallet class
+
+### Fixed
+- PublicKeyPairGenerator
 
 ## [0.13.0] - 2018-02-18
 ### Added

@@ -6,8 +6,8 @@
     <Product>EonSharp</Product>
     <Authors>zof</Authors>
     <Copyright>Copyright ©  2018</Copyright>
-    <AssemblyVersion>0.12.0</AssemblyVersion>
-    <Version>0.13.0</Version>
+    <AssemblyVersion>0.13.1</AssemblyVersion>
+    <Version>0.13.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageId>EonSharp</PackageId>
@@ -21,6 +21,7 @@
     <AssemblyName>EonSharp</AssemblyName>
     <RootNamespace>EonSharp</RootNamespace>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <FileVersion>0.13.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
