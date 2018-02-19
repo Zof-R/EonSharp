@@ -9,9 +9,10 @@ namespace EonSharp.Api.Bot
 	public interface IAccounts
 	{
 		//com.exscudo.eon.bot.AccountService
+
 		Task<State> GetStateAsync(String id);
 		Task<Info> GetInformationAsync(String id);
-	
+
 
 
 	}

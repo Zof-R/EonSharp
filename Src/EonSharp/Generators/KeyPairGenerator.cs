@@ -25,10 +25,12 @@ namespace EonSharp.Generators
 		}
 
 
+		/// <summary>
+		/// Ed25519 implementation as per API doc (NaCl.sign.keyPair.fromSeed)
+		/// </summary>
+		/// <param name="seed"></param>
 		void GeneratePublicKey(byte[] seed)
 		{
-			//Ed25519 implementation as per API doc (NaCl.sign.keyPair.fromSeed)
-
 			byte[] publicKey, expandedPrivateKey;
 			Chaos.NaCl.Ed25519.KeyPairFromSeed(out publicKey, out expandedPrivateKey, seed);
 

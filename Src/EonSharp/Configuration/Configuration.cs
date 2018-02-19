@@ -10,8 +10,17 @@ namespace EonSharp
 	{
 
 		//public static string NetworkId { get; set; } = "EON-B-PASRV-6ATZH-6ML5Z";
+
+		/// <summary>
+		/// Is used in Transaction processing.
+		/// Afects all transport contexts for now.
+		/// </summary>
 		public static string NetworkId { get; set; } = "EON-B-2CMBX-669EY-TWFBK";
 
+		/// <summary>
+		/// Usefull only during beta. Default is false.
+		/// Afects all transport contexts for now.
+		/// </summary>
 		public static bool IgnoreSslErrors { get; set; } = false;
 
 		static Configuration()

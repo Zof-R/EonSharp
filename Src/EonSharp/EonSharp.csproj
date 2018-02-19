@@ -33,6 +33,9 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="SecurityDriven.Inferno, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Inferno.1.4.0\lib\net452\SecurityDriven.Inferno.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -96,8 +99,18 @@
     <Compile Include="Api\Transactions\ExtensionMethods.cs" />
     <Compile Include="Api\Transactions\Account\OrdinaryPayment.cs" />
     <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Generators\PublicAccountGenerator.cs" />
+    <Compile Include="Generators\PublicKeyPairGenerator.cs" />
     <Compile Include="Helpers\ExtensionMethods.cs" />
     <Compile Include="Helpers\HexHelper.cs" />
+    <Compile Include="Keystore\Crypto\Aes128Ctr.cs" />
+    <Compile Include="Keystore\ICrypto.cs" />
+    <Compile Include="Keystore\IKdf.cs" />
+    <Compile Include="Keystore\IKeystore.cs" />
+    <Compile Include="Keystore\KdfTypes.cs" />
+    <None Include="Keystore\Kdf\Argon2.cs" />
+    <Compile Include="Keystore\Kdf\Pbkdf2.cs" />
+    <Compile Include="Keystore\KeystoreV1.cs" />
     <Compile Include="Logging\HttpTransportLogger.cs" />
     <Compile Include="Logging\ILog.cs" />
     <Compile Include="Logging\LogMessage.cs" />
@@ -105,6 +118,7 @@
     <Compile Include="Protocol\ProtocolException.cs" />
     <Compile Include="BEncoding\BEncoding.cs" />
     <Compile Include="Providers\IdProvider.cs" />
+    <Compile Include="Wallet.cs" />
     <None Include="Api\SignType.cs" />
     <Compile Include="Api\State.cs" />
     <Compile Include="Api\Transaction.cs" />
@@ -133,6 +147,5 @@
       <Name>Chaos.NaCl</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
