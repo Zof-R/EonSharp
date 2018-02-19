@@ -62,11 +62,11 @@ Object containing the encrypted seed and the necessary information to decrypt it
 	msize: 8192. The amount of memory (in Kilobytes) to use to calculate the hash.
 	i: 40. The number of iterations to perform to compute the hash. Because of Argon2's higher security, huge values like with PBKDF2 are not as necessary, although multiple iterations are still very much recommended.
 	salt: random salt passed to argon2d/i. lenght 16.
-        ´´´
+        ```
         var salt = new byte[16];
         var Rng = System.Security.Cryptography.RandomNumberGenerator.Create();
         Rng.GetBytes(salt); 
-        ´´´
+        ```
 	adata: null. Additional associated data to use to compute the hash. This adds another layer of inderection for an attacker to reverse engineer the hash
 	ksecret: null. An additional secret to use for the hash for extra security
 	dklen: 32. length for the derived key. Must be >= 32.
@@ -76,11 +76,11 @@ Object containing the encrypted seed and the necessary information to decrypt it
 Json serialization description
 ------------------------------
 
-´´´
+```json
 [
   {
-    "id": "< GUID >",
-    "name": "< wallet name >",
+    "id": "<GUID>",
+    "name": "<wallet name>",
     "version": 1,
 
     "keystore":
@@ -112,8 +112,8 @@ Json serialization description
   },
 
   {
-    "id": "< GUID >",
-    "name": "< wallet name >",
+    "id": "<GUID>",
+    "name": "<wallet name>",
     "version": 1,
 
     "keystore":
@@ -147,5 +147,3 @@ Json serialization description
     }
   }
 ]
-
-´´´
