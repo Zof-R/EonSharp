@@ -83,6 +83,7 @@
     <Compile Include="..\EonSharp\BEncoding\BEncoding.cs" Link="BEncoding\BEncoding.cs" />
     <Compile Include="..\EonSharp\Configuration\Configuration.cs" Link="Configuration\Configuration.cs" />
     <Compile Include="..\EonSharp\EonClient.cs" Link="EonClient.cs" />
+    <Compile Include="..\EonSharp\ExtensionMethods.cs" Link="ExtensionMethods.cs" />
     <Compile Include="..\EonSharp\Generators\AccountGenerator.cs" Link="Generators\AccountGenerator.cs" />
     <Compile Include="..\EonSharp\Generators\KeyPairGenerator.cs" Link="Generators\KeyPairGenerator.cs" />
     <Compile Include="..\EonSharp\Generators\PublicAccountGenerator.cs" Link="Generators\PublicAccountGenerator.cs" />

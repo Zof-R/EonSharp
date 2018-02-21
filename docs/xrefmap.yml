@@ -4420,6 +4420,84 @@ references:
   commentId: Overload:EonSharp.EonClient.UpdateBlockchainDetails
   fullName: EonSharp.EonClient.UpdateBlockchainDetails
   nameWithType: EonClient.UpdateBlockchainDetails
+- uid: EonSharp.ExtensionMethods
+  name: ExtensionMethods
+  href: api/EonSharp.ExtensionMethods.html
+  commentId: T:EonSharp.ExtensionMethods
+  fullName: EonSharp.ExtensionMethods
+  nameWithType: ExtensionMethods
+- uid: EonSharp.ExtensionMethods.FromJsonToWallet(System.IO.Stream)
+  name: FromJsonToWallet(Stream)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_FromJsonToWallet_System_IO_Stream_
+  commentId: M:EonSharp.ExtensionMethods.FromJsonToWallet(System.IO.Stream)
+  fullName: EonSharp.ExtensionMethods.FromJsonToWallet(System.IO.Stream)
+  nameWithType: ExtensionMethods.FromJsonToWallet(Stream)
+- uid: EonSharp.ExtensionMethods.FromJsonToWallet(System.String)
+  name: FromJsonToWallet(String)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_FromJsonToWallet_System_String_
+  commentId: M:EonSharp.ExtensionMethods.FromJsonToWallet(System.String)
+  fullName: EonSharp.ExtensionMethods.FromJsonToWallet(System.String)
+  nameWithType: ExtensionMethods.FromJsonToWallet(String)
+- uid: EonSharp.ExtensionMethods.FromJsonToWallet*
+  name: FromJsonToWallet
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_FromJsonToWallet_
+  commentId: Overload:EonSharp.ExtensionMethods.FromJsonToWallet
+  fullName: EonSharp.ExtensionMethods.FromJsonToWallet
+  nameWithType: ExtensionMethods.FromJsonToWallet
+- uid: EonSharp.ExtensionMethods.FromJsonToWallets(System.IO.Stream)
+  name: FromJsonToWallets(Stream)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_FromJsonToWallets_System_IO_Stream_
+  commentId: M:EonSharp.ExtensionMethods.FromJsonToWallets(System.IO.Stream)
+  fullName: EonSharp.ExtensionMethods.FromJsonToWallets(System.IO.Stream)
+  nameWithType: ExtensionMethods.FromJsonToWallets(Stream)
+- uid: EonSharp.ExtensionMethods.FromJsonToWallets(System.String)
+  name: FromJsonToWallets(String)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_FromJsonToWallets_System_String_
+  commentId: M:EonSharp.ExtensionMethods.FromJsonToWallets(System.String)
+  fullName: EonSharp.ExtensionMethods.FromJsonToWallets(System.String)
+  nameWithType: ExtensionMethods.FromJsonToWallets(String)
+- uid: EonSharp.ExtensionMethods.FromJsonToWallets*
+  name: FromJsonToWallets
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_FromJsonToWallets_
+  commentId: Overload:EonSharp.ExtensionMethods.FromJsonToWallets
+  fullName: EonSharp.ExtensionMethods.FromJsonToWallets
+  nameWithType: ExtensionMethods.FromJsonToWallets
+- uid: EonSharp.ExtensionMethods.ToJson(EonSharp.Wallet)
+  name: ToJson(Wallet)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_ToJson_EonSharp_Wallet_
+  commentId: M:EonSharp.ExtensionMethods.ToJson(EonSharp.Wallet)
+  fullName: EonSharp.ExtensionMethods.ToJson(EonSharp.Wallet)
+  nameWithType: ExtensionMethods.ToJson(Wallet)
+- uid: EonSharp.ExtensionMethods.ToJson(EonSharp.Wallet,System.IO.Stream)
+  name: ToJson(Wallet, Stream)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_ToJson_EonSharp_Wallet_System_IO_Stream_
+  commentId: M:EonSharp.ExtensionMethods.ToJson(EonSharp.Wallet,System.IO.Stream)
+  fullName: EonSharp.ExtensionMethods.ToJson(EonSharp.Wallet, System.IO.Stream)
+  nameWithType: ExtensionMethods.ToJson(Wallet, Stream)
+- uid: EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable{EonSharp.Wallet})
+  name: ToJson(IEnumerable<Wallet>)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_ToJson_System_Collections_Generic_IEnumerable_EonSharp_Wallet__
+  commentId: M:EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable{EonSharp.Wallet})
+  name.vb: ToJson(IEnumerable(Of Wallet))
+  fullName: EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable<EonSharp.Wallet>)
+  fullName.vb: EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable(Of EonSharp.Wallet))
+  nameWithType: ExtensionMethods.ToJson(IEnumerable<Wallet>)
+  nameWithType.vb: ExtensionMethods.ToJson(IEnumerable(Of Wallet))
+- uid: EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable{EonSharp.Wallet},System.IO.Stream)
+  name: ToJson(IEnumerable<Wallet>, Stream)
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_ToJson_System_Collections_Generic_IEnumerable_EonSharp_Wallet__System_IO_Stream_
+  commentId: M:EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable{EonSharp.Wallet},System.IO.Stream)
+  name.vb: ToJson(IEnumerable(Of Wallet), Stream)
+  fullName: EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable<EonSharp.Wallet>, System.IO.Stream)
+  fullName.vb: EonSharp.ExtensionMethods.ToJson(System.Collections.Generic.IEnumerable(Of EonSharp.Wallet), System.IO.Stream)
+  nameWithType: ExtensionMethods.ToJson(IEnumerable<Wallet>, Stream)
+  nameWithType.vb: ExtensionMethods.ToJson(IEnumerable(Of Wallet), Stream)
+- uid: EonSharp.ExtensionMethods.ToJson*
+  name: ToJson
+  href: api/EonSharp.ExtensionMethods.html#EonSharp_ExtensionMethods_ToJson_
+  commentId: Overload:EonSharp.ExtensionMethods.ToJson
+  fullName: EonSharp.ExtensionMethods.ToJson
+  nameWithType: ExtensionMethods.ToJson
 - uid: EonSharp.Generators
   name: EonSharp.Generators
   href: api/EonSharp.Generators.html
@@ -6472,18 +6550,6 @@ references:
   commentId: Overload:EonSharp.Wallet.AccountDetails
   fullName: EonSharp.Wallet.AccountDetails
   nameWithType: Wallet.AccountDetails
-- uid: EonSharp.Wallet.FromJsonString(System.String)
-  name: FromJsonString(String)
-  href: api/EonSharp.Wallet.html#EonSharp_Wallet_FromJsonString_System_String_
-  commentId: M:EonSharp.Wallet.FromJsonString(System.String)
-  fullName: EonSharp.Wallet.FromJsonString(System.String)
-  nameWithType: Wallet.FromJsonString(String)
-- uid: EonSharp.Wallet.FromJsonString*
-  name: FromJsonString
-  href: api/EonSharp.Wallet.html#EonSharp_Wallet_FromJsonString_
-  commentId: Overload:EonSharp.Wallet.FromJsonString
-  fullName: EonSharp.Wallet.FromJsonString
-  nameWithType: Wallet.FromJsonString
 - uid: EonSharp.Wallet.GetExpandedKey(System.String)
   name: GetExpandedKey(String)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetExpandedKey_System_String_
@@ -6577,18 +6643,6 @@ references:
   commentId: E:EonSharp.Wallet.PropertyChanged
   fullName: EonSharp.Wallet.PropertyChanged
   nameWithType: Wallet.PropertyChanged
-- uid: EonSharp.Wallet.ToJsonString
-  name: ToJsonString()
-  href: api/EonSharp.Wallet.html#EonSharp_Wallet_ToJsonString
-  commentId: M:EonSharp.Wallet.ToJsonString
-  fullName: EonSharp.Wallet.ToJsonString()
-  nameWithType: Wallet.ToJsonString()
-- uid: EonSharp.Wallet.ToJsonString*
-  name: ToJsonString
-  href: api/EonSharp.Wallet.html#EonSharp_Wallet_ToJsonString_
-  commentId: Overload:EonSharp.Wallet.ToJsonString
-  fullName: EonSharp.Wallet.ToJsonString
-  nameWithType: Wallet.ToJsonString
 - uid: EonSharp.Wallet.UnlockAccountDetails(System.String)
   name: UnlockAccountDetails(String)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_UnlockAccountDetails_System_String_

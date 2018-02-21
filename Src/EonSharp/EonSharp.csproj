@@ -99,6 +99,7 @@
     <Compile Include="Api\Transactions\ExtensionMethods.cs" />
     <Compile Include="Api\Transactions\Account\OrdinaryPayment.cs" />
     <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="ExtensionMethods.cs" />
     <Compile Include="Generators\PublicAccountGenerator.cs" />
     <Compile Include="Generators\PublicKeyPairGenerator.cs" />
     <Compile Include="Helpers\ExtensionMethods.cs" />

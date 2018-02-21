@@ -116,20 +116,6 @@ namespace EonSharp
 			expandedprivatekey = PublicKeyPairGenerator.ComputeExpandedPrivateKey(privatekey);
 		}
 
-		public string ToJsonString()
-		{
-			return Newtonsoft.Json.JsonConvert.SerializeObject(this, new Newtonsoft.Json.JsonSerializerSettings
-			{
-				ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver(),
-				MissingMemberHandling = Newtonsoft.Json.MissingMemberHandling.Ignore,
-				NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore
-			});
-		}
-		public static Wallet FromJsonString(string json)
-		{
-			return Newtonsoft.Json.JsonConvert.DeserializeObject<Wallet>(json);
-		}
-
 		void UnlockAccountDetails(byte[] privatekey)
 		{
 			if (AccountDetails == null)
