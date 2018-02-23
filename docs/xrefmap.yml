@@ -493,6 +493,114 @@ references:
   commentId: N:EonSharp.Api
   fullName: EonSharp.Api
   nameWithType: EonSharp.Api
+- uid: EonSharp.Api.Attributes
+  name: Attributes
+  href: api/EonSharp.Api.Attributes.html
+  commentId: T:EonSharp.Api.Attributes
+  fullName: EonSharp.Api.Attributes
+  nameWithType: Attributes
+- uid: EonSharp.Api.Attributes.#ctor
+  name: Attributes()
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes__ctor
+  commentId: M:EonSharp.Api.Attributes.#ctor
+  fullName: EonSharp.Api.Attributes.Attributes()
+  nameWithType: Attributes.Attributes()
+- uid: EonSharp.Api.Attributes.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: Attributes(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Attributes.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Attributes.Attributes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Attributes.Attributes(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Attributes.#ctor*
+  name: Attributes
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes__ctor_
+  commentId: Overload:EonSharp.Api.Attributes.#ctor
+  fullName: EonSharp.Api.Attributes.Attributes
+  nameWithType: Attributes.Attributes
+- uid: EonSharp.Api.Attributes.AnnouncedAddress
+  name: AnnouncedAddress
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_AnnouncedAddress
+  commentId: P:EonSharp.Api.Attributes.AnnouncedAddress
+  fullName: EonSharp.Api.Attributes.AnnouncedAddress
+  nameWithType: Attributes.AnnouncedAddress
+- uid: EonSharp.Api.Attributes.AnnouncedAddress*
+  name: AnnouncedAddress
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_AnnouncedAddress_
+  commentId: Overload:EonSharp.Api.Attributes.AnnouncedAddress
+  fullName: EonSharp.Api.Attributes.AnnouncedAddress
+  nameWithType: Attributes.AnnouncedAddress
+- uid: EonSharp.Api.Attributes.Application
+  name: Application
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_Application
+  commentId: P:EonSharp.Api.Attributes.Application
+  fullName: EonSharp.Api.Attributes.Application
+  nameWithType: Attributes.Application
+- uid: EonSharp.Api.Attributes.Application*
+  name: Application
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_Application_
+  commentId: Overload:EonSharp.Api.Attributes.Application
+  fullName: EonSharp.Api.Attributes.Application
+  nameWithType: Attributes.Application
+- uid: EonSharp.Api.Attributes.Fork
+  name: Fork
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_Fork
+  commentId: P:EonSharp.Api.Attributes.Fork
+  fullName: EonSharp.Api.Attributes.Fork
+  nameWithType: Attributes.Fork
+- uid: EonSharp.Api.Attributes.Fork*
+  name: Fork
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_Fork_
+  commentId: Overload:EonSharp.Api.Attributes.Fork
+  fullName: EonSharp.Api.Attributes.Fork
+  nameWithType: Attributes.Fork
+- uid: EonSharp.Api.Attributes.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Attributes.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Attributes.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Attributes.GetObjectData(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Attributes.GetObjectData*
+  name: GetObjectData
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_GetObjectData_
+  commentId: Overload:EonSharp.Api.Attributes.GetObjectData
+  fullName: EonSharp.Api.Attributes.GetObjectData
+  nameWithType: Attributes.GetObjectData
+- uid: EonSharp.Api.Attributes.NetworkID
+  name: NetworkID
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_NetworkID
+  commentId: P:EonSharp.Api.Attributes.NetworkID
+  fullName: EonSharp.Api.Attributes.NetworkID
+  nameWithType: Attributes.NetworkID
+- uid: EonSharp.Api.Attributes.NetworkID*
+  name: NetworkID
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_NetworkID_
+  commentId: Overload:EonSharp.Api.Attributes.NetworkID
+  fullName: EonSharp.Api.Attributes.NetworkID
+  nameWithType: Attributes.NetworkID
+- uid: EonSharp.Api.Attributes.PeerID
+  name: PeerID
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_PeerID
+  commentId: P:EonSharp.Api.Attributes.PeerID
+  fullName: EonSharp.Api.Attributes.PeerID
+  nameWithType: Attributes.PeerID
+- uid: EonSharp.Api.Attributes.PeerID*
+  name: PeerID
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_PeerID_
+  commentId: Overload:EonSharp.Api.Attributes.PeerID
+  fullName: EonSharp.Api.Attributes.PeerID
+  nameWithType: Attributes.PeerID
+- uid: EonSharp.Api.Attributes.Version
+  name: Version
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_Version
+  commentId: P:EonSharp.Api.Attributes.Version
+  fullName: EonSharp.Api.Attributes.Version
+  nameWithType: Attributes.Version
+- uid: EonSharp.Api.Attributes.Version*
+  name: Version
+  href: api/EonSharp.Api.Attributes.html#EonSharp_Api_Attributes_Version_
+  commentId: Overload:EonSharp.Api.Attributes.Version
+  fullName: EonSharp.Api.Attributes.Version
+  nameWithType: Attributes.Version
 - uid: EonSharp.Api.Block
   name: Block
   href: api/EonSharp.Api.Block.html
@@ -607,6 +715,18 @@ references:
   commentId: Overload:EonSharp.Api.Block.Timestamp
   fullName: EonSharp.Api.Block.Timestamp
   nameWithType: Block.Timestamp
+- uid: EonSharp.Api.Block.Transactions
+  name: Transactions
+  href: api/EonSharp.Api.Block.html#EonSharp_Api_Block_Transactions
+  commentId: P:EonSharp.Api.Block.Transactions
+  fullName: EonSharp.Api.Block.Transactions
+  nameWithType: Block.Transactions
+- uid: EonSharp.Api.Block.Transactions*
+  name: Transactions
+  href: api/EonSharp.Api.Block.html#EonSharp_Api_Block_Transactions_
+  commentId: Overload:EonSharp.Api.Block.Transactions
+  fullName: EonSharp.Api.Block.Transactions
+  nameWithType: Block.Transactions
 - uid: EonSharp.Api.Block.Version
   name: Version
   href: api/EonSharp.Api.Block.html#EonSharp_Api_Block_Version
@@ -1013,60 +1133,78 @@ references:
   commentId: Overload:EonSharp.Api.Bot.ITransactions.PutTransactionAsync
   fullName: EonSharp.Api.Bot.ITransactions.PutTransactionAsync
   nameWithType: ITransactions.PutTransactionAsync
-- uid: EonSharp.Api.ColoredInfo
-  name: ColoredInfo
-  href: api/EonSharp.Api.ColoredInfo.html
-  commentId: T:EonSharp.Api.ColoredInfo
-  fullName: EonSharp.Api.ColoredInfo
-  nameWithType: ColoredInfo
-- uid: EonSharp.Api.ColoredInfo.#ctor
-  name: ColoredInfo()
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo__ctor
-  commentId: M:EonSharp.Api.ColoredInfo.#ctor
-  fullName: EonSharp.Api.ColoredInfo.ColoredInfo()
-  nameWithType: ColoredInfo.ColoredInfo()
-- uid: EonSharp.Api.ColoredInfo.#ctor*
-  name: ColoredInfo
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo__ctor_
-  commentId: Overload:EonSharp.Api.ColoredInfo.#ctor
-  fullName: EonSharp.Api.ColoredInfo.ColoredInfo
-  nameWithType: ColoredInfo.ColoredInfo
-- uid: EonSharp.Api.ColoredInfo.DecimalPoint
+- uid: EonSharp.Api.ColoredCoinInfo
+  name: ColoredCoinInfo
+  href: api/EonSharp.Api.ColoredCoinInfo.html
+  commentId: T:EonSharp.Api.ColoredCoinInfo
+  fullName: EonSharp.Api.ColoredCoinInfo
+  nameWithType: ColoredCoinInfo
+- uid: EonSharp.Api.ColoredCoinInfo.#ctor
+  name: ColoredCoinInfo()
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo__ctor
+  commentId: M:EonSharp.Api.ColoredCoinInfo.#ctor
+  fullName: EonSharp.Api.ColoredCoinInfo.ColoredCoinInfo()
+  nameWithType: ColoredCoinInfo.ColoredCoinInfo()
+- uid: EonSharp.Api.ColoredCoinInfo.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: ColoredCoinInfo(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.ColoredCoinInfo.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.ColoredCoinInfo.ColoredCoinInfo(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: ColoredCoinInfo.ColoredCoinInfo(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.ColoredCoinInfo.#ctor*
+  name: ColoredCoinInfo
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo__ctor_
+  commentId: Overload:EonSharp.Api.ColoredCoinInfo.#ctor
+  fullName: EonSharp.Api.ColoredCoinInfo.ColoredCoinInfo
+  nameWithType: ColoredCoinInfo.ColoredCoinInfo
+- uid: EonSharp.Api.ColoredCoinInfo.DecimalPoint
   name: DecimalPoint
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo_DecimalPoint
-  commentId: P:EonSharp.Api.ColoredInfo.DecimalPoint
-  fullName: EonSharp.Api.ColoredInfo.DecimalPoint
-  nameWithType: ColoredInfo.DecimalPoint
-- uid: EonSharp.Api.ColoredInfo.DecimalPoint*
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_DecimalPoint
+  commentId: P:EonSharp.Api.ColoredCoinInfo.DecimalPoint
+  fullName: EonSharp.Api.ColoredCoinInfo.DecimalPoint
+  nameWithType: ColoredCoinInfo.DecimalPoint
+- uid: EonSharp.Api.ColoredCoinInfo.DecimalPoint*
   name: DecimalPoint
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo_DecimalPoint_
-  commentId: Overload:EonSharp.Api.ColoredInfo.DecimalPoint
-  fullName: EonSharp.Api.ColoredInfo.DecimalPoint
-  nameWithType: ColoredInfo.DecimalPoint
-- uid: EonSharp.Api.ColoredInfo.MoneySupply
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_DecimalPoint_
+  commentId: Overload:EonSharp.Api.ColoredCoinInfo.DecimalPoint
+  fullName: EonSharp.Api.ColoredCoinInfo.DecimalPoint
+  nameWithType: ColoredCoinInfo.DecimalPoint
+- uid: EonSharp.Api.ColoredCoinInfo.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.ColoredCoinInfo.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.ColoredCoinInfo.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: ColoredCoinInfo.GetObjectData(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.ColoredCoinInfo.GetObjectData*
+  name: GetObjectData
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_GetObjectData_
+  commentId: Overload:EonSharp.Api.ColoredCoinInfo.GetObjectData
+  fullName: EonSharp.Api.ColoredCoinInfo.GetObjectData
+  nameWithType: ColoredCoinInfo.GetObjectData
+- uid: EonSharp.Api.ColoredCoinInfo.MoneySupply
   name: MoneySupply
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo_MoneySupply
-  commentId: P:EonSharp.Api.ColoredInfo.MoneySupply
-  fullName: EonSharp.Api.ColoredInfo.MoneySupply
-  nameWithType: ColoredInfo.MoneySupply
-- uid: EonSharp.Api.ColoredInfo.MoneySupply*
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_MoneySupply
+  commentId: P:EonSharp.Api.ColoredCoinInfo.MoneySupply
+  fullName: EonSharp.Api.ColoredCoinInfo.MoneySupply
+  nameWithType: ColoredCoinInfo.MoneySupply
+- uid: EonSharp.Api.ColoredCoinInfo.MoneySupply*
   name: MoneySupply
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo_MoneySupply_
-  commentId: Overload:EonSharp.Api.ColoredInfo.MoneySupply
-  fullName: EonSharp.Api.ColoredInfo.MoneySupply
-  nameWithType: ColoredInfo.MoneySupply
-- uid: EonSharp.Api.ColoredInfo.State
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_MoneySupply_
+  commentId: Overload:EonSharp.Api.ColoredCoinInfo.MoneySupply
+  fullName: EonSharp.Api.ColoredCoinInfo.MoneySupply
+  nameWithType: ColoredCoinInfo.MoneySupply
+- uid: EonSharp.Api.ColoredCoinInfo.State
   name: State
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo_State
-  commentId: P:EonSharp.Api.ColoredInfo.State
-  fullName: EonSharp.Api.ColoredInfo.State
-  nameWithType: ColoredInfo.State
-- uid: EonSharp.Api.ColoredInfo.State*
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_State
+  commentId: P:EonSharp.Api.ColoredCoinInfo.State
+  fullName: EonSharp.Api.ColoredCoinInfo.State
+  nameWithType: ColoredCoinInfo.State
+- uid: EonSharp.Api.ColoredCoinInfo.State*
   name: State
-  href: api/EonSharp.Api.ColoredInfo.html#EonSharp_Api_ColoredInfo_State_
-  commentId: Overload:EonSharp.Api.ColoredInfo.State
-  fullName: EonSharp.Api.ColoredInfo.State
-  nameWithType: ColoredInfo.State
+  href: api/EonSharp.Api.ColoredCoinInfo.html#EonSharp_Api_ColoredCoinInfo_State_
+  commentId: Overload:EonSharp.Api.ColoredCoinInfo.State
+  fullName: EonSharp.Api.ColoredCoinInfo.State
+  nameWithType: ColoredCoinInfo.State
 - uid: EonSharp.Api.Deposit
   name: Deposit
   href: api/EonSharp.Api.Deposit.html
@@ -1783,6 +1921,24 @@ references:
   commentId: T:EonSharp.Api.Info
   fullName: EonSharp.Api.Info
   nameWithType: Info
+- uid: EonSharp.Api.Info.#ctor
+  name: Info()
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info__ctor
+  commentId: M:EonSharp.Api.Info.#ctor
+  fullName: EonSharp.Api.Info.Info()
+  nameWithType: Info.Info()
+- uid: EonSharp.Api.Info.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: Info(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Info.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Info.Info(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Info.Info(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Info.#ctor*
+  name: Info
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info__ctor_
+  commentId: Overload:EonSharp.Api.Info.#ctor
+  fullName: EonSharp.Api.Info.Info
+  nameWithType: Info.Info
 - uid: EonSharp.Api.Info.Amount
   name: Amount
   href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_Amount
@@ -1795,6 +1951,18 @@ references:
   commentId: Overload:EonSharp.Api.Info.Amount
   fullName: EonSharp.Api.Info.Amount
   nameWithType: Info.Amount
+- uid: EonSharp.Api.Info.ColoredCoin
+  name: ColoredCoin
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_ColoredCoin
+  commentId: P:EonSharp.Api.Info.ColoredCoin
+  fullName: EonSharp.Api.Info.ColoredCoin
+  nameWithType: Info.ColoredCoin
+- uid: EonSharp.Api.Info.ColoredCoin*
+  name: ColoredCoin
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_ColoredCoin_
+  commentId: Overload:EonSharp.Api.Info.ColoredCoin
+  fullName: EonSharp.Api.Info.ColoredCoin
+  nameWithType: Info.ColoredCoin
 - uid: EonSharp.Api.Info.Deposit
   name: Deposit
   href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_Deposit
@@ -1807,6 +1975,18 @@ references:
   commentId: Overload:EonSharp.Api.Info.Deposit
   fullName: EonSharp.Api.Info.Deposit
   nameWithType: Info.Deposit
+- uid: EonSharp.Api.Info.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Info.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Info.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Info.GetObjectData(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Info.GetObjectData*
+  name: GetObjectData
+  href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_GetObjectData_
+  commentId: Overload:EonSharp.Api.Info.GetObjectData
+  fullName: EonSharp.Api.Info.GetObjectData
+  nameWithType: Info.GetObjectData
 - uid: EonSharp.Api.Info.PublicKey
   name: PublicKey
   href: api/EonSharp.Api.Info.html#EonSharp_Api_Info_PublicKey
@@ -2281,114 +2461,6 @@ references:
   commentId: Overload:EonSharp.Api.Quorum.QuorumByTypes
   fullName: EonSharp.Api.Quorum.QuorumByTypes
   nameWithType: Quorum.QuorumByTypes
-- uid: EonSharp.Api.SalientAttributes
-  name: SalientAttributes
-  href: api/EonSharp.Api.SalientAttributes.html
-  commentId: T:EonSharp.Api.SalientAttributes
-  fullName: EonSharp.Api.SalientAttributes
-  nameWithType: SalientAttributes
-- uid: EonSharp.Api.SalientAttributes.#ctor
-  name: SalientAttributes()
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes__ctor
-  commentId: M:EonSharp.Api.SalientAttributes.#ctor
-  fullName: EonSharp.Api.SalientAttributes.SalientAttributes()
-  nameWithType: SalientAttributes.SalientAttributes()
-- uid: EonSharp.Api.SalientAttributes.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: SalientAttributes(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.SalientAttributes.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.SalientAttributes.SalientAttributes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: SalientAttributes.SalientAttributes(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.SalientAttributes.#ctor*
-  name: SalientAttributes
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes__ctor_
-  commentId: Overload:EonSharp.Api.SalientAttributes.#ctor
-  fullName: EonSharp.Api.SalientAttributes.SalientAttributes
-  nameWithType: SalientAttributes.SalientAttributes
-- uid: EonSharp.Api.SalientAttributes.AnnouncedAddress
-  name: AnnouncedAddress
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_AnnouncedAddress
-  commentId: P:EonSharp.Api.SalientAttributes.AnnouncedAddress
-  fullName: EonSharp.Api.SalientAttributes.AnnouncedAddress
-  nameWithType: SalientAttributes.AnnouncedAddress
-- uid: EonSharp.Api.SalientAttributes.AnnouncedAddress*
-  name: AnnouncedAddress
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_AnnouncedAddress_
-  commentId: Overload:EonSharp.Api.SalientAttributes.AnnouncedAddress
-  fullName: EonSharp.Api.SalientAttributes.AnnouncedAddress
-  nameWithType: SalientAttributes.AnnouncedAddress
-- uid: EonSharp.Api.SalientAttributes.Application
-  name: Application
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_Application
-  commentId: P:EonSharp.Api.SalientAttributes.Application
-  fullName: EonSharp.Api.SalientAttributes.Application
-  nameWithType: SalientAttributes.Application
-- uid: EonSharp.Api.SalientAttributes.Application*
-  name: Application
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_Application_
-  commentId: Overload:EonSharp.Api.SalientAttributes.Application
-  fullName: EonSharp.Api.SalientAttributes.Application
-  nameWithType: SalientAttributes.Application
-- uid: EonSharp.Api.SalientAttributes.Fork
-  name: Fork
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_Fork
-  commentId: P:EonSharp.Api.SalientAttributes.Fork
-  fullName: EonSharp.Api.SalientAttributes.Fork
-  nameWithType: SalientAttributes.Fork
-- uid: EonSharp.Api.SalientAttributes.Fork*
-  name: Fork
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_Fork_
-  commentId: Overload:EonSharp.Api.SalientAttributes.Fork
-  fullName: EonSharp.Api.SalientAttributes.Fork
-  nameWithType: SalientAttributes.Fork
-- uid: EonSharp.Api.SalientAttributes.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.SalientAttributes.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.SalientAttributes.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: SalientAttributes.GetObjectData(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.SalientAttributes.GetObjectData*
-  name: GetObjectData
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_GetObjectData_
-  commentId: Overload:EonSharp.Api.SalientAttributes.GetObjectData
-  fullName: EonSharp.Api.SalientAttributes.GetObjectData
-  nameWithType: SalientAttributes.GetObjectData
-- uid: EonSharp.Api.SalientAttributes.NetworkID
-  name: NetworkID
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_NetworkID
-  commentId: P:EonSharp.Api.SalientAttributes.NetworkID
-  fullName: EonSharp.Api.SalientAttributes.NetworkID
-  nameWithType: SalientAttributes.NetworkID
-- uid: EonSharp.Api.SalientAttributes.NetworkID*
-  name: NetworkID
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_NetworkID_
-  commentId: Overload:EonSharp.Api.SalientAttributes.NetworkID
-  fullName: EonSharp.Api.SalientAttributes.NetworkID
-  nameWithType: SalientAttributes.NetworkID
-- uid: EonSharp.Api.SalientAttributes.PeerID
-  name: PeerID
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_PeerID
-  commentId: P:EonSharp.Api.SalientAttributes.PeerID
-  fullName: EonSharp.Api.SalientAttributes.PeerID
-  nameWithType: SalientAttributes.PeerID
-- uid: EonSharp.Api.SalientAttributes.PeerID*
-  name: PeerID
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_PeerID_
-  commentId: Overload:EonSharp.Api.SalientAttributes.PeerID
-  fullName: EonSharp.Api.SalientAttributes.PeerID
-  nameWithType: SalientAttributes.PeerID
-- uid: EonSharp.Api.SalientAttributes.Version
-  name: Version
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_Version
-  commentId: P:EonSharp.Api.SalientAttributes.Version
-  fullName: EonSharp.Api.SalientAttributes.Version
-  nameWithType: SalientAttributes.Version
-- uid: EonSharp.Api.SalientAttributes.Version*
-  name: Version
-  href: api/EonSharp.Api.SalientAttributes.html#EonSharp_Api_SalientAttributes_Version_
-  commentId: Overload:EonSharp.Api.SalientAttributes.Version
-  fullName: EonSharp.Api.SalientAttributes.Version
-  nameWithType: SalientAttributes.Version
 - uid: EonSharp.Api.State
   name: State
   href: api/EonSharp.Api.State.html

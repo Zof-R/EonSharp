@@ -49,8 +49,8 @@
   <ItemGroup>
     <Compile Include="ActivatorDescriptor.cs" />
     <Compile Include="Api\Bot\IColoredCoin.cs" />
-    <Compile Include="Api\ColoredInfo.cs" />
-    <Compile Include="Api\SalientAttributes.cs" />
+    <Compile Include="Api\ColoredCoinInfo.cs" />
+    <Compile Include="Api\Attributes.cs" />
     <Compile Include="Api\Transactions\ColoredCoins\Attachments\ColoredCoinSupplyAttachment.cs" />
     <Compile Include="Api\Transactions\ColoredCoins\Attachments\ColoredCoinPaymentAttachment.cs" />
     <Compile Include="Api\Transactions\ColoredCoins\Attachments\ColoredCoinRegistrationAttachment.cs" />

@@ -98,8 +98,7 @@ namespace EonSharp.Api
 		{
 			foreach (SerializationEntry entry in info)
 			{
-				Action<SerializationInfo, Transaction> exec;
-				if (s_entryDict.TryGetValue(entry.Name, out exec))
+				if (s_entryDict.TryGetValue(entry.Name, out Action<SerializationInfo, Transaction> exec))
 				{
 					exec.Invoke(info, this);
 				}

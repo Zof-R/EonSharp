@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - PublicKeyPairGenerator
+- Blocks, missing property
+- Info, missing properties and fix deserialization of a few others
+- ColoredInfo, renaming to ColoredCoinInfo and fix deserialization
+- SalientAttributes, renaming to Attributes
 
 ## [0.13.0] - 2018-02-18
 ### Added

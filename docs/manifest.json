@@ -125,11 +125,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Attributes.html",
+          "hash": "FQMKCLVkf7dHoyM7WXw9Aw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/EonSharp.Api.Block.yml",
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Block.html",
-          "hash": "EN81mfWHBtIyBF0Qch1N1g=="
+          "hash": "SDugCjmPzIyRt97hd2LEIA=="
         }
       },
       "is_incremental": true,
@@ -141,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Bot.BotEndpoint.html",
-          "hash": "Zg3nwU3uhqoQcEFg5UHgOg=="
+          "hash": "O5RvwkeLymnBlZqGlT4BoQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Bot.IColoredCoin.html",
-          "hash": "YrwI0x+lJur6d7yYD4+nBg=="
+          "hash": "HvgbMJ3LMb0eE3NcOCCdDQ=="
         }
       },
       "is_incremental": true,
@@ -204,7 +216,7 @@
           "hash": "KkZxjHgFwPL9zXKCzwuW6g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -216,19 +228,19 @@
           "hash": "/OHFyorB4kC9hVUZ42KYkg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.ColoredInfo.yml",
+      "source_relative_path": "api/EonSharp.Api.ColoredCoinInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EonSharp.Api.ColoredInfo.html",
-          "hash": "reMfsEGLXvkbgqDzDz2Uig=="
+          "relative_path": "api/EonSharp.Api.ColoredCoinInfo.html",
+          "hash": "9/j4EAlzlQiVJgAZxuGF/w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Info.html",
-          "hash": "uaIDjDKNUdgN1+N4tzbS9g=="
+          "hash": "Dlhc1PiiSL2GaqrQtyNQjg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Peer.IMetadata.html",
-          "hash": "JzUnCi6TtJjffxnZxhFqaw=="
+          "hash": "L3/dOryfZ3QzPSYepxK7WA=="
         }
       },
       "is_incremental": true,
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Peer.PeerEndpoint.html",
-          "hash": "BrdrDW3vNa5Gra84wyDCyg=="
+          "hash": "TJ4AOJf7CfAfPZOFbfKjUg=="
         }
       },
       "is_incremental": true,
@@ -485,18 +497,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.SalientAttributes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/EonSharp.Api.SalientAttributes.html",
-          "hash": "kNBwXWygifnp4YBmKrJndA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/EonSharp.Api.State.yml",
       "output": {
         ".html": {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Transaction.html",
-          "hash": "vLNtWNKbHPyKXEbzq3cdyg=="
+          "hash": "d5UyrpAOY3pmxJMKl5cqXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -528,7 +528,7 @@
           "hash": "d93iIyWL1tdnjIPprvSAKw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -540,7 +540,7 @@
           "hash": "ocWjIkiFY8h8WWNy6BZqYg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -696,7 +696,7 @@
           "hash": "HhLECMjQ4rRuCwCcEdm4+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -708,7 +708,7 @@
           "hash": "/RGbNhznaPq/KP9fAYfWPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -720,7 +720,7 @@
           "hash": "BV2Zem2hW/4KOtiEYzNmwQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -732,7 +732,7 @@
           "hash": "QOQP5x8TJP2IvHHPSapG3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -744,7 +744,7 @@
           "hash": "LI2UrPBT0NfI/0Ul5i5O+Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -756,7 +756,7 @@
           "hash": "ncmFweWz+fMOyrJ87dpIQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -768,7 +768,7 @@
           "hash": "j4zwNgyfxByd7ra7iS9GcQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -780,7 +780,7 @@
           "hash": "j6wEXjMjHALbRN/Tcv3WrA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -792,7 +792,7 @@
           "hash": "QWyiI/5ZBsDqIPyriY4ENw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -804,7 +804,7 @@
           "hash": "16QQbn+xL1ZAsNLdSPYCnw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -816,7 +816,7 @@
           "hash": "VOKV22N63HjCplamoZtarA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -828,7 +828,7 @@
           "hash": "yRaxQXn0DDSL1/KVOoWlHA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -849,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.html",
-          "hash": "vXjVbM8rdLL53DuFsqonEA=="
+          "hash": "08ARDK5Z4J8oBelOlAXQfQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -888,7 +888,7 @@
           "hash": "y4JxSA2O6BdaMklWfAaCZw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1305,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Protocol.RpcRequest.html",
-          "hash": "BlsJCXS4g8EvwXwupegNpw=="
+          "hash": "mcZK74zCaXHrQced4cb8VA=="
         }
       },
       "is_incremental": true,
@@ -1317,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Protocol.RpcResponse.html",
-          "hash": "q/oH7mvBTQGXDwqM4unvTw=="
+          "hash": "ROfzjgD4m6H8Q+t96fWHjQ=="
         }
       },
       "is_incremental": true,
@@ -1380,7 +1380,7 @@
           "hash": "JTqkALIHO1m0Qslbmu57yA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1392,7 +1392,7 @@
           "hash": "dXLrDO9fD2x5DDiavu4I3w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1413,7 +1413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "GIClw770jWdRA3IrFBtepw=="
+          "hash": "A1MbBbDpYh3HKxKmQq843g=="
         }
       },
       "is_incremental": false,
@@ -1491,17 +1491,17 @@
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

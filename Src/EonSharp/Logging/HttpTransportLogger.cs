@@ -74,9 +74,9 @@ namespace EonSharp.Logging
 				var handler = LogChanged;
 				if (handler != null)
 				{
-					if (ex is ProtocolException)
+					if (ex is ProtocolException pex)
 					{
-						handler(this, new LogMessage(LogMessageType.Warning, Prefix, ((ProtocolException)ex).JsonRpcResponse));
+						handler(this, new LogMessage(LogMessageType.Warning, Prefix, pex.JsonRpcResponse));
 					}
 					else
 					{

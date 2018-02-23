@@ -49,9 +49,8 @@ namespace EonSharp.Protocol
 			{
 				return false;
 			}
-			if (obj is RpcRequest)
+			if (obj is RpcRequest rrb)
 			{
-				var rrb = obj as RpcRequest;
 				//TODO: Params needs null and equality checking for each element.
 				return this.Version == rrb.Version && this.ID == rrb.ID && this.Method == rrb.Method && this.Params == rrb.Params;
 			}

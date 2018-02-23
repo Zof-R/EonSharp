@@ -11,7 +11,7 @@ namespace EonSharp.Api.Peer
 
 		//metadata.com.exscudo.peer.eon.stubs.SyncMetadataService
 
-		Task<SalientAttributes> GetAttributesAsync();
+		Task<Attributes> GetAttributesAsync();
 		Task<IEnumerable<string>> GetWellKnownNodesAsync();
 		Task<bool> AddPeerAsync(long peerId, string peerAddress);
 

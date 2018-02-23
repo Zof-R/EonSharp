@@ -42,10 +42,10 @@ namespace EonSharp.Api.Peer
 			return (res.Result as JObject)?.ToObject<Block>();
 		}
 
-		async Task<SalientAttributes> IMetadata.GetAttributesAsync()
+		async Task<Attributes> IMetadata.GetAttributesAsync()
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("metadata.getAttributes", null, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<SalientAttributes>();
+			return (res.Result as JObject)?.ToObject<Attributes>();
 		}
 
 		async Task<IEnumerable<string>> IMetadata.GetWellKnownNodesAsync()

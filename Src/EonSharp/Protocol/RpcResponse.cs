@@ -51,9 +51,8 @@ namespace EonSharp.Protocol
 			{
 				return false;
 			}
-			if (obj is RpcResponse)
+			if (obj is RpcResponse rrb)
 			{
-				var rrb = obj as RpcResponse;
 				return this.Version == rrb.Version && this.ID == rrb.ID && this.Result == rrb.Result && this.Error == rrb.Error;
 			}
 			return false;

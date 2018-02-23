@@ -89,10 +89,10 @@ namespace EonSharp.Api.Bot
 			await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("transactions.putTransaction", new object[] { tx }, Interlocked.Increment(ref m_id)));
 		}
 
-		async Task<ColoredInfo> IColoredCoin.GetInfo(string id, int timestamp)
+		async Task<ColoredCoinInfo> IColoredCoin.GetInfo(string id, int timestamp)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("coloredCoin.getInfo", new object[] { id, timestamp }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<ColoredInfo>();
+			return (res.Result as JObject)?.ToObject<ColoredCoinInfo>();
 		}
 	}
 }
