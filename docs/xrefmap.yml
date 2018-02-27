@@ -601,6 +601,60 @@ references:
   commentId: Overload:EonSharp.Api.Attributes.Version
   fullName: EonSharp.Api.Attributes.Version
   nameWithType: Attributes.Version
+- uid: EonSharp.Api.Balance
+  name: Balance
+  href: api/EonSharp.Api.Balance.html
+  commentId: T:EonSharp.Api.Balance
+  fullName: EonSharp.Api.Balance
+  nameWithType: Balance
+- uid: EonSharp.Api.Balance.#ctor
+  name: Balance()
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance__ctor
+  commentId: M:EonSharp.Api.Balance.#ctor
+  fullName: EonSharp.Api.Balance.Balance()
+  nameWithType: Balance.Balance()
+- uid: EonSharp.Api.Balance.#ctor*
+  name: Balance
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance__ctor_
+  commentId: Overload:EonSharp.Api.Balance.#ctor
+  fullName: EonSharp.Api.Balance.Balance
+  nameWithType: Balance.Balance
+- uid: EonSharp.Api.Balance.Amount
+  name: Amount
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance_Amount
+  commentId: P:EonSharp.Api.Balance.Amount
+  fullName: EonSharp.Api.Balance.Amount
+  nameWithType: Balance.Amount
+- uid: EonSharp.Api.Balance.Amount*
+  name: Amount
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance_Amount_
+  commentId: Overload:EonSharp.Api.Balance.Amount
+  fullName: EonSharp.Api.Balance.Amount
+  nameWithType: Balance.Amount
+- uid: EonSharp.Api.Balance.ColoredCoins
+  name: ColoredCoins
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance_ColoredCoins
+  commentId: P:EonSharp.Api.Balance.ColoredCoins
+  fullName: EonSharp.Api.Balance.ColoredCoins
+  nameWithType: Balance.ColoredCoins
+- uid: EonSharp.Api.Balance.ColoredCoins*
+  name: ColoredCoins
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance_ColoredCoins_
+  commentId: Overload:EonSharp.Api.Balance.ColoredCoins
+  fullName: EonSharp.Api.Balance.ColoredCoins
+  nameWithType: Balance.ColoredCoins
+- uid: EonSharp.Api.Balance.State
+  name: State
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance_State
+  commentId: P:EonSharp.Api.Balance.State
+  fullName: EonSharp.Api.Balance.State
+  nameWithType: Balance.State
+- uid: EonSharp.Api.Balance.State*
+  name: State
+  href: api/EonSharp.Api.Balance.html#EonSharp_Api_Balance_State_
+  commentId: Overload:EonSharp.Api.Balance.State
+  fullName: EonSharp.Api.Balance.State
+  nameWithType: Balance.State
 - uid: EonSharp.Api.Block
   name: Block
   href: api/EonSharp.Api.Block.html
@@ -787,6 +841,22 @@ references:
   commentId: Overload:EonSharp.Api.Bot.BotEndpoint.ColoredCoin
   fullName: EonSharp.Api.Bot.BotEndpoint.ColoredCoin
   nameWithType: BotEndpoint.ColoredCoin
+- uid: EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IAccounts#GetBalanceAsync(System.String)
+  name: IAccounts.GetBalanceAsync(String)
+  href: api/EonSharp.Api.Bot.BotEndpoint.html#EonSharp_Api_Bot_BotEndpoint_EonSharp_Api_Bot_IAccounts_GetBalanceAsync_System_String_
+  commentId: M:EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IAccounts#GetBalanceAsync(System.String)
+  name.vb: EonSharp.Api.Bot.IAccounts.GetBalanceAsync(String)
+  fullName: EonSharp.Api.Bot.BotEndpoint.EonSharp.Api.Bot.IAccounts.GetBalanceAsync(System.String)
+  nameWithType: BotEndpoint.IAccounts.GetBalanceAsync(String)
+  nameWithType.vb: BotEndpoint.EonSharp.Api.Bot.IAccounts.GetBalanceAsync(String)
+- uid: EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IAccounts#GetBalanceAsync*
+  name: IAccounts.GetBalanceAsync
+  href: api/EonSharp.Api.Bot.BotEndpoint.html#EonSharp_Api_Bot_BotEndpoint_EonSharp_Api_Bot_IAccounts_GetBalanceAsync_
+  commentId: Overload:EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IAccounts#GetBalanceAsync
+  name.vb: EonSharp.Api.Bot.IAccounts.GetBalanceAsync
+  fullName: EonSharp.Api.Bot.BotEndpoint.EonSharp.Api.Bot.IAccounts.GetBalanceAsync
+  nameWithType: BotEndpoint.IAccounts.GetBalanceAsync
+  nameWithType.vb: BotEndpoint.EonSharp.Api.Bot.IAccounts.GetBalanceAsync
 - uid: EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IAccounts#GetInformationAsync(System.String)
   name: IAccounts.GetInformationAsync(String)
   href: api/EonSharp.Api.Bot.BotEndpoint.html#EonSharp_Api_Bot_BotEndpoint_EonSharp_Api_Bot_IAccounts_GetInformationAsync_System_String_
@@ -989,6 +1059,18 @@ references:
   commentId: T:EonSharp.Api.Bot.IAccounts
   fullName: EonSharp.Api.Bot.IAccounts
   nameWithType: IAccounts
+- uid: EonSharp.Api.Bot.IAccounts.GetBalanceAsync(System.String)
+  name: GetBalanceAsync(String)
+  href: api/EonSharp.Api.Bot.IAccounts.html#EonSharp_Api_Bot_IAccounts_GetBalanceAsync_System_String_
+  commentId: M:EonSharp.Api.Bot.IAccounts.GetBalanceAsync(System.String)
+  fullName: EonSharp.Api.Bot.IAccounts.GetBalanceAsync(System.String)
+  nameWithType: IAccounts.GetBalanceAsync(String)
+- uid: EonSharp.Api.Bot.IAccounts.GetBalanceAsync*
+  name: GetBalanceAsync
+  href: api/EonSharp.Api.Bot.IAccounts.html#EonSharp_Api_Bot_IAccounts_GetBalanceAsync_
+  commentId: Overload:EonSharp.Api.Bot.IAccounts.GetBalanceAsync
+  fullName: EonSharp.Api.Bot.IAccounts.GetBalanceAsync
+  nameWithType: IAccounts.GetBalanceAsync
 - uid: EonSharp.Api.Bot.IAccounts.GetInformationAsync(System.String)
   name: GetInformationAsync(String)
   href: api/EonSharp.Api.Bot.IAccounts.html#EonSharp_Api_Bot_IAccounts_GetInformationAsync_System_String_
@@ -1295,60 +1377,6 @@ references:
   commentId: Overload:EonSharp.Api.EndpointBase.EndpointUrl
   fullName: EonSharp.Api.EndpointBase.EndpointUrl
   nameWithType: EndpointBase.EndpointUrl
-- uid: EonSharp.Api.EONBalance
-  name: EONBalance
-  href: api/EonSharp.Api.EONBalance.html
-  commentId: T:EonSharp.Api.EONBalance
-  fullName: EonSharp.Api.EONBalance
-  nameWithType: EONBalance
-- uid: EonSharp.Api.EONBalance.#ctor
-  name: EONBalance()
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance__ctor
-  commentId: M:EonSharp.Api.EONBalance.#ctor
-  fullName: EonSharp.Api.EONBalance.EONBalance()
-  nameWithType: EONBalance.EONBalance()
-- uid: EonSharp.Api.EONBalance.#ctor*
-  name: EONBalance
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance__ctor_
-  commentId: Overload:EonSharp.Api.EONBalance.#ctor
-  fullName: EonSharp.Api.EONBalance.EONBalance
-  nameWithType: EONBalance.EONBalance
-- uid: EonSharp.Api.EONBalance.Amount
-  name: Amount
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance_Amount
-  commentId: P:EonSharp.Api.EONBalance.Amount
-  fullName: EonSharp.Api.EONBalance.Amount
-  nameWithType: EONBalance.Amount
-- uid: EonSharp.Api.EONBalance.Amount*
-  name: Amount
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance_Amount_
-  commentId: Overload:EonSharp.Api.EONBalance.Amount
-  fullName: EonSharp.Api.EONBalance.Amount
-  nameWithType: EONBalance.Amount
-- uid: EonSharp.Api.EONBalance.ColoredCoins
-  name: ColoredCoins
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance_ColoredCoins
-  commentId: P:EonSharp.Api.EONBalance.ColoredCoins
-  fullName: EonSharp.Api.EONBalance.ColoredCoins
-  nameWithType: EONBalance.ColoredCoins
-- uid: EonSharp.Api.EONBalance.ColoredCoins*
-  name: ColoredCoins
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance_ColoredCoins_
-  commentId: Overload:EonSharp.Api.EONBalance.ColoredCoins
-  fullName: EonSharp.Api.EONBalance.ColoredCoins
-  nameWithType: EONBalance.ColoredCoins
-- uid: EonSharp.Api.EONBalance.State
-  name: State
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance_State
-  commentId: P:EonSharp.Api.EONBalance.State
-  fullName: EonSharp.Api.EONBalance.State
-  nameWithType: EONBalance.State
-- uid: EonSharp.Api.EONBalance.State*
-  name: State
-  href: api/EonSharp.Api.EONBalance.html#EonSharp_Api_EONBalance_State_
-  commentId: Overload:EonSharp.Api.EONBalance.State
-  fullName: EonSharp.Api.EONBalance.State
-  nameWithType: EONBalance.State
 - uid: EonSharp.Api.Explorer
   name: EonSharp.Api.Explorer
   href: api/EonSharp.Api.Explorer.html
@@ -2515,6 +2543,24 @@ references:
   commentId: Overload:EonSharp.Api.State.Name
   fullName: EonSharp.Api.State.Name
   nameWithType: State.Name
+- uid: EonSharp.Api.State.op_Implicit(EonSharp.Api.State)~System.Boolean
+  name: Implicit(State to Boolean)
+  href: api/EonSharp.Api.State.html#EonSharp_Api_State_op_Implicit_EonSharp_Api_State__System_Boolean
+  commentId: M:EonSharp.Api.State.op_Implicit(EonSharp.Api.State)~System.Boolean
+  name.vb: Widening(State to Boolean)
+  fullName: EonSharp.Api.State.Implicit(EonSharp.Api.State to System.Boolean)
+  fullName.vb: EonSharp.Api.State.Widening(EonSharp.Api.State to System.Boolean)
+  nameWithType: State.Implicit(State to Boolean)
+  nameWithType.vb: State.Widening(State to Boolean)
+- uid: EonSharp.Api.State.op_Implicit*
+  name: Implicit
+  href: api/EonSharp.Api.State.html#EonSharp_Api_State_op_Implicit_
+  commentId: Overload:EonSharp.Api.State.op_Implicit
+  name.vb: Widening
+  fullName: EonSharp.Api.State.Implicit
+  fullName.vb: EonSharp.Api.State.Widening
+  nameWithType: State.Implicit
+  nameWithType.vb: State.Widening
 - uid: EonSharp.Api.Transaction
   name: Transaction
   href: api/EonSharp.Api.Transaction.html
@@ -6622,6 +6668,42 @@ references:
   commentId: Overload:EonSharp.Wallet.AccountDetails
   fullName: EonSharp.Wallet.AccountDetails
   nameWithType: Wallet.AccountDetails
+- uid: EonSharp.Wallet.AutoRefreshEnabled
+  name: AutoRefreshEnabled
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_AutoRefreshEnabled
+  commentId: P:EonSharp.Wallet.AutoRefreshEnabled
+  fullName: EonSharp.Wallet.AutoRefreshEnabled
+  nameWithType: Wallet.AutoRefreshEnabled
+- uid: EonSharp.Wallet.AutoRefreshEnabled*
+  name: AutoRefreshEnabled
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_AutoRefreshEnabled_
+  commentId: Overload:EonSharp.Wallet.AutoRefreshEnabled
+  fullName: EonSharp.Wallet.AutoRefreshEnabled
+  nameWithType: Wallet.AutoRefreshEnabled
+- uid: EonSharp.Wallet.AutoRefreshTransactionsEnabled
+  name: AutoRefreshTransactionsEnabled
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_AutoRefreshTransactionsEnabled
+  commentId: P:EonSharp.Wallet.AutoRefreshTransactionsEnabled
+  fullName: EonSharp.Wallet.AutoRefreshTransactionsEnabled
+  nameWithType: Wallet.AutoRefreshTransactionsEnabled
+- uid: EonSharp.Wallet.AutoRefreshTransactionsEnabled*
+  name: AutoRefreshTransactionsEnabled
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_AutoRefreshTransactionsEnabled_
+  commentId: Overload:EonSharp.Wallet.AutoRefreshTransactionsEnabled
+  fullName: EonSharp.Wallet.AutoRefreshTransactionsEnabled
+  nameWithType: Wallet.AutoRefreshTransactionsEnabled
+- uid: EonSharp.Wallet.CommitedTransactions
+  name: CommitedTransactions
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_CommitedTransactions
+  commentId: P:EonSharp.Wallet.CommitedTransactions
+  fullName: EonSharp.Wallet.CommitedTransactions
+  nameWithType: Wallet.CommitedTransactions
+- uid: EonSharp.Wallet.CommitedTransactions*
+  name: CommitedTransactions
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_CommitedTransactions_
+  commentId: Overload:EonSharp.Wallet.CommitedTransactions
+  fullName: EonSharp.Wallet.CommitedTransactions
+  nameWithType: Wallet.CommitedTransactions
 - uid: EonSharp.Wallet.GetExpandedKey(System.String)
   name: GetExpandedKey(String)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_GetExpandedKey_System_String_
@@ -6685,6 +6767,18 @@ references:
   commentId: Overload:EonSharp.Wallet.Id
   fullName: EonSharp.Wallet.Id
   nameWithType: Wallet.Id
+- uid: EonSharp.Wallet.Information
+  name: Information
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_Information
+  commentId: P:EonSharp.Wallet.Information
+  fullName: EonSharp.Wallet.Information
+  nameWithType: Wallet.Information
+- uid: EonSharp.Wallet.Information*
+  name: Information
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_Information_
+  commentId: Overload:EonSharp.Wallet.Information
+  fullName: EonSharp.Wallet.Information
+  nameWithType: Wallet.Information
 - uid: EonSharp.Wallet.Keystore
   name: Keystore
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_Keystore
@@ -6715,6 +6809,66 @@ references:
   commentId: E:EonSharp.Wallet.PropertyChanged
   fullName: EonSharp.Wallet.PropertyChanged
   nameWithType: Wallet.PropertyChanged
+- uid: EonSharp.Wallet.RefreshAsync(EonSharp.EonClient)
+  name: RefreshAsync(EonClient)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_RefreshAsync_EonSharp_EonClient_
+  commentId: M:EonSharp.Wallet.RefreshAsync(EonSharp.EonClient)
+  fullName: EonSharp.Wallet.RefreshAsync(EonSharp.EonClient)
+  nameWithType: Wallet.RefreshAsync(EonClient)
+- uid: EonSharp.Wallet.RefreshAsync*
+  name: RefreshAsync
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_RefreshAsync_
+  commentId: Overload:EonSharp.Wallet.RefreshAsync
+  fullName: EonSharp.Wallet.RefreshAsync
+  nameWithType: Wallet.RefreshAsync
+- uid: EonSharp.Wallet.SetAutoRefresh(System.Boolean,EonSharp.EonClient,System.Int32)
+  name: SetAutoRefresh(Boolean, EonClient, Int32)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_SetAutoRefresh_System_Boolean_EonSharp_EonClient_System_Int32_
+  commentId: M:EonSharp.Wallet.SetAutoRefresh(System.Boolean,EonSharp.EonClient,System.Int32)
+  fullName: EonSharp.Wallet.SetAutoRefresh(System.Boolean, EonSharp.EonClient, System.Int32)
+  nameWithType: Wallet.SetAutoRefresh(Boolean, EonClient, Int32)
+- uid: EonSharp.Wallet.SetAutoRefresh*
+  name: SetAutoRefresh
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_SetAutoRefresh_
+  commentId: Overload:EonSharp.Wallet.SetAutoRefresh
+  fullName: EonSharp.Wallet.SetAutoRefresh
+  nameWithType: Wallet.SetAutoRefresh
+- uid: EonSharp.Wallet.SetTransactionsAutoRefresh(System.Boolean,EonSharp.EonClient,System.Int32)
+  name: SetTransactionsAutoRefresh(Boolean, EonClient, Int32)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_SetTransactionsAutoRefresh_System_Boolean_EonSharp_EonClient_System_Int32_
+  commentId: M:EonSharp.Wallet.SetTransactionsAutoRefresh(System.Boolean,EonSharp.EonClient,System.Int32)
+  fullName: EonSharp.Wallet.SetTransactionsAutoRefresh(System.Boolean, EonSharp.EonClient, System.Int32)
+  nameWithType: Wallet.SetTransactionsAutoRefresh(Boolean, EonClient, Int32)
+- uid: EonSharp.Wallet.SetTransactionsAutoRefresh*
+  name: SetTransactionsAutoRefresh
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_SetTransactionsAutoRefresh_
+  commentId: Overload:EonSharp.Wallet.SetTransactionsAutoRefresh
+  fullName: EonSharp.Wallet.SetTransactionsAutoRefresh
+  nameWithType: Wallet.SetTransactionsAutoRefresh
+- uid: EonSharp.Wallet.TransactionsRefreshAsync(EonSharp.EonClient)
+  name: TransactionsRefreshAsync(EonClient)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_TransactionsRefreshAsync_EonSharp_EonClient_
+  commentId: M:EonSharp.Wallet.TransactionsRefreshAsync(EonSharp.EonClient)
+  fullName: EonSharp.Wallet.TransactionsRefreshAsync(EonSharp.EonClient)
+  nameWithType: Wallet.TransactionsRefreshAsync(EonClient)
+- uid: EonSharp.Wallet.TransactionsRefreshAsync*
+  name: TransactionsRefreshAsync
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_TransactionsRefreshAsync_
+  commentId: Overload:EonSharp.Wallet.TransactionsRefreshAsync
+  fullName: EonSharp.Wallet.TransactionsRefreshAsync
+  nameWithType: Wallet.TransactionsRefreshAsync
+- uid: EonSharp.Wallet.UnCommitedTransactions
+  name: UnCommitedTransactions
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_UnCommitedTransactions
+  commentId: P:EonSharp.Wallet.UnCommitedTransactions
+  fullName: EonSharp.Wallet.UnCommitedTransactions
+  nameWithType: Wallet.UnCommitedTransactions
+- uid: EonSharp.Wallet.UnCommitedTransactions*
+  name: UnCommitedTransactions
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_UnCommitedTransactions_
+  commentId: Overload:EonSharp.Wallet.UnCommitedTransactions
+  fullName: EonSharp.Wallet.UnCommitedTransactions
+  nameWithType: Wallet.UnCommitedTransactions
 - uid: EonSharp.Wallet.UnlockAccountDetails(System.String)
   name: UnlockAccountDetails(String)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_UnlockAccountDetails_System_String_

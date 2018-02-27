@@ -8,17 +8,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Stream support in wallet serialization
+- Boolean implicit operator to State class based on HTTP rules
+- Information, CommitedTransactions and UncommitedTRansactions properties to Wallet class
+- Polling methods to Wallet class
 
 ### Changed
 - Refactored Wallet class
 - Moved json serialization to ExtensionMethods class
+- SalientAttributes, renamed to Attributes
+- EONBalance, renamed to Balance
 
 ### Fixed
 - PublicKeyPairGenerator
 - Blocks, missing property
 - Info, missing properties and fix deserialization of a few others
 - ColoredInfo, renaming to ColoredCoinInfo and fix deserialization
-- SalientAttributes, renaming to Attributes
+
 
 ## [0.13.0] - 2018-02-18
 ### Added

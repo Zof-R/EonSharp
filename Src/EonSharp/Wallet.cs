@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using EonSharp.Api;
 using EonSharp.Generators;
 using EonSharp.Keystore;
 
@@ -123,5 +126,154 @@ namespace EonSharp
 				AccountDetails = new PublicAccountGenerator(privatekey);
 			}
 		}
+
+		#region runtime
+
+
+		public Info Information
+		{
+			get { return m_information; }
+			set
+			{
+				m_information = value;
+				OnPropertyChanged();
+			}
+		}
+		private Info m_information;
+		public bool AutoRefreshEnabled { get; private set; }
+
+		CancellationTokenSource m_refreshLoop;
+
+
+		public IEnumerable<Transaction> CommitedTransactions
+		{
+			get
+			{
+				return m_commitedTransactions;
+			}
+			private set
+			{
+				m_commitedTransactions = value;
+				OnPropertyChanged();
+			}
+		}
+		private IEnumerable<Transaction> m_commitedTransactions;
+		public IEnumerable<Transaction> UnCommitedTransactions
+		{
+			get
+			{
+				return m_unCommitedTransactions;
+			}
+			private set
+			{
+				m_unCommitedTransactions = value;
+				OnPropertyChanged();
+			}
+		}
+		private IEnumerable<Transaction> m_unCommitedTransactions;
+		public bool AutoRefreshTransactionsEnabled { get; private set; }
+
+		CancellationTokenSource m_refreshTxLoop;
+
+
+		/// <summary>
+		/// Enables or disables polling mechanism. Must be called from UX thread.
+		/// </summary>
+		/// <param name="enable">Enables or disables polling for changes</param>
+		/// <param name="client"></param>
+		/// <param name="interval">Interval between calls in milliseconds</param>
+		public void SetAutoRefresh(bool enable, EonClient client = null, int interval = 5000)
+		{
+			if (enable)
+			{
+				if (m_refreshLoop != null)
+				{
+					m_refreshLoop.Cancel();
+				}
+				m_refreshLoop = new CancellationTokenSource();
+				var t = RefreshAsyncLoop(client, interval, m_refreshLoop.Token);
+			}
+			else
+			{
+				if (m_refreshLoop != null)
+				{
+					m_refreshLoop.Cancel();
+					m_refreshLoop = null;
+				}
+			}
+
+			AutoRefreshEnabled = enable;
+			OnPropertyChanged("AutoRefreshEnabled");
+		}
+		async Task RefreshAsyncLoop(EonClient client, int interval, CancellationToken ct)
+		{
+			while (!ct.IsCancellationRequested)
+			{
+				await RefreshAsync(client);
+				await Task.Delay(interval, ct);
+			}
+		}
+		public async Task RefreshAsync(EonClient client)
+		{
+			var info = await client.Bot.Accounts.GetInformationAsync(AccountDetails.AccountId);
+			if (info?.State)
+			{
+				Information = info;
+			}
+			else
+			{
+				throw new Exception(info?.State?.Name);
+			}
+		}
+
+		/// <summary>
+		/// Enables or disables polling mechanism. Must be called from UX thread.
+		/// </summary>
+		/// <param name="enable">Enables or disables polling for changes</param>
+		/// <param name="client"></param>
+		/// <param name="interval">Interval between calls in milliseconds</param>
+		public void SetTransactionsAutoRefresh(bool enable, EonClient client = null, int interval = 5000)
+		{
+			if (enable)
+			{
+				if (m_refreshTxLoop != null)
+				{
+					m_refreshTxLoop.Cancel();
+				}
+				m_refreshTxLoop = new CancellationTokenSource();
+				var t = TransactionsRefreshAsyncLoop(client, interval, m_refreshTxLoop.Token);
+			}
+			else
+			{
+				if (m_refreshTxLoop != null)
+				{
+					m_refreshTxLoop.Cancel();
+					m_refreshTxLoop = null;
+				}
+			}
+
+			AutoRefreshEnabled = enable;
+			OnPropertyChanged("AutoRefreshEnabled");
+		}
+		async Task TransactionsRefreshAsyncLoop(EonClient client, int interval, CancellationToken ct)
+		{
+			while (!ct.IsCancellationRequested)
+			{
+				await TransactionsRefreshAsync(client);
+				await Task.Delay(interval, ct);
+			}
+		}
+		public async Task TransactionsRefreshAsync(EonClient client)
+		{
+			var utxs = await client.Bot.History.GetUncommittedAsync(AccountDetails.AccountId);
+			this.UnCommitedTransactions = utxs;
+
+			var txs = await client.Bot.History.GetCommittedAllAsync(AccountDetails.AccountId);
+			this.CommitedTransactions = txs;
+		}
+
+
+		#endregion
+
 	}
 }

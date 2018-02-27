@@ -23,6 +23,13 @@ namespace EonSharp.Api
 
 		}
 
+
+		public static implicit operator bool(State s)
+		{
+			return s?.Code > 99 && s?.Code < 300;
+		}
+
+
 	}
 
 }

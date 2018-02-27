@@ -32,6 +32,12 @@ namespace EonSharp.Api.Bot
 			return (res.Result as JObject)?.ToObject<State>();
 		}
 
+		async Task<Balance> IAccounts.GetBalanceAsync(string id)
+		{
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getBalance", new object[] { id }, Interlocked.Increment(ref m_id)));
+			return (res.Result as JObject)?.ToObject<Balance>();
+		}
+		
 		async Task<Info> IAccounts.GetInformationAsync(string id)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getInformation", new object[] { id }, Interlocked.Increment(ref m_id)));

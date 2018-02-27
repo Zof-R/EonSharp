@@ -10,7 +10,8 @@ namespace EonSharp.Api.Bot
 	{
 		//com.exscudo.eon.bot.AccountService
 
-		Task<State> GetStateAsync(String id);
+		Task<State> GetStateAsync(string id);
+		Task<Balance> GetBalanceAsync(string id);
 		Task<Info> GetInformationAsync(String id);
 
 

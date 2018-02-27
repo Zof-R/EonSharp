@@ -27,6 +27,7 @@
   <ItemGroup>
     <Compile Include="..\EonSharp\ActivatorDescriptor.cs" Link="ActivatorDescriptor.cs" />
     <Compile Include="..\EonSharp\Api\Attributes.cs" Link="Api\Attributes.cs" />
+    <Compile Include="..\EonSharp\Api\Balance.cs" Link="Api\Balance.cs" />
     <Compile Include="..\EonSharp\Api\Block.cs" Link="Api\Block.cs" />
     <Compile Include="..\EonSharp\Api\Bot\BotEndpoint.cs" Link="Api\Bot\BotEndpoint.cs" />
     <Compile Include="..\EonSharp\Api\Bot\IAccounts.cs" Link="Api\Bot\IAccounts.cs" />
@@ -38,7 +39,6 @@
     <Compile Include="..\EonSharp\Api\Deposit.cs" Link="Api\Deposit.cs" />
     <Compile Include="..\EonSharp\Api\Difficulty.cs" Link="Api\Difficulty.cs" />
     <Compile Include="..\EonSharp\Api\EndpointBase.cs" Link="Api\EndpointBase.cs" />
-    <Compile Include="..\EonSharp\Api\EONBalance.cs" Link="Api\EONBalance.cs" />
     <Compile Include="..\EonSharp\Api\Explorer\ExplorerEndpoint.cs" Link="Api\Explorer\ExplorerEndpoint.cs" />
     <Compile Include="..\EonSharp\Api\Explorer\IAccounts.cs" Link="Api\Explorer\IAccounts.cs" />
     <Compile Include="..\EonSharp\Api\Explorer\IExplorer.cs" Link="Api\Explorer\IExplorer.cs" />

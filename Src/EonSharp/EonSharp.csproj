@@ -70,7 +70,7 @@
     <Compile Include="Api\Deposit.cs" />
     <Compile Include="Api\Difficulty.cs" />
     <Compile Include="Api\EndpointBase.cs" />
-    <Compile Include="Api\EONBalance.cs" />
+    <Compile Include="Api\Balance.cs" />
     <Compile Include="Api\Explorer\ExplorerEndpoint.cs" />
     <Compile Include="Api\Explorer\IAccounts.cs" />
     <Compile Include="Api\Explorer\IExplorer.cs" />
