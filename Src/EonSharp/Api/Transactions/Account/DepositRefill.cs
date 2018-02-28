@@ -45,12 +45,12 @@ namespace EonSharp.Api.Transactions
 
 		}
 
-		public void SignTransaction(byte[] expandedPrivateKey)
+		public override void SignTransaction(byte[] expandedPrivateKey)
 		{
 			var beattach = AttachmentToBEncoding();
 			base.SignTransaction(beattach, expandedPrivateKey);
 		}
-		public void ConfirmTransaction(string accountId, byte[] expandedPrivateKey)
+		public override void ConfirmTransaction(string accountId, byte[] expandedPrivateKey)
 		{
 			var beattach = AttachmentToBEncoding();
 			base.ConfirmTransaction(beattach, accountId, expandedPrivateKey);

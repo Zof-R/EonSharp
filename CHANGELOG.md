@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Boolean implicit operator to State class based on HTTP rules
 - Information, CommitedTransactions and UncommitedTRansactions properties to Wallet class
 - Polling methods to Wallet class
+- PuTransactionAsync method to Wallet class
+- virtual methods to base class Transaction
 
 ### Changed
 - Refactored Wallet class

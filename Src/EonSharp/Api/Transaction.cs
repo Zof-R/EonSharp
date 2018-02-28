@@ -130,6 +130,14 @@ namespace EonSharp.Api
 		}
 
 
+		#region Must override
+
+		public virtual void SignTransaction(byte[] expandedPrivateKey) { }
+
+		public virtual void ConfirmTransaction(string accountId, byte[] expandedPrivateKey) { }
+	
+
+		#endregion
 
 	}
 }

@@ -2624,6 +2624,15 @@ references:
   fullName.vb: EonSharp.Api.Transaction.ConfirmTransaction(BEncoding.BDictionary, System.String, System.Byte())
   nameWithType: Transaction.ConfirmTransaction(BDictionary, String, Byte[])
   nameWithType.vb: Transaction.ConfirmTransaction(BDictionary, String, Byte())
+- uid: EonSharp.Api.Transaction.ConfirmTransaction(System.String,System.Byte[])
+  name: ConfirmTransaction(String, Byte[])
+  href: api/EonSharp.Api.Transaction.html#EonSharp_Api_Transaction_ConfirmTransaction_System_String_System_Byte___
+  commentId: M:EonSharp.Api.Transaction.ConfirmTransaction(System.String,System.Byte[])
+  name.vb: ConfirmTransaction(String, Byte())
+  fullName: EonSharp.Api.Transaction.ConfirmTransaction(System.String, System.Byte[])
+  fullName.vb: EonSharp.Api.Transaction.ConfirmTransaction(System.String, System.Byte())
+  nameWithType: Transaction.ConfirmTransaction(String, Byte[])
+  nameWithType.vb: Transaction.ConfirmTransaction(String, Byte())
 - uid: EonSharp.Api.Transaction.ConfirmTransaction*
   name: ConfirmTransaction
   href: api/EonSharp.Api.Transaction.html#EonSharp_Api_Transaction_ConfirmTransaction_
@@ -2753,6 +2762,15 @@ references:
   fullName.vb: EonSharp.Api.Transaction.SignTransaction(BEncoding.BDictionary, System.Byte())
   nameWithType: Transaction.SignTransaction(BDictionary, Byte[])
   nameWithType.vb: Transaction.SignTransaction(BDictionary, Byte())
+- uid: EonSharp.Api.Transaction.SignTransaction(System.Byte[])
+  name: SignTransaction(Byte[])
+  href: api/EonSharp.Api.Transaction.html#EonSharp_Api_Transaction_SignTransaction_System_Byte___
+  commentId: M:EonSharp.Api.Transaction.SignTransaction(System.Byte[])
+  name.vb: SignTransaction(Byte())
+  fullName: EonSharp.Api.Transaction.SignTransaction(System.Byte[])
+  fullName.vb: EonSharp.Api.Transaction.SignTransaction(System.Byte())
+  nameWithType: Transaction.SignTransaction(Byte[])
+  nameWithType.vb: Transaction.SignTransaction(Byte())
 - uid: EonSharp.Api.Transaction.SignTransaction*
   name: SignTransaction
   href: api/EonSharp.Api.Transaction.html#EonSharp_Api_Transaction_SignTransaction_
@@ -6809,6 +6827,18 @@ references:
   commentId: E:EonSharp.Wallet.PropertyChanged
   fullName: EonSharp.Wallet.PropertyChanged
   nameWithType: Wallet.PropertyChanged
+- uid: EonSharp.Wallet.PutTransactionAsync(EonSharp.EonClient,System.String,EonSharp.Api.Transaction)
+  name: PutTransactionAsync(EonClient, String, Transaction)
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_PutTransactionAsync_EonSharp_EonClient_System_String_EonSharp_Api_Transaction_
+  commentId: M:EonSharp.Wallet.PutTransactionAsync(EonSharp.EonClient,System.String,EonSharp.Api.Transaction)
+  fullName: EonSharp.Wallet.PutTransactionAsync(EonSharp.EonClient, System.String, EonSharp.Api.Transaction)
+  nameWithType: Wallet.PutTransactionAsync(EonClient, String, Transaction)
+- uid: EonSharp.Wallet.PutTransactionAsync*
+  name: PutTransactionAsync
+  href: api/EonSharp.Wallet.html#EonSharp_Wallet_PutTransactionAsync_
+  commentId: Overload:EonSharp.Wallet.PutTransactionAsync
+  fullName: EonSharp.Wallet.PutTransactionAsync
+  nameWithType: Wallet.PutTransactionAsync
 - uid: EonSharp.Wallet.RefreshAsync(EonSharp.EonClient)
   name: RefreshAsync(EonClient)
   href: api/EonSharp.Wallet.html#EonSharp_Wallet_RefreshAsync_EonSharp_EonClient_

@@ -94,11 +94,12 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_EonClient__ctor.md&amp;value=---%0Auid%3A%20EonSharp.EonClient.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L39">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L42">View Source</a>
   </span>
   <a id="EonSharp_EonClient__ctor_" data-uid="EonSharp.EonClient.#ctor*"></a>
   <h4 id="EonSharp_EonClient__ctor" data-uid="EonSharp.EonClient.#ctor">EonClient()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default constructor pointing to &quot;https://peer.testnet.eontechnology.org:9443&quot;</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -109,7 +110,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_EonClient__ctor_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.EonClient.%23ctor(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L42">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L45">View Source</a>
   </span>
   <a id="EonSharp_EonClient__ctor_" data-uid="EonSharp.EonClient.#ctor*"></a>
   <h4 id="EonSharp_EonClient__ctor_System_String_System_String_System_String_" data-uid="EonSharp.EonClient.#ctor(System.String,System.String,System.String)">EonClient(String, String, String)</h4>
@@ -332,11 +333,14 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_EonClient_CreateNewContext_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20EonSharp.EonClient.CreateNewContext(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L62">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L75">View Source</a>
   </span>
   <a id="EonSharp_EonClient_CreateNewContext_" data-uid="EonSharp.EonClient.CreateNewContext*"></a>
   <h4 id="EonSharp_EonClient_CreateNewContext_System_String_System_String_System_String_" data-uid="EonSharp.EonClient.CreateNewContext(System.String,System.String,System.String)">CreateNewContext(String, String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates a child ITransportContext pointing to the specified server address.
+Disposing a child ITransportContext doesn&apos;t dispose the root context, but disposing
+a root context will invalidate all child contexts.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -355,17 +359,20 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">serverAddress</span></td>
-        <td></td>
+        <td><p>The server address</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">user</span></td>
-        <td></td>
+        <td><p>The login username for the choosen server. Defaults to null</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">password</span></td>
-        <td></td>
+        <td><p>The login password for the choosen server. Defaults to null</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -380,7 +387,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="EonSharp.EonClient.html">EonClient</a></td>
-        <td></td>
+        <td><p>A child EonClient instance</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -389,7 +397,7 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_EonClient_Dispose.md&amp;value=---%0Auid%3A%20EonSharp.EonClient.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L108">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L126">View Source</a>
   </span>
   <a id="EonSharp_EonClient_Dispose_" data-uid="EonSharp.EonClient.Dispose*"></a>
   <h4 id="EonSharp_EonClient_Dispose" data-uid="EonSharp.EonClient.Dispose">Dispose()</h4>
@@ -404,11 +412,14 @@
     <a href="https://github.com/Zof-R/EonSharp/new/master/apiSpec/new?filename=EonSharp_EonClient_UpdateBlockchainDetails.md&amp;value=---%0Auid%3A%20EonSharp.EonClient.UpdateBlockchainDetails%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L67">View Source</a>
+    <a href="https://github.com/Zof-R/EonSharp/blob/master/Src/EonSharp/EonClient.cs/#L85">View Source</a>
   </span>
   <a id="EonSharp_EonClient_UpdateBlockchainDetails_" data-uid="EonSharp.EonClient.UpdateBlockchainDetails*"></a>
   <h4 id="EonSharp_EonClient_UpdateBlockchainDetails" data-uid="EonSharp.EonClient.UpdateBlockchainDetails">UpdateBlockchainDetails()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves blockchain state information.
+The retrieved information, i.e. NetworkID, will be used by all EonClient instances
+and is required to process Transactions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

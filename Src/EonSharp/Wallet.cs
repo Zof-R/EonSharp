@@ -272,6 +272,12 @@ namespace EonSharp
 			this.CommitedTransactions = txs;
 		}
 
+		public async Task PutTransactionAsync(EonClient client, string password, Transaction tx)
+		{
+			var expkey = GetExpandedKey(password);
+			tx.SignTransaction(expkey);
+			await client.Bot.Transactions.PutTransactionAsync(tx);
+		}
 
 		#endregion
 

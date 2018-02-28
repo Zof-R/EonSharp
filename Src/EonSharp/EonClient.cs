@@ -36,6 +36,9 @@ namespace EonSharp
 		public IExplorer Explorer;
 		public IMetrics Metrics;
 
+		/// <summary>
+		/// Default constructor pointing to "https://peer.testnet.eontechnology.org:9443"
+		/// </summary>
 		public EonClient() : this(SERVER_ADDRESS, SERVER_USER, SERVER_PASSWORD)
 		{
 		}
@@ -59,11 +62,26 @@ namespace EonSharp
 			Metrics = BuildGraph<IMetrics>(new object[] { TransportContext });
 
 		}
+
+		/// <summary>
+		/// Creates a child ITransportContext pointing to the specified server address.
+		/// Disposing a child ITransportContext doesn't dispose the root context, but disposing
+		/// a root context will invalidate all child contexts.
+		/// </summary>
+		/// <param name="serverAddress">The server address</param>
+		/// <param name="user">The login username for the choosen server. Defaults to null</param>
+		/// <param name="password">The login password for the choosen server. Defaults to null</param>
+		/// <returns>A child EonClient instance</returns>
 		public EonClient CreateNewContext(string serverAddress, string user = null, string password = null)
 		{
 			return new EonClient(TransportContext, serverAddress, user, password);
 		}
 
+		/// <summary>
+		/// Retrieves blockchain state information.
+		/// The retrieved information, i.e. NetworkID, will be used by all EonClient instances
+		/// and is required to process Transactions.
+		/// </summary>
 		public async Task UpdateBlockchainDetails()
 		{
 			var attribs = await Peer.Metadata.GetAttributesAsync();
