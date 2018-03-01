@@ -34,7 +34,7 @@ namespace EonSharp.Api.Transactions
 
 		public Delegate() : base()
 		{
-			Type = 425;
+			Type = 400;
 			Attachment = new Attachments.DelegateAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}

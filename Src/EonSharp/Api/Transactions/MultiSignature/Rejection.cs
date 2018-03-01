@@ -23,7 +23,7 @@ namespace EonSharp.Api.Transactions
 
 		public Rejection() : base()
 		{
-			Type = 450;
+			Type = 420;
 			Attachment = new Attachments.RejectionAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}

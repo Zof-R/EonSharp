@@ -7,41 +7,50 @@ using System.Threading.Tasks;
 
 namespace EonSharp.Api.Transactions
 {
-	public class DepositWithdraw : Transaction
+	public class Payment : Transaction
 	{
 		public long Amount
 		{
 			get
 			{
-				return ((Attachments.DepositWithdrawAttachment)Attachment).Amount;
+				return ((Attachments.PaymentAttachment)Attachment).Amount;
 			}
 			set
 			{
-				((Attachments.DepositWithdrawAttachment)Attachment).Amount = value;
+				((Attachments.PaymentAttachment)Attachment).Amount = value;
 			}
 		}
-
-		public DepositWithdraw() : base()
+		public string Recipient
 		{
-			Type = 320;
-			Attachment = new Attachments.DepositWithdrawAttachment();
+			get
+			{
+				return ((Attachments.PaymentAttachment)Attachment).Recipient;
+			}
+			set
+			{
+				((Attachments.PaymentAttachment)Attachment).Recipient = value;
+			}
+		}
+		public Payment() : base()
+		{
+			Type = 200;
+			Attachment = new Attachments.PaymentAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
-
-		public DepositWithdraw(int version) : this()
+		public Payment(int version) : this()
 		{
 			Version = version;
 
 		}
-		public DepositWithdraw(string sender, long amount, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Payment(string sender, long amount, string recipient, int deadline = 3600, long fee = 10, int version = 2) : this(version)
 		{
 			this.Amount = amount;
+			this.Recipient = recipient;
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
 		}
-
-		public DepositWithdraw(SerializationInfo info, StreamingContext context) : base(info, context)
+		public Payment(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 
 		}
@@ -61,6 +70,7 @@ namespace EonSharp.Api.Transactions
 			return new BEncoding.BDictionary
 			{
 				[nameof(Amount).ToLower()] = new BEncoding.BInteger(Amount),
+				[nameof(Recipient).ToLower()] = new BEncoding.BString(Recipient)
 			};
 		}
 

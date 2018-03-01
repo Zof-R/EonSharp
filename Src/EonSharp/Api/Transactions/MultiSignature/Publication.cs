@@ -7,33 +7,33 @@ using System.Threading.Tasks;
 
 namespace EonSharp.Api.Transactions
 {
-	public class AccountPublication : Transaction
+	public class Publication : Transaction
 	{
 		public string Seed
 		{
 			get
 			{
-				return ((Attachments.AccountPublicationAttachment)Attachment).Seed;
+				return ((Attachments.PublicationAttachment)Attachment).Seed;
 			}
 			set
 			{
-				((Attachments.AccountPublicationAttachment)Attachment).Seed = value;
+				((Attachments.PublicationAttachment)Attachment).Seed = value;
 			}
 		}
 
-		public AccountPublication() : base()
+		public Publication() : base()
 		{
-			Type = 475;
-			Attachment = new Attachments.AccountPublicationAttachment();
+			Type = 430;
+			Attachment = new Attachments.PublicationAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
 
-		public AccountPublication(int version) : this()
+		public Publication(int version) : this()
 		{
 			Version = version;
 
 		}
-		public AccountPublication(string sender, string seed, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Publication(string sender, string seed, int deadline = 3600, long fee = 10, int version = 2) : this(version)
 		{
 			Seed = seed;
 			Sender = sender;
@@ -41,7 +41,7 @@ namespace EonSharp.Api.Transactions
 			Fee = fee;
 		}
 
-		public AccountPublication(SerializationInfo info, StreamingContext context) : base(info, context)
+		public Publication(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 
 		}

@@ -49,36 +49,32 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 			switch (type)
 			{
 				case 100:
-					trans = jo.ToObject<AccountRegistration>();
-					trans.Attachment = jo["attachment"].ToObject<AccountRegistrationAttachment>();
+					trans = jo.ToObject<Registration>();
+					trans.Attachment = jo["attachment"].ToObject<RegistrationAttachment>();
 					return trans;
 				case 200:
-					trans = jo.ToObject<OrdinaryPayment>();
-					trans.Attachment = jo["attachment"].ToObject<OrdinaryPaymentAttachment>();
+					trans = jo.ToObject<Payment>();
+					trans.Attachment = jo["attachment"].ToObject<PaymentAttachment>();
 					return trans;
-				case 310:
-					trans = jo.ToObject<DepositRefill>();
-					trans.Attachment = jo["attachment"].ToObject<DepositRefillAttachment>();
-					return trans;
-				case 320:
-					trans = jo.ToObject<DepositWithdraw>();
-					trans.Attachment = jo["attachment"].ToObject<DepositWithdrawAttachment>();
+				case 300:
+					trans = jo.ToObject<Deposit>();
+					trans.Attachment = jo["attachment"].ToObject<DepositAttachment>();
 					return trans;
 				case 400:
-					trans = jo.ToObject<Quorum>();
-					trans.Attachment = jo["attachment"].ToObject<QuorumAttachment>();
-					return trans;
-				case 425:
 					trans = jo.ToObject<Delegate>();
 					trans.Attachment = jo["attachment"].ToObject<DelegateAttachment>();
 					return trans;
-				case 450:
+				case 410:
+					trans = jo.ToObject<Quorum>();
+					trans.Attachment = jo["attachment"].ToObject<QuorumAttachment>();
+					return trans;
+				case 420:
 					trans = jo.ToObject<Rejection>();
 					trans.Attachment = jo["attachment"].ToObject<RejectionAttachment>();
 					return trans;
-				case 475:
-					trans = jo.ToObject<AccountPublication>();
-					trans.Attachment = jo["attachment"].ToObject<AccountPublicationAttachment>();
+				case 430:
+					trans = jo.ToObject<Publication>();
+					trans.Attachment = jo["attachment"].ToObject<PublicationAttachment>();
 					return trans;
 				case 500:
 					trans = jo.ToObject<ColoredCoinRegistration>();

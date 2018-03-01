@@ -1,7 +1,7 @@
 ﻿# ![EonSharp](images/logo.png)
 
-EonSharp is a .Net integration library for **[Eon's](https://github.com/EonTechnology)** JsonRpc Api, at the time of writing at version 0.8.0 of the Eon blockchain.
-The library provides an object oriented abstraction of the underlying Api and implements support for both the documented and undocumented Api calls as of 4th of February of 2018.
+EonSharp is a .Net integration library for **[Eon's](https://github.com/EonTechnology)** JsonRpc Api, at the time of writing at version 0.9.0 of the Eon blockchain.
+The library provides an object oriented abstraction of the underlying Api and implements support for version 2.0 of the Eon API.
 The supported Api features include Account generation, Transaction processing, node specific calls to obtain metrics, Blocks and Transactions, Multi Signature and Colored Coins.
 The library also implements a simple/pure DI approach using a ClassMapper class for custom extensibility.
 
@@ -66,8 +66,8 @@ You can find information and JsonRpc Api documentation related to **Eon Technolo
 ### Processing a Transaction
 
 ```csharp
-    //Creates a DepositRefill transaction object providing an account id and amount in microeons
-    var refill = new EonSharp.Api.Transactions.DepositRefill(account.AccountId, 10);
+    //Creates a Deposit transaction object providing an account id and amount in microeons
+    var refill = new EonSharp.Api.Transactions.Deposit(account.AccountId, 10);
 
     //Signs the Transaction
     refill.SignTransaction(account.ExpandedPrivateKey);

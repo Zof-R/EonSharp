@@ -56,14 +56,12 @@
     <Compile Include="..\EonSharp\Api\SignType.cs" Link="Api\SignType.cs" />
     <Compile Include="..\EonSharp\Api\State.cs" Link="Api\State.cs" />
     <Compile Include="..\EonSharp\Api\Transaction.cs" Link="Api\Transaction.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\AccountRegistration.cs" Link="Api\Transactions\Account\AccountRegistration.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\AccountRegistrationAttachment.cs" Link="Api\Transactions\Account\Attachments\AccountRegistrationAttachment.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\DepositRefillAttachment.cs" Link="Api\Transactions\Account\Attachments\DepositRefillAttachment.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\DepositWithrawAttachment.cs" Link="Api\Transactions\Account\Attachments\DepositWithrawAttachment.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\OrdinaryPaymentAttachment.cs" Link="Api\Transactions\Account\Attachments\OrdinaryPaymentAttachment.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\DepositRefill.cs" Link="Api\Transactions\Account\DepositRefill.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\DepositWithdraw.cs" Link="Api\Transactions\Account\DepositWithdraw.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\Account\OrdinaryPayment.cs" Link="Api\Transactions\Account\OrdinaryPayment.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\DepositAttachment.cs" Link="Api\Transactions\Account\Attachments\DepositAttachment.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\PaymentAttachment.cs" Link="Api\Transactions\Account\Attachments\PaymentAttachment.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\Account\Attachments\RegistrationAttachment.cs" Link="Api\Transactions\Account\Attachments\RegistrationAttachment.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\Account\Deposit.cs" Link="Api\Transactions\Account\Deposit.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\Account\Payment.cs" Link="Api\Transactions\Account\Payment.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\Account\Registration.cs" Link="Api\Transactions\Account\Registration.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\ColoredCoins\Attachments\ColoredCoinPaymentAttachment.cs" Link="Api\Transactions\ColoredCoins\Attachments\ColoredCoinPaymentAttachment.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\ColoredCoins\Attachments\ColoredCoinRegistrationAttachment.cs" Link="Api\Transactions\ColoredCoins\Attachments\ColoredCoinRegistrationAttachment.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\ColoredCoins\Attachments\ColoredCoinSupplyAttachment.cs" Link="Api\Transactions\ColoredCoins\Attachments\ColoredCoinSupplyAttachment.cs" />
@@ -71,12 +69,12 @@
     <Compile Include="..\EonSharp\Api\Transactions\ColoredCoins\ColoredCoinRegistration.cs" Link="Api\Transactions\ColoredCoins\ColoredCoinRegistration.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\ColoredCoins\ColoredCoinSupply.cs" Link="Api\Transactions\ColoredCoins\ColoredCoinSupply.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\ExtensionMethods.cs" Link="Api\Transactions\ExtensionMethods.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\AccountPublication.cs" Link="Api\Transactions\MultiSignature\AccountPublication.cs" />
-    <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Attachments\AccountPublicationAttachment.cs" Link="Api\Transactions\MultiSignature\Attachments\AccountPublicationAttachment.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Attachments\DelegateAttachment.cs" Link="Api\Transactions\MultiSignature\Attachments\DelegateAttachment.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Attachments\PublicationAttachment.cs" Link="Api\Transactions\MultiSignature\Attachments\PublicationAttachment.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Attachments\QuorumAttachment.cs" Link="Api\Transactions\MultiSignature\Attachments\QuorumAttachment.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Attachments\RejectionAttachment.cs" Link="Api\Transactions\MultiSignature\Attachments\RejectionAttachment.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Delegate.cs" Link="Api\Transactions\MultiSignature\Delegate.cs" />
+    <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Publication.cs" Link="Api\Transactions\MultiSignature\Publication.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Quorum.cs" Link="Api\Transactions\MultiSignature\Quorum.cs" />
     <Compile Include="..\EonSharp\Api\Transactions\MultiSignature\Rejection.cs" Link="Api\Transactions\MultiSignature\Rejection.cs" />
     <Compile Include="..\EonSharp\Api\VotingRights.cs" Link="Api\VotingRights.cs" />

@@ -4,6 +4,6 @@ namespace EonSharp.Api.Bot
 {
 	public interface IColoredCoin
 	{
-		Task<ColoredCoinInfo> GetInfo(string id, int timestamp);
+		Task<ColoredCoinInfo> GetInfo(string id);
 	}
 }

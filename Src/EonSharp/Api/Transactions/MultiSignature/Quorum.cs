@@ -35,7 +35,7 @@ namespace EonSharp.Api.Transactions
 
 		public Quorum() : base()
 		{
-			Type = 400;
+			Type = 410;
 			Attachment = new Attachments.QuorumAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}

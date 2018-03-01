@@ -19,6 +19,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Moved json serialization to ExtensionMethods class
 - SalientAttributes, renamed to Attributes
 - EONBalance, renamed to Balance
+- Refactoring of transaction classes to keep in par with version 2.0 of the Eon API
+- IdProvider core function changed to keep in par with version 2.0 of the Eon API
+- Bot.ColoredCoin.GetInfo method signature changed to keep in par with version 2.0 of the Eon API
 
 ### Fixed
 - PublicKeyPairGenerator

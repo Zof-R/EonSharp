@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace EonSharp.Api.Transactions
 {
-	public class AccountRegistration : Transaction
+	public class Registration : Transaction
 	{
 
 		public string AccountId
 		{
 			get
 			{
-				return ((Attachments.AccountRegistrationAttachment)Attachment).AccountId;
+				return ((Attachments.RegistrationAttachment)Attachment).AccountId;
 			}
 			set
 			{
-				((Attachments.AccountRegistrationAttachment)Attachment).AccountId = value;
+				((Attachments.RegistrationAttachment)Attachment).AccountId = value;
 			}
 		}
 
@@ -26,27 +26,27 @@ namespace EonSharp.Api.Transactions
 		{
 			get
 			{
-				return ((Attachments.AccountRegistrationAttachment)Attachment).PublicKey;
+				return ((Attachments.RegistrationAttachment)Attachment).PublicKey;
 			}
 			set
 			{
-				((Attachments.AccountRegistrationAttachment)Attachment).PublicKey = value;
+				((Attachments.RegistrationAttachment)Attachment).PublicKey = value;
 			}
 		}
 
-		public AccountRegistration() : base()
+		public Registration() : base()
 		{
 			Type = 100;
-			Attachment = new Attachments.AccountRegistrationAttachment();
+			Attachment = new Attachments.RegistrationAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
 
-		public AccountRegistration(int version) : this()
+		public Registration(int version) : this()
 		{
 			Version = version;
 
 		}
-		public AccountRegistration(string sender, string id, string publicKey, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Registration(string sender, string id, string publicKey, int deadline = 3600, long fee = 10, int version = 2) : this(version)
 		{
 			AccountId = id;
 			PublicKey = publicKey;
@@ -54,7 +54,7 @@ namespace EonSharp.Api.Transactions
 			Deadline = deadline;
 			Fee = fee;
 		}
-		public AccountRegistration(SerializationInfo info, StreamingContext context) : base(info, context)
+		public Registration(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 
 		}

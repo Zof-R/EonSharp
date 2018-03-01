@@ -58,7 +58,7 @@ For detailed **EonSharp** Api documentation click [here](api/EonSharp.yml)
 
 ```csharp
     //Creates a DepositRefill transaction object providing an account id and amount in microeons
-    var refill = new EonSharp.Api.Transactions.DepositRefill(account.AccountId, 10);
+    var refill = new EonSharp.Api.Transactions.Deposit(account.AccountId, 10);
 
     //Signs the Transaction
     refill.SignTransaction(account.ExpandedPrivateKey);

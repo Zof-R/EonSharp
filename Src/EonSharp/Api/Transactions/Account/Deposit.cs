@@ -7,40 +7,40 @@ using System.Threading.Tasks;
 
 namespace EonSharp.Api.Transactions
 {
-	public class DepositRefill : Transaction
+	public class Deposit : Transaction
 	{
 		public long Amount
 		{
 			get
 			{
-				return ((Attachments.DepositRefillAttachment)Attachment).Amount;
+				return ((Attachments.DepositAttachment)Attachment).Amount;
 			}
 			set
 			{
-				((Attachments.DepositRefillAttachment)Attachment).Amount = value;
+				((Attachments.DepositAttachment)Attachment).Amount = value;
 			}
 		}
 
-		public DepositRefill() : base()
+		public Deposit() : base()
 		{
-			Type = 310;
-			Attachment = new Attachments.DepositRefillAttachment();
+			Type = 300;
+			Attachment = new Attachments.DepositAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
 
-		public DepositRefill(int version) : this()
+		public Deposit(int version) : this()
 		{
 			Version = version;
 
 		}
-		public DepositRefill(string sender, long amount, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Deposit(string sender, long amount, int deadline = 3600, long fee = 10, int version = 2) : this(version)
 		{
 			this.Amount = amount;
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
 		}
-		public DepositRefill(SerializationInfo info, StreamingContext context) : base(info, context)
+		public Deposit(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 
 		}

@@ -63,7 +63,7 @@ namespace EonSharp.Providers
 				var bi = new BigInteger(new byte[] { hash[i], hash[i + 1], hash[i + 2], hash[i + 3] });
 				bigInteger = bigInteger ^ bi;
 			}
-			return ((long)(int)bigInteger << 32) | ((long)timestamp & 0xFFFFFFFL);
+			return ((long)(int)bigInteger << 32) | ((long)timestamp & 0xFFFFFFFFL);
 		}
 
 
