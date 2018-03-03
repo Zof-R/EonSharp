@@ -78,12 +78,23 @@ namespace EonSharp
 
 		#region ISerialization
 
+		static Dictionary<string, Action<SerializationInfo, Wallet>> s_entryDict = new Dictionary<string, Action<SerializationInfo, Wallet>>
+		{
+			{ "id",(info, i)=> i.Id = info.GetString("id") },
+			{ "name",(info, i)=> i.Name = info.GetString("name") },
+			{ "version",(info, i)=> i.Version = info.GetInt32("version") },
+			{ "keystore",(info, i)=> i.Keystore = info.GetValue("keystore", typeof(KeystoreV1)) as IKeystore },
+			{ "accountdetails",(info, i)=> i.AccountDetails = info.GetValue("accountdetails", typeof(PublicAccountGenerator)) as PublicAccountGenerator },
+		};
 		public Wallet(SerializationInfo info, StreamingContext context)
 		{
-			Id = info.GetString("id");
-			Name = info.GetString("name");
-			Version = info.GetInt32("version");
-			Keystore = info.GetValue("keystore", typeof(KeystoreV1)) as IKeystore;
+			foreach (SerializationEntry entry in info)
+			{
+				if (s_entryDict.TryGetValue(entry.Name, out Action<SerializationInfo, Wallet> exec))
+				{
+					exec.Invoke(info, this);
+				}
+			}
 		}
 		public void GetObjectData(SerializationInfo info, StreamingContext context)
 		{
@@ -91,13 +102,14 @@ namespace EonSharp
 			info.AddValue("name", Name);
 			info.AddValue("version", Version);
 			info.AddValue("keystore", Keystore);
+			info.AddValue("accountdetails", AccountDetails);
 		}
 
 		#endregion
 
 		public void UnlockAccountDetails(string password)
 		{
-			if (AccountDetails == null)
+			if (AccountDetails?.AccountNumber == 0)
 			{
 				UnlockAccountDetails(Keystore.GetPrivateKey(password));
 			}
@@ -121,7 +133,7 @@ namespace EonSharp
 
 		void UnlockAccountDetails(byte[] privatekey)
 		{
-			if (AccountDetails == null)
+			if (AccountDetails?.AccountNumber == 0)
 			{
 				AccountDetails = new PublicAccountGenerator(privatekey);
 			}

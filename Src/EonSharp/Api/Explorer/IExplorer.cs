@@ -10,16 +10,16 @@ namespace EonSharp.Api.Explorer
 	{
 		//com.exscudo.eon.explorer.BlockchainExplorerService
 
-		Task<IEnumerable<Transaction>> GetCommittedAllAsync(String accountId);
-		Task<IEnumerable<Transaction>> GetCommittedPageAsync(String accountId, int page);
-		Task<IEnumerable<Transaction>> GetUncommittedAsync(String id);
-		Task<Transaction> GetRegTransactionAsync(String id);
+		Task<IEnumerable<Transaction>> GetCommittedAllAsync(string accountId);
+		Task<IEnumerable<Transaction>> GetCommittedPageAsync(string accountId, int page);
+		Task<IEnumerable<Transaction>> GetUncommittedAsync(string id);
+		Task<Transaction> GetRegTransactionAsync(string id);
 		Task<IEnumerable<Block>> GetLastBlocksAsync();
 		Task<IEnumerable<Block>> GetLastBlocksFromAsync(int height);
 		Task<Block> GetBlockByHeightAsync(int height);
-		Task<Block> GetBlockByIdAsync(String blockId);
-		Task<IEnumerable<Transaction>> GetTrsByBlockIdAsync(String blockId);
-		Task<Transaction> GetTransactionByIdAsync(String trId);
+		Task<Block> GetBlockByIdAsync(string blockId);
+		Task<IEnumerable<Transaction>> GetTrsByBlockIdAsync(string blockId);
+		Task<Transaction> GetTransactionByIdAsync(string trId);
 		Task<IEnumerable<Transaction>> GetLastUncommittedTrsAsync();
 
 

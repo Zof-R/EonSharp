@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Bot.BotEndpoint.html",
-          "hash": "GPN0eSihDXN4REmPIoe3LQ=="
+          "hash": "GR+YSUc1GAzo4yOgYosC+A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Bot.IColoredCoin.html",
-          "hash": "HvgbMJ3LMb0eE3NcOCCdDQ=="
+          "hash": "rmzxsoahCmr5HZ7qWPUqSA=="
         }
       },
       "is_incremental": true,
@@ -228,7 +228,7 @@
           "hash": "KkZxjHgFwPL9zXKCzwuW6g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "/OHFyorB4kC9hVUZ42KYkg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -513,55 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Transaction.html",
-          "hash": "CRXrGJWS2WQ772X5pGxRgA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.AccountPublication.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.AccountPublication.html",
-          "hash": "PU84XiDOHJOC8fT0+zz/Ew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.AccountRegistration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.AccountRegistration.html",
-          "hash": "6Yj2sfVQrcGdoihj2qowMg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html",
-          "hash": "ntn+V+78xZTN+Dbag/dR4w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html",
-          "hash": "A8pFMM0jXoSCG8MGCWpKtg=="
+          "hash": "2+7VAv8O1c/d+8eTG2xSAw=="
         }
       },
       "is_incremental": true,
@@ -617,11 +569,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.yml",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositAttachment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html",
-          "hash": "TS1x+45wILOamI++kFAKpA=="
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositAttachment.html",
+          "hash": "fnSYvbsBEcGhxNreTrio0Q=="
         }
       },
       "is_incremental": true,
@@ -629,11 +581,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.yml",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html",
-          "hash": "T8Da2xpWhRg29ueTUMlwgA=="
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html",
+          "hash": "EMxbrIZZx2y4DV7gOrVAbQ=="
         }
       },
       "is_incremental": true,
@@ -641,11 +593,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.yml",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html",
-          "hash": "myEgNWY6YphLQio/3hzgjg=="
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.html",
+          "hash": "A/6AY54suRoIcsoihBDDaQ=="
         }
       },
       "is_incremental": true,
@@ -658,6 +610,18 @@
         ".html": {
           "relative_path": "api/EonSharp.Api.Transactions.Attachments.QuorumAttachment.html",
           "hash": "2zJq0rJmn84S716V5/smIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html",
+          "hash": "DzqnTopRlopMP0iW0hukSA=="
         }
       },
       "is_incremental": true,
@@ -681,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Transactions.Attachments.html",
-          "hash": "FX0h31CChP+yZNuD2llq+g=="
+          "hash": "FBRGlXDacgSIYkYhikVYEw=="
         }
       },
       "is_incremental": true,
@@ -696,7 +660,7 @@
           "hash": "i9Ibn04G0VJnZJ69asjo/A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -708,7 +672,7 @@
           "hash": "8HkBYF8bsE6oGfCMiqY89Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -720,7 +684,7 @@
           "hash": "3kifckgNYijad2YVB3sXYA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -732,31 +696,19 @@
           "hash": "DZS4GhIDiWnpUv7zClDH6g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.DepositRefill.yml",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Deposit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.DepositRefill.html",
-          "hash": "2sgjGS75rEqQSQpnJGDjCA=="
+          "relative_path": "api/EonSharp.Api.Transactions.Deposit.html",
+          "hash": "40AntJl3+Nftro3aLC2WjA=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.DepositWithdraw.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.DepositWithdraw.html",
-          "hash": "Pa/q7z7Bq21zAD9cHbt3Ww=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -768,7 +720,7 @@
           "hash": "j4zwNgyfxByd7ra7iS9GcQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -780,19 +732,31 @@
           "hash": "j6wEXjMjHALbRN/Tcv3WrA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EonSharp.Api.Transactions.OrdinaryPayment.yml",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Payment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EonSharp.Api.Transactions.OrdinaryPayment.html",
-          "hash": "Tk2u/IWwwypSCUKPOj0j3Q=="
+          "relative_path": "api/EonSharp.Api.Transactions.Payment.html",
+          "hash": "PHzLoxaKDPa37kbvrE0RkA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Publication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Publication.html",
+          "hash": "fLcIkai38iTpwX3Lyr5y0w=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -804,7 +768,19 @@
           "hash": "gLJPIjClM3BL60SXoifZQg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EonSharp.Api.Transactions.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EonSharp.Api.Transactions.Registration.html",
+          "hash": "Ht0Rx8nW+6vt2HsDbc9O+Q=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -816,7 +792,7 @@
           "hash": "//QnyhIRBmrkEeOdXkL/jw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -825,10 +801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Api.Transactions.html",
-          "hash": "yRaxQXn0DDSL1/KVOoWlHA=="
+          "hash": "bb0EqWU2tMM/+XTIHKZ4tg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -852,7 +828,7 @@
           "hash": "xCvEskkMlM+JwAAfguInIw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -876,7 +852,7 @@
           "hash": "pm5gPiCAtHv7z1kFPyZoog=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -885,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.ExtensionMethods.html",
-          "hash": "y4JxSA2O6BdaMklWfAaCZw=="
+          "hash": "DhRn7vpRTi1c6uN1/KFEkQ=="
         }
       },
       "is_incremental": false,
@@ -921,10 +897,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Generators.PublicAccountGenerator.html",
-          "hash": "9HTOkqpSYVCvthAfgsHdYw=="
+          "hash": "aly8ORAvPRYSLLM7GYAuOw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -933,10 +909,10 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Generators.PublicKeyPairGenerator.html",
-          "hash": "rHK6rMdHopXQfQW6mkZ2Bg=="
+          "hash": "XlqwCaS7WorFAr0cj1fpLw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -960,7 +936,7 @@
           "hash": "+3W1CaR+kQ9d2Bo33ifKuA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1377,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/EonSharp.Wallet.html",
-          "hash": "TEmzevVe2rKTyspnmyU0rg=="
+          "hash": "N7xc9UodbH4v5Y/8hebAew=="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "AKNR6l6vs8Bi00mgBmDMeg=="
+          "hash": "FnrPeNCYdXAgQL4takxveQ=="
         }
       },
       "is_incremental": false,
@@ -1460,7 +1436,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "DjX/ZloWry8eEt88Na+YOg=="
+          "hash": "FC+CQ/cV1qwu2udV6nbL8A=="
         }
       },
       "is_incremental": true,
@@ -1495,13 +1471,13 @@
           "can_incremental": true,
           "incrementalPhase": "build"
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }

@@ -32,9 +32,9 @@ namespace EonSharp
 				jsonWriter.Flush();
 			}
 		}
-		public static string ToJson(this IEnumerable<Wallet> wallet)
+		public static string ToJson(this IEnumerable<Wallet> wallets)
 		{
-			return Newtonsoft.Json.JsonConvert.SerializeObject(wallet, new Newtonsoft.Json.JsonSerializerSettings
+			return Newtonsoft.Json.JsonConvert.SerializeObject(wallets, new Newtonsoft.Json.JsonSerializerSettings
 			{
 				ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver(),
 				MissingMemberHandling = Newtonsoft.Json.MissingMemberHandling.Ignore,
@@ -118,6 +118,5 @@ namespace EonSharp
 				}
 			}
 		}
-
 	}
 }

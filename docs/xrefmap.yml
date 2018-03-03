@@ -889,14 +889,14 @@ references:
   fullName: EonSharp.Api.Bot.BotEndpoint.EonSharp.Api.Bot.IAccounts.GetStateAsync
   nameWithType: BotEndpoint.IAccounts.GetStateAsync
   nameWithType.vb: BotEndpoint.EonSharp.Api.Bot.IAccounts.GetStateAsync
-- uid: EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IColoredCoin#GetInfo(System.String,System.Int32)
-  name: IColoredCoin.GetInfo(String, Int32)
-  href: api/EonSharp.Api.Bot.BotEndpoint.html#EonSharp_Api_Bot_BotEndpoint_EonSharp_Api_Bot_IColoredCoin_GetInfo_System_String_System_Int32_
-  commentId: M:EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IColoredCoin#GetInfo(System.String,System.Int32)
-  name.vb: EonSharp.Api.Bot.IColoredCoin.GetInfo(String, Int32)
-  fullName: EonSharp.Api.Bot.BotEndpoint.EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String, System.Int32)
-  nameWithType: BotEndpoint.IColoredCoin.GetInfo(String, Int32)
-  nameWithType.vb: BotEndpoint.EonSharp.Api.Bot.IColoredCoin.GetInfo(String, Int32)
+- uid: EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IColoredCoin#GetInfo(System.String)
+  name: IColoredCoin.GetInfo(String)
+  href: api/EonSharp.Api.Bot.BotEndpoint.html#EonSharp_Api_Bot_BotEndpoint_EonSharp_Api_Bot_IColoredCoin_GetInfo_System_String_
+  commentId: M:EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IColoredCoin#GetInfo(System.String)
+  name.vb: EonSharp.Api.Bot.IColoredCoin.GetInfo(String)
+  fullName: EonSharp.Api.Bot.BotEndpoint.EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String)
+  nameWithType: BotEndpoint.IColoredCoin.GetInfo(String)
+  nameWithType.vb: BotEndpoint.EonSharp.Api.Bot.IColoredCoin.GetInfo(String)
 - uid: EonSharp.Api.Bot.BotEndpoint.EonSharp#Api#Bot#IColoredCoin#GetInfo*
   name: IColoredCoin.GetInfo
   href: api/EonSharp.Api.Bot.BotEndpoint.html#EonSharp_Api_Bot_BotEndpoint_EonSharp_Api_Bot_IColoredCoin_GetInfo_
@@ -1101,12 +1101,12 @@ references:
   commentId: T:EonSharp.Api.Bot.IColoredCoin
   fullName: EonSharp.Api.Bot.IColoredCoin
   nameWithType: IColoredCoin
-- uid: EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String,System.Int32)
-  name: GetInfo(String, Int32)
-  href: api/EonSharp.Api.Bot.IColoredCoin.html#EonSharp_Api_Bot_IColoredCoin_GetInfo_System_String_System_Int32_
-  commentId: M:EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String,System.Int32)
-  fullName: EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String, System.Int32)
-  nameWithType: IColoredCoin.GetInfo(String, Int32)
+- uid: EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String)
+  name: GetInfo(String)
+  href: api/EonSharp.Api.Bot.IColoredCoin.html#EonSharp_Api_Bot_IColoredCoin_GetInfo_System_String_
+  commentId: M:EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String)
+  fullName: EonSharp.Api.Bot.IColoredCoin.GetInfo(System.String)
+  nameWithType: IColoredCoin.GetInfo(String)
 - uid: EonSharp.Api.Bot.IColoredCoin.GetInfo*
   name: GetInfo
   href: api/EonSharp.Api.Bot.IColoredCoin.html#EonSharp_Api_Bot_IColoredCoin_GetInfo_
@@ -2819,294 +2819,12 @@ references:
   commentId: N:EonSharp.Api.Transactions
   fullName: EonSharp.Api.Transactions
   nameWithType: EonSharp.Api.Transactions
-- uid: EonSharp.Api.Transactions.AccountPublication
-  name: AccountPublication
-  href: api/EonSharp.Api.Transactions.AccountPublication.html
-  commentId: T:EonSharp.Api.Transactions.AccountPublication
-  fullName: EonSharp.Api.Transactions.AccountPublication
-  nameWithType: AccountPublication
-- uid: EonSharp.Api.Transactions.AccountPublication.#ctor
-  name: AccountPublication()
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication__ctor
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.#ctor
-  fullName: EonSharp.Api.Transactions.AccountPublication.AccountPublication()
-  nameWithType: AccountPublication.AccountPublication()
-- uid: EonSharp.Api.Transactions.AccountPublication.#ctor(System.Int32)
-  name: AccountPublication(Int32)
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication__ctor_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.#ctor(System.Int32)
-  fullName: EonSharp.Api.Transactions.AccountPublication.AccountPublication(System.Int32)
-  nameWithType: AccountPublication.AccountPublication(Int32)
-- uid: EonSharp.Api.Transactions.AccountPublication.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: AccountPublication(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.AccountPublication.AccountPublication(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: AccountPublication.AccountPublication(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.AccountPublication.#ctor(System.String,System.String,System.Int32,System.Int64,System.Int32)
-  name: AccountPublication(String, String, Int32, Int64, Int32)
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication__ctor_System_String_System_String_System_Int32_System_Int64_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.#ctor(System.String,System.String,System.Int32,System.Int64,System.Int32)
-  fullName: EonSharp.Api.Transactions.AccountPublication.AccountPublication(System.String, System.String, System.Int32, System.Int64, System.Int32)
-  nameWithType: AccountPublication.AccountPublication(String, String, Int32, Int64, Int32)
-- uid: EonSharp.Api.Transactions.AccountPublication.#ctor*
-  name: AccountPublication
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.AccountPublication.#ctor
-  fullName: EonSharp.Api.Transactions.AccountPublication.AccountPublication
-  nameWithType: AccountPublication.AccountPublication
-- uid: EonSharp.Api.Transactions.AccountPublication.AttachmentToBEncoding
-  name: AttachmentToBEncoding()
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_AttachmentToBEncoding
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.AccountPublication.AttachmentToBEncoding()
-  nameWithType: AccountPublication.AttachmentToBEncoding()
-- uid: EonSharp.Api.Transactions.AccountPublication.AttachmentToBEncoding*
-  name: AttachmentToBEncoding
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_AttachmentToBEncoding_
-  commentId: Overload:EonSharp.Api.Transactions.AccountPublication.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.AccountPublication.AttachmentToBEncoding
-  nameWithType: AccountPublication.AttachmentToBEncoding
-- uid: EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction(System.String,System.Byte[])
-  name: ConfirmTransaction(String, Byte[])
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_ConfirmTransaction_System_String_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction(System.String,System.Byte[])
-  name.vb: ConfirmTransaction(String, Byte())
-  fullName: EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction(System.String, System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction(System.String, System.Byte())
-  nameWithType: AccountPublication.ConfirmTransaction(String, Byte[])
-  nameWithType.vb: AccountPublication.ConfirmTransaction(String, Byte())
-- uid: EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction*
-  name: ConfirmTransaction
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_ConfirmTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction
-  fullName: EonSharp.Api.Transactions.AccountPublication.ConfirmTransaction
-  nameWithType: AccountPublication.ConfirmTransaction
-- uid: EonSharp.Api.Transactions.AccountPublication.Seed
-  name: Seed
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_Seed
-  commentId: P:EonSharp.Api.Transactions.AccountPublication.Seed
-  fullName: EonSharp.Api.Transactions.AccountPublication.Seed
-  nameWithType: AccountPublication.Seed
-- uid: EonSharp.Api.Transactions.AccountPublication.Seed*
-  name: Seed
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_Seed_
-  commentId: Overload:EonSharp.Api.Transactions.AccountPublication.Seed
-  fullName: EonSharp.Api.Transactions.AccountPublication.Seed
-  nameWithType: AccountPublication.Seed
-- uid: EonSharp.Api.Transactions.AccountPublication.SignTransaction(System.Byte[])
-  name: SignTransaction(Byte[])
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_SignTransaction_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.AccountPublication.SignTransaction(System.Byte[])
-  name.vb: SignTransaction(Byte())
-  fullName: EonSharp.Api.Transactions.AccountPublication.SignTransaction(System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.AccountPublication.SignTransaction(System.Byte())
-  nameWithType: AccountPublication.SignTransaction(Byte[])
-  nameWithType.vb: AccountPublication.SignTransaction(Byte())
-- uid: EonSharp.Api.Transactions.AccountPublication.SignTransaction*
-  name: SignTransaction
-  href: api/EonSharp.Api.Transactions.AccountPublication.html#EonSharp_Api_Transactions_AccountPublication_SignTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.AccountPublication.SignTransaction
-  fullName: EonSharp.Api.Transactions.AccountPublication.SignTransaction
-  nameWithType: AccountPublication.SignTransaction
-- uid: EonSharp.Api.Transactions.AccountRegistration
-  name: AccountRegistration
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html
-  commentId: T:EonSharp.Api.Transactions.AccountRegistration
-  fullName: EonSharp.Api.Transactions.AccountRegistration
-  nameWithType: AccountRegistration
-- uid: EonSharp.Api.Transactions.AccountRegistration.#ctor
-  name: AccountRegistration()
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration__ctor
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.#ctor
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountRegistration()
-  nameWithType: AccountRegistration.AccountRegistration()
-- uid: EonSharp.Api.Transactions.AccountRegistration.#ctor(System.Int32)
-  name: AccountRegistration(Int32)
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration__ctor_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.#ctor(System.Int32)
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountRegistration(System.Int32)
-  nameWithType: AccountRegistration.AccountRegistration(Int32)
-- uid: EonSharp.Api.Transactions.AccountRegistration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: AccountRegistration(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountRegistration(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: AccountRegistration.AccountRegistration(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.AccountRegistration.#ctor(System.String,System.String,System.String,System.Int32,System.Int64,System.Int32)
-  name: AccountRegistration(String, String, String, Int32, Int64, Int32)
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration__ctor_System_String_System_String_System_String_System_Int32_System_Int64_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.#ctor(System.String,System.String,System.String,System.Int32,System.Int64,System.Int32)
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountRegistration(System.String, System.String, System.String, System.Int32, System.Int64, System.Int32)
-  nameWithType: AccountRegistration.AccountRegistration(String, String, String, Int32, Int64, Int32)
-- uid: EonSharp.Api.Transactions.AccountRegistration.#ctor*
-  name: AccountRegistration
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.AccountRegistration.#ctor
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountRegistration
-  nameWithType: AccountRegistration.AccountRegistration
-- uid: EonSharp.Api.Transactions.AccountRegistration.AccountId
-  name: AccountId
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_AccountId
-  commentId: P:EonSharp.Api.Transactions.AccountRegistration.AccountId
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountId
-  nameWithType: AccountRegistration.AccountId
-- uid: EonSharp.Api.Transactions.AccountRegistration.AccountId*
-  name: AccountId
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_AccountId_
-  commentId: Overload:EonSharp.Api.Transactions.AccountRegistration.AccountId
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AccountId
-  nameWithType: AccountRegistration.AccountId
-- uid: EonSharp.Api.Transactions.AccountRegistration.AttachmentToBEncoding
-  name: AttachmentToBEncoding()
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_AttachmentToBEncoding
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AttachmentToBEncoding()
-  nameWithType: AccountRegistration.AttachmentToBEncoding()
-- uid: EonSharp.Api.Transactions.AccountRegistration.AttachmentToBEncoding*
-  name: AttachmentToBEncoding
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_AttachmentToBEncoding_
-  commentId: Overload:EonSharp.Api.Transactions.AccountRegistration.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.AccountRegistration.AttachmentToBEncoding
-  nameWithType: AccountRegistration.AttachmentToBEncoding
-- uid: EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction(System.String,System.Byte[])
-  name: ConfirmTransaction(String, Byte[])
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_ConfirmTransaction_System_String_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction(System.String,System.Byte[])
-  name.vb: ConfirmTransaction(String, Byte())
-  fullName: EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction(System.String, System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction(System.String, System.Byte())
-  nameWithType: AccountRegistration.ConfirmTransaction(String, Byte[])
-  nameWithType.vb: AccountRegistration.ConfirmTransaction(String, Byte())
-- uid: EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction*
-  name: ConfirmTransaction
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_ConfirmTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction
-  fullName: EonSharp.Api.Transactions.AccountRegistration.ConfirmTransaction
-  nameWithType: AccountRegistration.ConfirmTransaction
-- uid: EonSharp.Api.Transactions.AccountRegistration.PublicKey
-  name: PublicKey
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_PublicKey
-  commentId: P:EonSharp.Api.Transactions.AccountRegistration.PublicKey
-  fullName: EonSharp.Api.Transactions.AccountRegistration.PublicKey
-  nameWithType: AccountRegistration.PublicKey
-- uid: EonSharp.Api.Transactions.AccountRegistration.PublicKey*
-  name: PublicKey
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_PublicKey_
-  commentId: Overload:EonSharp.Api.Transactions.AccountRegistration.PublicKey
-  fullName: EonSharp.Api.Transactions.AccountRegistration.PublicKey
-  nameWithType: AccountRegistration.PublicKey
-- uid: EonSharp.Api.Transactions.AccountRegistration.SignTransaction(System.Byte[])
-  name: SignTransaction(Byte[])
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_SignTransaction_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.AccountRegistration.SignTransaction(System.Byte[])
-  name.vb: SignTransaction(Byte())
-  fullName: EonSharp.Api.Transactions.AccountRegistration.SignTransaction(System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.AccountRegistration.SignTransaction(System.Byte())
-  nameWithType: AccountRegistration.SignTransaction(Byte[])
-  nameWithType.vb: AccountRegistration.SignTransaction(Byte())
-- uid: EonSharp.Api.Transactions.AccountRegistration.SignTransaction*
-  name: SignTransaction
-  href: api/EonSharp.Api.Transactions.AccountRegistration.html#EonSharp_Api_Transactions_AccountRegistration_SignTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.AccountRegistration.SignTransaction
-  fullName: EonSharp.Api.Transactions.AccountRegistration.SignTransaction
-  nameWithType: AccountRegistration.SignTransaction
 - uid: EonSharp.Api.Transactions.Attachments
   name: EonSharp.Api.Transactions.Attachments
   href: api/EonSharp.Api.Transactions.Attachments.html
   commentId: N:EonSharp.Api.Transactions.Attachments
   fullName: EonSharp.Api.Transactions.Attachments
   nameWithType: EonSharp.Api.Transactions.Attachments
-- uid: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment
-  name: AccountPublicationAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html
-  commentId: T:EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment
-  fullName: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment
-  nameWithType: AccountPublicationAttachment
-- uid: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.#ctor
-  name: AccountPublicationAttachment()
-  href: api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountPublicationAttachment__ctor
-  commentId: M:EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.AccountPublicationAttachment()
-  nameWithType: AccountPublicationAttachment.AccountPublicationAttachment()
-- uid: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.#ctor*
-  name: AccountPublicationAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountPublicationAttachment__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.AccountPublicationAttachment
-  nameWithType: AccountPublicationAttachment.AccountPublicationAttachment
-- uid: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.Seed
-  name: Seed
-  href: api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountPublicationAttachment_Seed
-  commentId: P:EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.Seed
-  fullName: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.Seed
-  nameWithType: AccountPublicationAttachment.Seed
-- uid: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.Seed*
-  name: Seed
-  href: api/EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountPublicationAttachment_Seed_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.Seed
-  fullName: EonSharp.Api.Transactions.Attachments.AccountPublicationAttachment.Seed
-  nameWithType: AccountPublicationAttachment.Seed
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment
-  name: AccountRegistrationAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html
-  commentId: T:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment
-  nameWithType: AccountRegistrationAttachment
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.#ctor
-  name: AccountRegistrationAttachment()
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment__ctor
-  commentId: M:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountRegistrationAttachment()
-  nameWithType: AccountRegistrationAttachment.AccountRegistrationAttachment()
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: AccountRegistrationAttachment(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountRegistrationAttachment(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: AccountRegistrationAttachment.AccountRegistrationAttachment(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.#ctor*
-  name: AccountRegistrationAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountRegistrationAttachment
-  nameWithType: AccountRegistrationAttachment.AccountRegistrationAttachment
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountId
-  name: AccountId
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment_AccountId
-  commentId: P:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountId
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountId
-  nameWithType: AccountRegistrationAttachment.AccountId
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountId*
-  name: AccountId
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment_AccountId_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountId
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.AccountId
-  nameWithType: AccountRegistrationAttachment.AccountId
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: AccountRegistrationAttachment.GetObjectData(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.GetObjectData*
-  name: GetObjectData
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment_GetObjectData_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.GetObjectData
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.GetObjectData
-  nameWithType: AccountRegistrationAttachment.GetObjectData
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.PublicKey
-  name: PublicKey
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment_PublicKey
-  commentId: P:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.PublicKey
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.PublicKey
-  nameWithType: AccountRegistrationAttachment.PublicKey
-- uid: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.PublicKey*
-  name: PublicKey
-  href: api/EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_AccountRegistrationAttachment_PublicKey_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.PublicKey
-  fullName: EonSharp.Api.Transactions.Attachments.AccountRegistrationAttachment.PublicKey
-  nameWithType: AccountRegistrationAttachment.PublicKey
 - uid: EonSharp.Api.Transactions.Attachments.ColoredCoinPaymentAttachment
   name: ColoredCoinPaymentAttachment
   href: api/EonSharp.Api.Transactions.Attachments.ColoredCoinPaymentAttachment.html
@@ -3293,108 +3011,108 @@ references:
   commentId: Overload:EonSharp.Api.Transactions.Attachments.DelegateAttachment.Weight
   fullName: EonSharp.Api.Transactions.Attachments.DelegateAttachment.Weight
   nameWithType: DelegateAttachment.Weight
-- uid: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment
-  name: DepositRefillAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html
-  commentId: T:EonSharp.Api.Transactions.Attachments.DepositRefillAttachment
-  fullName: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment
-  nameWithType: DepositRefillAttachment
-- uid: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.#ctor
-  name: DepositRefillAttachment()
-  href: api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html#EonSharp_Api_Transactions_Attachments_DepositRefillAttachment__ctor
-  commentId: M:EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.DepositRefillAttachment()
-  nameWithType: DepositRefillAttachment.DepositRefillAttachment()
-- uid: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.#ctor*
-  name: DepositRefillAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html#EonSharp_Api_Transactions_Attachments_DepositRefillAttachment__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.DepositRefillAttachment
-  nameWithType: DepositRefillAttachment.DepositRefillAttachment
-- uid: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.Amount
+- uid: EonSharp.Api.Transactions.Attachments.DepositAttachment
+  name: DepositAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.DepositAttachment.html
+  commentId: T:EonSharp.Api.Transactions.Attachments.DepositAttachment
+  fullName: EonSharp.Api.Transactions.Attachments.DepositAttachment
+  nameWithType: DepositAttachment
+- uid: EonSharp.Api.Transactions.Attachments.DepositAttachment.#ctor
+  name: DepositAttachment()
+  href: api/EonSharp.Api.Transactions.Attachments.DepositAttachment.html#EonSharp_Api_Transactions_Attachments_DepositAttachment__ctor
+  commentId: M:EonSharp.Api.Transactions.Attachments.DepositAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.DepositAttachment.DepositAttachment()
+  nameWithType: DepositAttachment.DepositAttachment()
+- uid: EonSharp.Api.Transactions.Attachments.DepositAttachment.#ctor*
+  name: DepositAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.DepositAttachment.html#EonSharp_Api_Transactions_Attachments_DepositAttachment__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.DepositAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.DepositAttachment.DepositAttachment
+  nameWithType: DepositAttachment.DepositAttachment
+- uid: EonSharp.Api.Transactions.Attachments.DepositAttachment.Amount
   name: Amount
-  href: api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html#EonSharp_Api_Transactions_Attachments_DepositRefillAttachment_Amount
-  commentId: P:EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.Amount
-  fullName: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.Amount
-  nameWithType: DepositRefillAttachment.Amount
-- uid: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.Amount*
+  href: api/EonSharp.Api.Transactions.Attachments.DepositAttachment.html#EonSharp_Api_Transactions_Attachments_DepositAttachment_Amount
+  commentId: P:EonSharp.Api.Transactions.Attachments.DepositAttachment.Amount
+  fullName: EonSharp.Api.Transactions.Attachments.DepositAttachment.Amount
+  nameWithType: DepositAttachment.Amount
+- uid: EonSharp.Api.Transactions.Attachments.DepositAttachment.Amount*
   name: Amount
-  href: api/EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.html#EonSharp_Api_Transactions_Attachments_DepositRefillAttachment_Amount_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.Amount
-  fullName: EonSharp.Api.Transactions.Attachments.DepositRefillAttachment.Amount
-  nameWithType: DepositRefillAttachment.Amount
-- uid: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment
-  name: DepositWithdrawAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html
-  commentId: T:EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment
-  fullName: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment
-  nameWithType: DepositWithdrawAttachment
-- uid: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.#ctor
-  name: DepositWithdrawAttachment()
-  href: api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html#EonSharp_Api_Transactions_Attachments_DepositWithdrawAttachment__ctor
-  commentId: M:EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.DepositWithdrawAttachment()
-  nameWithType: DepositWithdrawAttachment.DepositWithdrawAttachment()
-- uid: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.#ctor*
-  name: DepositWithdrawAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html#EonSharp_Api_Transactions_Attachments_DepositWithdrawAttachment__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.DepositWithdrawAttachment
-  nameWithType: DepositWithdrawAttachment.DepositWithdrawAttachment
-- uid: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.Amount
+  href: api/EonSharp.Api.Transactions.Attachments.DepositAttachment.html#EonSharp_Api_Transactions_Attachments_DepositAttachment_Amount_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.DepositAttachment.Amount
+  fullName: EonSharp.Api.Transactions.Attachments.DepositAttachment.Amount
+  nameWithType: DepositAttachment.Amount
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment
+  name: PaymentAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html
+  commentId: T:EonSharp.Api.Transactions.Attachments.PaymentAttachment
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment
+  nameWithType: PaymentAttachment
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment.#ctor
+  name: PaymentAttachment()
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html#EonSharp_Api_Transactions_Attachments_PaymentAttachment__ctor
+  commentId: M:EonSharp.Api.Transactions.Attachments.PaymentAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment.PaymentAttachment()
+  nameWithType: PaymentAttachment.PaymentAttachment()
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment.#ctor*
+  name: PaymentAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html#EonSharp_Api_Transactions_Attachments_PaymentAttachment__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.PaymentAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment.PaymentAttachment
+  nameWithType: PaymentAttachment.PaymentAttachment
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Amount
   name: Amount
-  href: api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html#EonSharp_Api_Transactions_Attachments_DepositWithdrawAttachment_Amount
-  commentId: P:EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.Amount
-  fullName: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.Amount
-  nameWithType: DepositWithdrawAttachment.Amount
-- uid: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.Amount*
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html#EonSharp_Api_Transactions_Attachments_PaymentAttachment_Amount
+  commentId: P:EonSharp.Api.Transactions.Attachments.PaymentAttachment.Amount
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Amount
+  nameWithType: PaymentAttachment.Amount
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Amount*
   name: Amount
-  href: api/EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.html#EonSharp_Api_Transactions_Attachments_DepositWithdrawAttachment_Amount_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.Amount
-  fullName: EonSharp.Api.Transactions.Attachments.DepositWithdrawAttachment.Amount
-  nameWithType: DepositWithdrawAttachment.Amount
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment
-  name: OrdinaryPaymentAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html
-  commentId: T:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment
-  nameWithType: OrdinaryPaymentAttachment
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.#ctor
-  name: OrdinaryPaymentAttachment()
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html#EonSharp_Api_Transactions_Attachments_OrdinaryPaymentAttachment__ctor
-  commentId: M:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.OrdinaryPaymentAttachment()
-  nameWithType: OrdinaryPaymentAttachment.OrdinaryPaymentAttachment()
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.#ctor*
-  name: OrdinaryPaymentAttachment
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html#EonSharp_Api_Transactions_Attachments_OrdinaryPaymentAttachment__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.#ctor
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.OrdinaryPaymentAttachment
-  nameWithType: OrdinaryPaymentAttachment.OrdinaryPaymentAttachment
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Amount
-  name: Amount
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html#EonSharp_Api_Transactions_Attachments_OrdinaryPaymentAttachment_Amount
-  commentId: P:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Amount
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Amount
-  nameWithType: OrdinaryPaymentAttachment.Amount
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Amount*
-  name: Amount
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html#EonSharp_Api_Transactions_Attachments_OrdinaryPaymentAttachment_Amount_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Amount
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Amount
-  nameWithType: OrdinaryPaymentAttachment.Amount
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Recipient
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html#EonSharp_Api_Transactions_Attachments_PaymentAttachment_Amount_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.PaymentAttachment.Amount
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Amount
+  nameWithType: PaymentAttachment.Amount
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Recipient
   name: Recipient
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html#EonSharp_Api_Transactions_Attachments_OrdinaryPaymentAttachment_Recipient
-  commentId: P:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Recipient
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Recipient
-  nameWithType: OrdinaryPaymentAttachment.Recipient
-- uid: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Recipient*
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html#EonSharp_Api_Transactions_Attachments_PaymentAttachment_Recipient
+  commentId: P:EonSharp.Api.Transactions.Attachments.PaymentAttachment.Recipient
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Recipient
+  nameWithType: PaymentAttachment.Recipient
+- uid: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Recipient*
   name: Recipient
-  href: api/EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.html#EonSharp_Api_Transactions_Attachments_OrdinaryPaymentAttachment_Recipient_
-  commentId: Overload:EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Recipient
-  fullName: EonSharp.Api.Transactions.Attachments.OrdinaryPaymentAttachment.Recipient
-  nameWithType: OrdinaryPaymentAttachment.Recipient
+  href: api/EonSharp.Api.Transactions.Attachments.PaymentAttachment.html#EonSharp_Api_Transactions_Attachments_PaymentAttachment_Recipient_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.PaymentAttachment.Recipient
+  fullName: EonSharp.Api.Transactions.Attachments.PaymentAttachment.Recipient
+  nameWithType: PaymentAttachment.Recipient
+- uid: EonSharp.Api.Transactions.Attachments.PublicationAttachment
+  name: PublicationAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.html
+  commentId: T:EonSharp.Api.Transactions.Attachments.PublicationAttachment
+  fullName: EonSharp.Api.Transactions.Attachments.PublicationAttachment
+  nameWithType: PublicationAttachment
+- uid: EonSharp.Api.Transactions.Attachments.PublicationAttachment.#ctor
+  name: PublicationAttachment()
+  href: api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.html#EonSharp_Api_Transactions_Attachments_PublicationAttachment__ctor
+  commentId: M:EonSharp.Api.Transactions.Attachments.PublicationAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.PublicationAttachment.PublicationAttachment()
+  nameWithType: PublicationAttachment.PublicationAttachment()
+- uid: EonSharp.Api.Transactions.Attachments.PublicationAttachment.#ctor*
+  name: PublicationAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.html#EonSharp_Api_Transactions_Attachments_PublicationAttachment__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.PublicationAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.PublicationAttachment.PublicationAttachment
+  nameWithType: PublicationAttachment.PublicationAttachment
+- uid: EonSharp.Api.Transactions.Attachments.PublicationAttachment.Seed
+  name: Seed
+  href: api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.html#EonSharp_Api_Transactions_Attachments_PublicationAttachment_Seed
+  commentId: P:EonSharp.Api.Transactions.Attachments.PublicationAttachment.Seed
+  fullName: EonSharp.Api.Transactions.Attachments.PublicationAttachment.Seed
+  nameWithType: PublicationAttachment.Seed
+- uid: EonSharp.Api.Transactions.Attachments.PublicationAttachment.Seed*
+  name: Seed
+  href: api/EonSharp.Api.Transactions.Attachments.PublicationAttachment.html#EonSharp_Api_Transactions_Attachments_PublicationAttachment_Seed_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.PublicationAttachment.Seed
+  fullName: EonSharp.Api.Transactions.Attachments.PublicationAttachment.Seed
+  nameWithType: PublicationAttachment.Seed
 - uid: EonSharp.Api.Transactions.Attachments.QuorumAttachment
   name: QuorumAttachment
   href: api/EonSharp.Api.Transactions.Attachments.QuorumAttachment.html
@@ -3455,6 +3173,66 @@ references:
   commentId: Overload:EonSharp.Api.Transactions.Attachments.QuorumAttachment.Types
   fullName: EonSharp.Api.Transactions.Attachments.QuorumAttachment.Types
   nameWithType: QuorumAttachment.Types
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment
+  name: RegistrationAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html
+  commentId: T:EonSharp.Api.Transactions.Attachments.RegistrationAttachment
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment
+  nameWithType: RegistrationAttachment
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.#ctor
+  name: RegistrationAttachment()
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment__ctor
+  commentId: M:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.RegistrationAttachment()
+  nameWithType: RegistrationAttachment.RegistrationAttachment()
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: RegistrationAttachment(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.RegistrationAttachment(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: RegistrationAttachment.RegistrationAttachment(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.#ctor*
+  name: RegistrationAttachment
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.#ctor
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.RegistrationAttachment
+  nameWithType: RegistrationAttachment.RegistrationAttachment
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.AccountId
+  name: AccountId
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment_AccountId
+  commentId: P:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.AccountId
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.AccountId
+  nameWithType: RegistrationAttachment.AccountId
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.AccountId*
+  name: AccountId
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment_AccountId_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.AccountId
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.AccountId
+  nameWithType: RegistrationAttachment.AccountId
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: RegistrationAttachment.GetObjectData(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.GetObjectData*
+  name: GetObjectData
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment_GetObjectData_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.GetObjectData
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.GetObjectData
+  nameWithType: RegistrationAttachment.GetObjectData
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.PublicKey
+  name: PublicKey
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment_PublicKey
+  commentId: P:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.PublicKey
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.PublicKey
+  nameWithType: RegistrationAttachment.PublicKey
+- uid: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.PublicKey*
+  name: PublicKey
+  href: api/EonSharp.Api.Transactions.Attachments.RegistrationAttachment.html#EonSharp_Api_Transactions_Attachments_RegistrationAttachment_PublicKey_
+  commentId: Overload:EonSharp.Api.Transactions.Attachments.RegistrationAttachment.PublicKey
+  fullName: EonSharp.Api.Transactions.Attachments.RegistrationAttachment.PublicKey
+  nameWithType: RegistrationAttachment.PublicKey
 - uid: EonSharp.Api.Transactions.Attachments.RejectionAttachment
   name: RejectionAttachment
   href: api/EonSharp.Api.Transactions.Attachments.RejectionAttachment.html
@@ -3869,186 +3647,96 @@ references:
   commentId: Overload:EonSharp.Api.Transactions.Delegate.Weight
   fullName: EonSharp.Api.Transactions.Delegate.Weight
   nameWithType: Delegate.Weight
-- uid: EonSharp.Api.Transactions.DepositRefill
-  name: DepositRefill
-  href: api/EonSharp.Api.Transactions.DepositRefill.html
-  commentId: T:EonSharp.Api.Transactions.DepositRefill
-  fullName: EonSharp.Api.Transactions.DepositRefill
-  nameWithType: DepositRefill
-- uid: EonSharp.Api.Transactions.DepositRefill.#ctor
-  name: DepositRefill()
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill__ctor
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.#ctor
-  fullName: EonSharp.Api.Transactions.DepositRefill.DepositRefill()
-  nameWithType: DepositRefill.DepositRefill()
-- uid: EonSharp.Api.Transactions.DepositRefill.#ctor(System.Int32)
-  name: DepositRefill(Int32)
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill__ctor_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.#ctor(System.Int32)
-  fullName: EonSharp.Api.Transactions.DepositRefill.DepositRefill(System.Int32)
-  nameWithType: DepositRefill.DepositRefill(Int32)
-- uid: EonSharp.Api.Transactions.DepositRefill.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: DepositRefill(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.DepositRefill.DepositRefill(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: DepositRefill.DepositRefill(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.DepositRefill.#ctor(System.String,System.Int64,System.Int32,System.Int64,System.Int32)
-  name: DepositRefill(String, Int64, Int32, Int64, Int32)
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill__ctor_System_String_System_Int64_System_Int32_System_Int64_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.#ctor(System.String,System.Int64,System.Int32,System.Int64,System.Int32)
-  fullName: EonSharp.Api.Transactions.DepositRefill.DepositRefill(System.String, System.Int64, System.Int32, System.Int64, System.Int32)
-  nameWithType: DepositRefill.DepositRefill(String, Int64, Int32, Int64, Int32)
-- uid: EonSharp.Api.Transactions.DepositRefill.#ctor*
-  name: DepositRefill
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.DepositRefill.#ctor
-  fullName: EonSharp.Api.Transactions.DepositRefill.DepositRefill
-  nameWithType: DepositRefill.DepositRefill
-- uid: EonSharp.Api.Transactions.DepositRefill.Amount
+- uid: EonSharp.Api.Transactions.Deposit
+  name: Deposit
+  href: api/EonSharp.Api.Transactions.Deposit.html
+  commentId: T:EonSharp.Api.Transactions.Deposit
+  fullName: EonSharp.Api.Transactions.Deposit
+  nameWithType: Deposit
+- uid: EonSharp.Api.Transactions.Deposit.#ctor
+  name: Deposit()
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit__ctor
+  commentId: M:EonSharp.Api.Transactions.Deposit.#ctor
+  fullName: EonSharp.Api.Transactions.Deposit.Deposit()
+  nameWithType: Deposit.Deposit()
+- uid: EonSharp.Api.Transactions.Deposit.#ctor(System.Int32)
+  name: Deposit(Int32)
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit__ctor_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Deposit.#ctor(System.Int32)
+  fullName: EonSharp.Api.Transactions.Deposit.Deposit(System.Int32)
+  nameWithType: Deposit.Deposit(Int32)
+- uid: EonSharp.Api.Transactions.Deposit.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: Deposit(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Transactions.Deposit.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Transactions.Deposit.Deposit(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Deposit.Deposit(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Transactions.Deposit.#ctor(System.String,System.Int64,System.Int32,System.Int64,System.Int32)
+  name: Deposit(String, Int64, Int32, Int64, Int32)
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit__ctor_System_String_System_Int64_System_Int32_System_Int64_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Deposit.#ctor(System.String,System.Int64,System.Int32,System.Int64,System.Int32)
+  fullName: EonSharp.Api.Transactions.Deposit.Deposit(System.String, System.Int64, System.Int32, System.Int64, System.Int32)
+  nameWithType: Deposit.Deposit(String, Int64, Int32, Int64, Int32)
+- uid: EonSharp.Api.Transactions.Deposit.#ctor*
+  name: Deposit
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Deposit.#ctor
+  fullName: EonSharp.Api.Transactions.Deposit.Deposit
+  nameWithType: Deposit.Deposit
+- uid: EonSharp.Api.Transactions.Deposit.Amount
   name: Amount
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_Amount
-  commentId: P:EonSharp.Api.Transactions.DepositRefill.Amount
-  fullName: EonSharp.Api.Transactions.DepositRefill.Amount
-  nameWithType: DepositRefill.Amount
-- uid: EonSharp.Api.Transactions.DepositRefill.Amount*
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_Amount
+  commentId: P:EonSharp.Api.Transactions.Deposit.Amount
+  fullName: EonSharp.Api.Transactions.Deposit.Amount
+  nameWithType: Deposit.Amount
+- uid: EonSharp.Api.Transactions.Deposit.Amount*
   name: Amount
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_Amount_
-  commentId: Overload:EonSharp.Api.Transactions.DepositRefill.Amount
-  fullName: EonSharp.Api.Transactions.DepositRefill.Amount
-  nameWithType: DepositRefill.Amount
-- uid: EonSharp.Api.Transactions.DepositRefill.AttachmentToBEncoding
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_Amount_
+  commentId: Overload:EonSharp.Api.Transactions.Deposit.Amount
+  fullName: EonSharp.Api.Transactions.Deposit.Amount
+  nameWithType: Deposit.Amount
+- uid: EonSharp.Api.Transactions.Deposit.AttachmentToBEncoding
   name: AttachmentToBEncoding()
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_AttachmentToBEncoding
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.DepositRefill.AttachmentToBEncoding()
-  nameWithType: DepositRefill.AttachmentToBEncoding()
-- uid: EonSharp.Api.Transactions.DepositRefill.AttachmentToBEncoding*
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_AttachmentToBEncoding
+  commentId: M:EonSharp.Api.Transactions.Deposit.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Deposit.AttachmentToBEncoding()
+  nameWithType: Deposit.AttachmentToBEncoding()
+- uid: EonSharp.Api.Transactions.Deposit.AttachmentToBEncoding*
   name: AttachmentToBEncoding
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_AttachmentToBEncoding_
-  commentId: Overload:EonSharp.Api.Transactions.DepositRefill.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.DepositRefill.AttachmentToBEncoding
-  nameWithType: DepositRefill.AttachmentToBEncoding
-- uid: EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction(System.String,System.Byte[])
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_AttachmentToBEncoding_
+  commentId: Overload:EonSharp.Api.Transactions.Deposit.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Deposit.AttachmentToBEncoding
+  nameWithType: Deposit.AttachmentToBEncoding
+- uid: EonSharp.Api.Transactions.Deposit.ConfirmTransaction(System.String,System.Byte[])
   name: ConfirmTransaction(String, Byte[])
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_ConfirmTransaction_System_String_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction(System.String,System.Byte[])
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_ConfirmTransaction_System_String_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Deposit.ConfirmTransaction(System.String,System.Byte[])
   name.vb: ConfirmTransaction(String, Byte())
-  fullName: EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction(System.String, System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction(System.String, System.Byte())
-  nameWithType: DepositRefill.ConfirmTransaction(String, Byte[])
-  nameWithType.vb: DepositRefill.ConfirmTransaction(String, Byte())
-- uid: EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction*
+  fullName: EonSharp.Api.Transactions.Deposit.ConfirmTransaction(System.String, System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Deposit.ConfirmTransaction(System.String, System.Byte())
+  nameWithType: Deposit.ConfirmTransaction(String, Byte[])
+  nameWithType.vb: Deposit.ConfirmTransaction(String, Byte())
+- uid: EonSharp.Api.Transactions.Deposit.ConfirmTransaction*
   name: ConfirmTransaction
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_ConfirmTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction
-  fullName: EonSharp.Api.Transactions.DepositRefill.ConfirmTransaction
-  nameWithType: DepositRefill.ConfirmTransaction
-- uid: EonSharp.Api.Transactions.DepositRefill.SignTransaction(System.Byte[])
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_ConfirmTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Deposit.ConfirmTransaction
+  fullName: EonSharp.Api.Transactions.Deposit.ConfirmTransaction
+  nameWithType: Deposit.ConfirmTransaction
+- uid: EonSharp.Api.Transactions.Deposit.SignTransaction(System.Byte[])
   name: SignTransaction(Byte[])
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_SignTransaction_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.DepositRefill.SignTransaction(System.Byte[])
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_SignTransaction_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Deposit.SignTransaction(System.Byte[])
   name.vb: SignTransaction(Byte())
-  fullName: EonSharp.Api.Transactions.DepositRefill.SignTransaction(System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.DepositRefill.SignTransaction(System.Byte())
-  nameWithType: DepositRefill.SignTransaction(Byte[])
-  nameWithType.vb: DepositRefill.SignTransaction(Byte())
-- uid: EonSharp.Api.Transactions.DepositRefill.SignTransaction*
+  fullName: EonSharp.Api.Transactions.Deposit.SignTransaction(System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Deposit.SignTransaction(System.Byte())
+  nameWithType: Deposit.SignTransaction(Byte[])
+  nameWithType.vb: Deposit.SignTransaction(Byte())
+- uid: EonSharp.Api.Transactions.Deposit.SignTransaction*
   name: SignTransaction
-  href: api/EonSharp.Api.Transactions.DepositRefill.html#EonSharp_Api_Transactions_DepositRefill_SignTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.DepositRefill.SignTransaction
-  fullName: EonSharp.Api.Transactions.DepositRefill.SignTransaction
-  nameWithType: DepositRefill.SignTransaction
-- uid: EonSharp.Api.Transactions.DepositWithdraw
-  name: DepositWithdraw
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html
-  commentId: T:EonSharp.Api.Transactions.DepositWithdraw
-  fullName: EonSharp.Api.Transactions.DepositWithdraw
-  nameWithType: DepositWithdraw
-- uid: EonSharp.Api.Transactions.DepositWithdraw.#ctor
-  name: DepositWithdraw()
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw__ctor
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.#ctor
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.DepositWithdraw()
-  nameWithType: DepositWithdraw.DepositWithdraw()
-- uid: EonSharp.Api.Transactions.DepositWithdraw.#ctor(System.Int32)
-  name: DepositWithdraw(Int32)
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw__ctor_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.#ctor(System.Int32)
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.DepositWithdraw(System.Int32)
-  nameWithType: DepositWithdraw.DepositWithdraw(Int32)
-- uid: EonSharp.Api.Transactions.DepositWithdraw.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: DepositWithdraw(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.DepositWithdraw(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: DepositWithdraw.DepositWithdraw(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.DepositWithdraw.#ctor(System.String,System.Int64,System.Int32,System.Int64,System.Int32)
-  name: DepositWithdraw(String, Int64, Int32, Int64, Int32)
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw__ctor_System_String_System_Int64_System_Int32_System_Int64_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.#ctor(System.String,System.Int64,System.Int32,System.Int64,System.Int32)
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.DepositWithdraw(System.String, System.Int64, System.Int32, System.Int64, System.Int32)
-  nameWithType: DepositWithdraw.DepositWithdraw(String, Int64, Int32, Int64, Int32)
-- uid: EonSharp.Api.Transactions.DepositWithdraw.#ctor*
-  name: DepositWithdraw
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.DepositWithdraw.#ctor
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.DepositWithdraw
-  nameWithType: DepositWithdraw.DepositWithdraw
-- uid: EonSharp.Api.Transactions.DepositWithdraw.Amount
-  name: Amount
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_Amount
-  commentId: P:EonSharp.Api.Transactions.DepositWithdraw.Amount
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.Amount
-  nameWithType: DepositWithdraw.Amount
-- uid: EonSharp.Api.Transactions.DepositWithdraw.Amount*
-  name: Amount
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_Amount_
-  commentId: Overload:EonSharp.Api.Transactions.DepositWithdraw.Amount
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.Amount
-  nameWithType: DepositWithdraw.Amount
-- uid: EonSharp.Api.Transactions.DepositWithdraw.AttachmentToBEncoding
-  name: AttachmentToBEncoding()
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_AttachmentToBEncoding
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.AttachmentToBEncoding()
-  nameWithType: DepositWithdraw.AttachmentToBEncoding()
-- uid: EonSharp.Api.Transactions.DepositWithdraw.AttachmentToBEncoding*
-  name: AttachmentToBEncoding
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_AttachmentToBEncoding_
-  commentId: Overload:EonSharp.Api.Transactions.DepositWithdraw.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.AttachmentToBEncoding
-  nameWithType: DepositWithdraw.AttachmentToBEncoding
-- uid: EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction(System.String,System.Byte[])
-  name: ConfirmTransaction(String, Byte[])
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_ConfirmTransaction_System_String_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction(System.String,System.Byte[])
-  name.vb: ConfirmTransaction(String, Byte())
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction(System.String, System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction(System.String, System.Byte())
-  nameWithType: DepositWithdraw.ConfirmTransaction(String, Byte[])
-  nameWithType.vb: DepositWithdraw.ConfirmTransaction(String, Byte())
-- uid: EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction*
-  name: ConfirmTransaction
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_ConfirmTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.ConfirmTransaction
-  nameWithType: DepositWithdraw.ConfirmTransaction
-- uid: EonSharp.Api.Transactions.DepositWithdraw.SignTransaction(System.Byte[])
-  name: SignTransaction(Byte[])
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_SignTransaction_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.DepositWithdraw.SignTransaction(System.Byte[])
-  name.vb: SignTransaction(Byte())
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.SignTransaction(System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.DepositWithdraw.SignTransaction(System.Byte())
-  nameWithType: DepositWithdraw.SignTransaction(Byte[])
-  nameWithType.vb: DepositWithdraw.SignTransaction(Byte())
-- uid: EonSharp.Api.Transactions.DepositWithdraw.SignTransaction*
-  name: SignTransaction
-  href: api/EonSharp.Api.Transactions.DepositWithdraw.html#EonSharp_Api_Transactions_DepositWithdraw_SignTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.DepositWithdraw.SignTransaction
-  fullName: EonSharp.Api.Transactions.DepositWithdraw.SignTransaction
-  nameWithType: DepositWithdraw.SignTransaction
+  href: api/EonSharp.Api.Transactions.Deposit.html#EonSharp_Api_Transactions_Deposit_SignTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Deposit.SignTransaction
+  fullName: EonSharp.Api.Transactions.Deposit.SignTransaction
+  nameWithType: Deposit.SignTransaction
 - uid: EonSharp.Api.Transactions.ExtensionMethods
   name: EonSharp.Api.Transactions.ExtensionMethods
   href: api/EonSharp.Api.Transactions.ExtensionMethods.html
@@ -4097,108 +3785,198 @@ references:
   commentId: Overload:EonSharp.Api.Transactions.ExtensionMethods.ExtensionMethods.ToTransactionCollection
   fullName: EonSharp.Api.Transactions.ExtensionMethods.ExtensionMethods.ToTransactionCollection
   nameWithType: ExtensionMethods.ToTransactionCollection
-- uid: EonSharp.Api.Transactions.OrdinaryPayment
-  name: OrdinaryPayment
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html
-  commentId: T:EonSharp.Api.Transactions.OrdinaryPayment
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment
-  nameWithType: OrdinaryPayment
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.#ctor
-  name: OrdinaryPayment()
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment__ctor
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.#ctor
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.OrdinaryPayment()
-  nameWithType: OrdinaryPayment.OrdinaryPayment()
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.#ctor(System.Int32)
-  name: OrdinaryPayment(Int32)
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment__ctor_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.#ctor(System.Int32)
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.OrdinaryPayment(System.Int32)
-  nameWithType: OrdinaryPayment.OrdinaryPayment(Int32)
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: OrdinaryPayment(SerializationInfo, StreamingContext)
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.OrdinaryPayment(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: OrdinaryPayment.OrdinaryPayment(SerializationInfo, StreamingContext)
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.#ctor(System.String,System.Int64,System.String,System.Int32,System.Int64,System.Int32)
-  name: OrdinaryPayment(String, Int64, String, Int32, Int64, Int32)
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment__ctor_System_String_System_Int64_System_String_System_Int32_System_Int64_System_Int32_
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.#ctor(System.String,System.Int64,System.String,System.Int32,System.Int64,System.Int32)
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.OrdinaryPayment(System.String, System.Int64, System.String, System.Int32, System.Int64, System.Int32)
-  nameWithType: OrdinaryPayment.OrdinaryPayment(String, Int64, String, Int32, Int64, Int32)
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.#ctor*
-  name: OrdinaryPayment
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment__ctor_
-  commentId: Overload:EonSharp.Api.Transactions.OrdinaryPayment.#ctor
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.OrdinaryPayment
-  nameWithType: OrdinaryPayment.OrdinaryPayment
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.Amount
+- uid: EonSharp.Api.Transactions.Payment
+  name: Payment
+  href: api/EonSharp.Api.Transactions.Payment.html
+  commentId: T:EonSharp.Api.Transactions.Payment
+  fullName: EonSharp.Api.Transactions.Payment
+  nameWithType: Payment
+- uid: EonSharp.Api.Transactions.Payment.#ctor
+  name: Payment()
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment__ctor
+  commentId: M:EonSharp.Api.Transactions.Payment.#ctor
+  fullName: EonSharp.Api.Transactions.Payment.Payment()
+  nameWithType: Payment.Payment()
+- uid: EonSharp.Api.Transactions.Payment.#ctor(System.Int32)
+  name: Payment(Int32)
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment__ctor_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Payment.#ctor(System.Int32)
+  fullName: EonSharp.Api.Transactions.Payment.Payment(System.Int32)
+  nameWithType: Payment.Payment(Int32)
+- uid: EonSharp.Api.Transactions.Payment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: Payment(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Transactions.Payment.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Transactions.Payment.Payment(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Payment.Payment(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Transactions.Payment.#ctor(System.String,System.Int64,System.String,System.Int32,System.Int64,System.Int32)
+  name: Payment(String, Int64, String, Int32, Int64, Int32)
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment__ctor_System_String_System_Int64_System_String_System_Int32_System_Int64_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Payment.#ctor(System.String,System.Int64,System.String,System.Int32,System.Int64,System.Int32)
+  fullName: EonSharp.Api.Transactions.Payment.Payment(System.String, System.Int64, System.String, System.Int32, System.Int64, System.Int32)
+  nameWithType: Payment.Payment(String, Int64, String, Int32, Int64, Int32)
+- uid: EonSharp.Api.Transactions.Payment.#ctor*
+  name: Payment
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Payment.#ctor
+  fullName: EonSharp.Api.Transactions.Payment.Payment
+  nameWithType: Payment.Payment
+- uid: EonSharp.Api.Transactions.Payment.Amount
   name: Amount
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_Amount
-  commentId: P:EonSharp.Api.Transactions.OrdinaryPayment.Amount
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.Amount
-  nameWithType: OrdinaryPayment.Amount
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.Amount*
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_Amount
+  commentId: P:EonSharp.Api.Transactions.Payment.Amount
+  fullName: EonSharp.Api.Transactions.Payment.Amount
+  nameWithType: Payment.Amount
+- uid: EonSharp.Api.Transactions.Payment.Amount*
   name: Amount
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_Amount_
-  commentId: Overload:EonSharp.Api.Transactions.OrdinaryPayment.Amount
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.Amount
-  nameWithType: OrdinaryPayment.Amount
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.AttachmentToBEncoding
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_Amount_
+  commentId: Overload:EonSharp.Api.Transactions.Payment.Amount
+  fullName: EonSharp.Api.Transactions.Payment.Amount
+  nameWithType: Payment.Amount
+- uid: EonSharp.Api.Transactions.Payment.AttachmentToBEncoding
   name: AttachmentToBEncoding()
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_AttachmentToBEncoding
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.AttachmentToBEncoding()
-  nameWithType: OrdinaryPayment.AttachmentToBEncoding()
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.AttachmentToBEncoding*
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_AttachmentToBEncoding
+  commentId: M:EonSharp.Api.Transactions.Payment.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Payment.AttachmentToBEncoding()
+  nameWithType: Payment.AttachmentToBEncoding()
+- uid: EonSharp.Api.Transactions.Payment.AttachmentToBEncoding*
   name: AttachmentToBEncoding
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_AttachmentToBEncoding_
-  commentId: Overload:EonSharp.Api.Transactions.OrdinaryPayment.AttachmentToBEncoding
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.AttachmentToBEncoding
-  nameWithType: OrdinaryPayment.AttachmentToBEncoding
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction(System.String,System.Byte[])
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_AttachmentToBEncoding_
+  commentId: Overload:EonSharp.Api.Transactions.Payment.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Payment.AttachmentToBEncoding
+  nameWithType: Payment.AttachmentToBEncoding
+- uid: EonSharp.Api.Transactions.Payment.ConfirmTransaction(System.String,System.Byte[])
   name: ConfirmTransaction(String, Byte[])
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_ConfirmTransaction_System_String_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction(System.String,System.Byte[])
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_ConfirmTransaction_System_String_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Payment.ConfirmTransaction(System.String,System.Byte[])
   name.vb: ConfirmTransaction(String, Byte())
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction(System.String, System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction(System.String, System.Byte())
-  nameWithType: OrdinaryPayment.ConfirmTransaction(String, Byte[])
-  nameWithType.vb: OrdinaryPayment.ConfirmTransaction(String, Byte())
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction*
+  fullName: EonSharp.Api.Transactions.Payment.ConfirmTransaction(System.String, System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Payment.ConfirmTransaction(System.String, System.Byte())
+  nameWithType: Payment.ConfirmTransaction(String, Byte[])
+  nameWithType.vb: Payment.ConfirmTransaction(String, Byte())
+- uid: EonSharp.Api.Transactions.Payment.ConfirmTransaction*
   name: ConfirmTransaction
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_ConfirmTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.ConfirmTransaction
-  nameWithType: OrdinaryPayment.ConfirmTransaction
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.Recipient
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_ConfirmTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Payment.ConfirmTransaction
+  fullName: EonSharp.Api.Transactions.Payment.ConfirmTransaction
+  nameWithType: Payment.ConfirmTransaction
+- uid: EonSharp.Api.Transactions.Payment.Recipient
   name: Recipient
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_Recipient
-  commentId: P:EonSharp.Api.Transactions.OrdinaryPayment.Recipient
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.Recipient
-  nameWithType: OrdinaryPayment.Recipient
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.Recipient*
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_Recipient
+  commentId: P:EonSharp.Api.Transactions.Payment.Recipient
+  fullName: EonSharp.Api.Transactions.Payment.Recipient
+  nameWithType: Payment.Recipient
+- uid: EonSharp.Api.Transactions.Payment.Recipient*
   name: Recipient
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_Recipient_
-  commentId: Overload:EonSharp.Api.Transactions.OrdinaryPayment.Recipient
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.Recipient
-  nameWithType: OrdinaryPayment.Recipient
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction(System.Byte[])
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_Recipient_
+  commentId: Overload:EonSharp.Api.Transactions.Payment.Recipient
+  fullName: EonSharp.Api.Transactions.Payment.Recipient
+  nameWithType: Payment.Recipient
+- uid: EonSharp.Api.Transactions.Payment.SignTransaction(System.Byte[])
   name: SignTransaction(Byte[])
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_SignTransaction_System_Byte___
-  commentId: M:EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction(System.Byte[])
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_SignTransaction_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Payment.SignTransaction(System.Byte[])
   name.vb: SignTransaction(Byte())
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction(System.Byte[])
-  fullName.vb: EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction(System.Byte())
-  nameWithType: OrdinaryPayment.SignTransaction(Byte[])
-  nameWithType.vb: OrdinaryPayment.SignTransaction(Byte())
-- uid: EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction*
+  fullName: EonSharp.Api.Transactions.Payment.SignTransaction(System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Payment.SignTransaction(System.Byte())
+  nameWithType: Payment.SignTransaction(Byte[])
+  nameWithType.vb: Payment.SignTransaction(Byte())
+- uid: EonSharp.Api.Transactions.Payment.SignTransaction*
   name: SignTransaction
-  href: api/EonSharp.Api.Transactions.OrdinaryPayment.html#EonSharp_Api_Transactions_OrdinaryPayment_SignTransaction_
-  commentId: Overload:EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction
-  fullName: EonSharp.Api.Transactions.OrdinaryPayment.SignTransaction
-  nameWithType: OrdinaryPayment.SignTransaction
+  href: api/EonSharp.Api.Transactions.Payment.html#EonSharp_Api_Transactions_Payment_SignTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Payment.SignTransaction
+  fullName: EonSharp.Api.Transactions.Payment.SignTransaction
+  nameWithType: Payment.SignTransaction
+- uid: EonSharp.Api.Transactions.Publication
+  name: Publication
+  href: api/EonSharp.Api.Transactions.Publication.html
+  commentId: T:EonSharp.Api.Transactions.Publication
+  fullName: EonSharp.Api.Transactions.Publication
+  nameWithType: Publication
+- uid: EonSharp.Api.Transactions.Publication.#ctor
+  name: Publication()
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication__ctor
+  commentId: M:EonSharp.Api.Transactions.Publication.#ctor
+  fullName: EonSharp.Api.Transactions.Publication.Publication()
+  nameWithType: Publication.Publication()
+- uid: EonSharp.Api.Transactions.Publication.#ctor(System.Int32)
+  name: Publication(Int32)
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication__ctor_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Publication.#ctor(System.Int32)
+  fullName: EonSharp.Api.Transactions.Publication.Publication(System.Int32)
+  nameWithType: Publication.Publication(Int32)
+- uid: EonSharp.Api.Transactions.Publication.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: Publication(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Transactions.Publication.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Transactions.Publication.Publication(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Publication.Publication(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Transactions.Publication.#ctor(System.String,System.String,System.Int32,System.Int64,System.Int32)
+  name: Publication(String, String, Int32, Int64, Int32)
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication__ctor_System_String_System_String_System_Int32_System_Int64_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Publication.#ctor(System.String,System.String,System.Int32,System.Int64,System.Int32)
+  fullName: EonSharp.Api.Transactions.Publication.Publication(System.String, System.String, System.Int32, System.Int64, System.Int32)
+  nameWithType: Publication.Publication(String, String, Int32, Int64, Int32)
+- uid: EonSharp.Api.Transactions.Publication.#ctor*
+  name: Publication
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Publication.#ctor
+  fullName: EonSharp.Api.Transactions.Publication.Publication
+  nameWithType: Publication.Publication
+- uid: EonSharp.Api.Transactions.Publication.AttachmentToBEncoding
+  name: AttachmentToBEncoding()
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_AttachmentToBEncoding
+  commentId: M:EonSharp.Api.Transactions.Publication.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Publication.AttachmentToBEncoding()
+  nameWithType: Publication.AttachmentToBEncoding()
+- uid: EonSharp.Api.Transactions.Publication.AttachmentToBEncoding*
+  name: AttachmentToBEncoding
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_AttachmentToBEncoding_
+  commentId: Overload:EonSharp.Api.Transactions.Publication.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Publication.AttachmentToBEncoding
+  nameWithType: Publication.AttachmentToBEncoding
+- uid: EonSharp.Api.Transactions.Publication.ConfirmTransaction(System.String,System.Byte[])
+  name: ConfirmTransaction(String, Byte[])
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_ConfirmTransaction_System_String_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Publication.ConfirmTransaction(System.String,System.Byte[])
+  name.vb: ConfirmTransaction(String, Byte())
+  fullName: EonSharp.Api.Transactions.Publication.ConfirmTransaction(System.String, System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Publication.ConfirmTransaction(System.String, System.Byte())
+  nameWithType: Publication.ConfirmTransaction(String, Byte[])
+  nameWithType.vb: Publication.ConfirmTransaction(String, Byte())
+- uid: EonSharp.Api.Transactions.Publication.ConfirmTransaction*
+  name: ConfirmTransaction
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_ConfirmTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Publication.ConfirmTransaction
+  fullName: EonSharp.Api.Transactions.Publication.ConfirmTransaction
+  nameWithType: Publication.ConfirmTransaction
+- uid: EonSharp.Api.Transactions.Publication.Seed
+  name: Seed
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_Seed
+  commentId: P:EonSharp.Api.Transactions.Publication.Seed
+  fullName: EonSharp.Api.Transactions.Publication.Seed
+  nameWithType: Publication.Seed
+- uid: EonSharp.Api.Transactions.Publication.Seed*
+  name: Seed
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_Seed_
+  commentId: Overload:EonSharp.Api.Transactions.Publication.Seed
+  fullName: EonSharp.Api.Transactions.Publication.Seed
+  nameWithType: Publication.Seed
+- uid: EonSharp.Api.Transactions.Publication.SignTransaction(System.Byte[])
+  name: SignTransaction(Byte[])
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_SignTransaction_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Publication.SignTransaction(System.Byte[])
+  name.vb: SignTransaction(Byte())
+  fullName: EonSharp.Api.Transactions.Publication.SignTransaction(System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Publication.SignTransaction(System.Byte())
+  nameWithType: Publication.SignTransaction(Byte[])
+  nameWithType.vb: Publication.SignTransaction(Byte())
+- uid: EonSharp.Api.Transactions.Publication.SignTransaction*
+  name: SignTransaction
+  href: api/EonSharp.Api.Transactions.Publication.html#EonSharp_Api_Transactions_Publication_SignTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Publication.SignTransaction
+  fullName: EonSharp.Api.Transactions.Publication.SignTransaction
+  nameWithType: Publication.SignTransaction
 - uid: EonSharp.Api.Transactions.Quorum
   name: Quorum
   href: api/EonSharp.Api.Transactions.Quorum.html
@@ -4304,6 +4082,108 @@ references:
   commentId: Overload:EonSharp.Api.Transactions.Quorum.Types
   fullName: EonSharp.Api.Transactions.Quorum.Types
   nameWithType: Quorum.Types
+- uid: EonSharp.Api.Transactions.Registration
+  name: Registration
+  href: api/EonSharp.Api.Transactions.Registration.html
+  commentId: T:EonSharp.Api.Transactions.Registration
+  fullName: EonSharp.Api.Transactions.Registration
+  nameWithType: Registration
+- uid: EonSharp.Api.Transactions.Registration.#ctor
+  name: Registration()
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration__ctor
+  commentId: M:EonSharp.Api.Transactions.Registration.#ctor
+  fullName: EonSharp.Api.Transactions.Registration.Registration()
+  nameWithType: Registration.Registration()
+- uid: EonSharp.Api.Transactions.Registration.#ctor(System.Int32)
+  name: Registration(Int32)
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration__ctor_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Registration.#ctor(System.Int32)
+  fullName: EonSharp.Api.Transactions.Registration.Registration(System.Int32)
+  nameWithType: Registration.Registration(Int32)
+- uid: EonSharp.Api.Transactions.Registration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: Registration(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Api.Transactions.Registration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Api.Transactions.Registration.Registration(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: Registration.Registration(SerializationInfo, StreamingContext)
+- uid: EonSharp.Api.Transactions.Registration.#ctor(System.String,System.String,System.String,System.Int32,System.Int64,System.Int32)
+  name: Registration(String, String, String, Int32, Int64, Int32)
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration__ctor_System_String_System_String_System_String_System_Int32_System_Int64_System_Int32_
+  commentId: M:EonSharp.Api.Transactions.Registration.#ctor(System.String,System.String,System.String,System.Int32,System.Int64,System.Int32)
+  fullName: EonSharp.Api.Transactions.Registration.Registration(System.String, System.String, System.String, System.Int32, System.Int64, System.Int32)
+  nameWithType: Registration.Registration(String, String, String, Int32, Int64, Int32)
+- uid: EonSharp.Api.Transactions.Registration.#ctor*
+  name: Registration
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration__ctor_
+  commentId: Overload:EonSharp.Api.Transactions.Registration.#ctor
+  fullName: EonSharp.Api.Transactions.Registration.Registration
+  nameWithType: Registration.Registration
+- uid: EonSharp.Api.Transactions.Registration.AccountId
+  name: AccountId
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_AccountId
+  commentId: P:EonSharp.Api.Transactions.Registration.AccountId
+  fullName: EonSharp.Api.Transactions.Registration.AccountId
+  nameWithType: Registration.AccountId
+- uid: EonSharp.Api.Transactions.Registration.AccountId*
+  name: AccountId
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_AccountId_
+  commentId: Overload:EonSharp.Api.Transactions.Registration.AccountId
+  fullName: EonSharp.Api.Transactions.Registration.AccountId
+  nameWithType: Registration.AccountId
+- uid: EonSharp.Api.Transactions.Registration.AttachmentToBEncoding
+  name: AttachmentToBEncoding()
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_AttachmentToBEncoding
+  commentId: M:EonSharp.Api.Transactions.Registration.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Registration.AttachmentToBEncoding()
+  nameWithType: Registration.AttachmentToBEncoding()
+- uid: EonSharp.Api.Transactions.Registration.AttachmentToBEncoding*
+  name: AttachmentToBEncoding
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_AttachmentToBEncoding_
+  commentId: Overload:EonSharp.Api.Transactions.Registration.AttachmentToBEncoding
+  fullName: EonSharp.Api.Transactions.Registration.AttachmentToBEncoding
+  nameWithType: Registration.AttachmentToBEncoding
+- uid: EonSharp.Api.Transactions.Registration.ConfirmTransaction(System.String,System.Byte[])
+  name: ConfirmTransaction(String, Byte[])
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_ConfirmTransaction_System_String_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Registration.ConfirmTransaction(System.String,System.Byte[])
+  name.vb: ConfirmTransaction(String, Byte())
+  fullName: EonSharp.Api.Transactions.Registration.ConfirmTransaction(System.String, System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Registration.ConfirmTransaction(System.String, System.Byte())
+  nameWithType: Registration.ConfirmTransaction(String, Byte[])
+  nameWithType.vb: Registration.ConfirmTransaction(String, Byte())
+- uid: EonSharp.Api.Transactions.Registration.ConfirmTransaction*
+  name: ConfirmTransaction
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_ConfirmTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Registration.ConfirmTransaction
+  fullName: EonSharp.Api.Transactions.Registration.ConfirmTransaction
+  nameWithType: Registration.ConfirmTransaction
+- uid: EonSharp.Api.Transactions.Registration.PublicKey
+  name: PublicKey
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_PublicKey
+  commentId: P:EonSharp.Api.Transactions.Registration.PublicKey
+  fullName: EonSharp.Api.Transactions.Registration.PublicKey
+  nameWithType: Registration.PublicKey
+- uid: EonSharp.Api.Transactions.Registration.PublicKey*
+  name: PublicKey
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_PublicKey_
+  commentId: Overload:EonSharp.Api.Transactions.Registration.PublicKey
+  fullName: EonSharp.Api.Transactions.Registration.PublicKey
+  nameWithType: Registration.PublicKey
+- uid: EonSharp.Api.Transactions.Registration.SignTransaction(System.Byte[])
+  name: SignTransaction(Byte[])
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_SignTransaction_System_Byte___
+  commentId: M:EonSharp.Api.Transactions.Registration.SignTransaction(System.Byte[])
+  name.vb: SignTransaction(Byte())
+  fullName: EonSharp.Api.Transactions.Registration.SignTransaction(System.Byte[])
+  fullName.vb: EonSharp.Api.Transactions.Registration.SignTransaction(System.Byte())
+  nameWithType: Registration.SignTransaction(Byte[])
+  nameWithType.vb: Registration.SignTransaction(Byte())
+- uid: EonSharp.Api.Transactions.Registration.SignTransaction*
+  name: SignTransaction
+  href: api/EonSharp.Api.Transactions.Registration.html#EonSharp_Api_Transactions_Registration_SignTransaction_
+  commentId: Overload:EonSharp.Api.Transactions.Registration.SignTransaction
+  fullName: EonSharp.Api.Transactions.Registration.SignTransaction
+  nameWithType: Registration.SignTransaction
 - uid: EonSharp.Api.Transactions.Rejection
   name: Rejection
   href: api/EonSharp.Api.Transactions.Rejection.html
@@ -4811,6 +4691,12 @@ references:
   fullName.vb: EonSharp.Generators.PublicAccountGenerator.PublicAccountGenerator(System.Byte())
   nameWithType: PublicAccountGenerator.PublicAccountGenerator(Byte[])
   nameWithType.vb: PublicAccountGenerator.PublicAccountGenerator(Byte())
+- uid: EonSharp.Generators.PublicAccountGenerator.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: PublicAccountGenerator(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Generators.PublicAccountGenerator.html#EonSharp_Generators_PublicAccountGenerator__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Generators.PublicAccountGenerator.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Generators.PublicAccountGenerator.PublicAccountGenerator(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: PublicAccountGenerator.PublicAccountGenerator(SerializationInfo, StreamingContext)
 - uid: EonSharp.Generators.PublicAccountGenerator.#ctor*
   name: PublicAccountGenerator
   href: api/EonSharp.Generators.PublicAccountGenerator.html#EonSharp_Generators_PublicAccountGenerator__ctor_
@@ -4841,6 +4727,18 @@ references:
   commentId: Overload:EonSharp.Generators.PublicAccountGenerator.AccountNumber
   fullName: EonSharp.Generators.PublicAccountGenerator.AccountNumber
   nameWithType: PublicAccountGenerator.AccountNumber
+- uid: EonSharp.Generators.PublicAccountGenerator.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/EonSharp.Generators.PublicAccountGenerator.html#EonSharp_Generators_PublicAccountGenerator_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:EonSharp.Generators.PublicAccountGenerator.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: EonSharp.Generators.PublicAccountGenerator.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: PublicAccountGenerator.GetObjectData(SerializationInfo, StreamingContext)
+- uid: EonSharp.Generators.PublicAccountGenerator.GetObjectData*
+  name: GetObjectData
+  href: api/EonSharp.Generators.PublicAccountGenerator.html#EonSharp_Generators_PublicAccountGenerator_GetObjectData_
+  commentId: Overload:EonSharp.Generators.PublicAccountGenerator.GetObjectData
+  fullName: EonSharp.Generators.PublicAccountGenerator.GetObjectData
+  nameWithType: PublicAccountGenerator.GetObjectData
 - uid: EonSharp.Generators.PublicKeyPairGenerator
   name: PublicKeyPairGenerator
   href: api/EonSharp.Generators.PublicKeyPairGenerator.html

@@ -104,7 +104,7 @@ The library also implements a simple/pure DI approach using a ClassMapper class 
     Console.WriteLine($&quot;Expanded Key:   {account.ExpandedPrivateKeyToString()}&quot;); //combined priv+pub keys
 </code></pre><h3 id="processing-a-transaction">Processing a Transaction</h3>
 <pre><code class="lang-csharp">    //Creates a DepositRefill transaction object providing an account id and amount in microeons
-    var refill = new EonSharp.Api.Transactions.DepositRefill(account.AccountId, 10);
+    var refill = new EonSharp.Api.Transactions.Deposit(account.AccountId, 10);
 
     //Signs the Transaction
     refill.SignTransaction(account.ExpandedPrivateKey);

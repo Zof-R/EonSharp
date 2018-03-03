@@ -12,7 +12,7 @@ namespace EonSharp.Api.Bot
 
 		Task<State> GetStateAsync(string id);
 		Task<Balance> GetBalanceAsync(string id);
-		Task<Info> GetInformationAsync(String id);
+		Task<Info> GetInformationAsync(string id);
 
 
 

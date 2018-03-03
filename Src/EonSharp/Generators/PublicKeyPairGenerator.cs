@@ -13,13 +13,15 @@ namespace EonSharp.Generators
 		public string PublicKey { get; private set; }
 
 
-
-
 		public PublicKeyPairGenerator() : this(SeedGenerator.NewSeed())
 		{
 		}
 		public PublicKeyPairGenerator(byte[] seed)
 		{
+			if (seed == null)
+			{
+				return;
+			}
 			GeneratePublicKey(seed);
 		}
 

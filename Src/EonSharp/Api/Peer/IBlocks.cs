@@ -11,7 +11,7 @@ namespace EonSharp.Api.Peer
 		//com.exscudo.peer.eon.stubs.SyncBlockService
 
 		Task<Difficulty> GetDifficultyAsync();
-		Task<IEnumerable<Block>> GetBlockHistoryAsync(String[] blockSequence);
+		Task<IEnumerable<Block>> GetBlockHistoryAsync(string[] blockSequence);
 		Task<Block> GetLastBlockAsync();
 
 
