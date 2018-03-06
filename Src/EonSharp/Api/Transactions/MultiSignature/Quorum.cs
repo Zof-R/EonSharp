@@ -45,7 +45,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public Quorum(string sender, int all, IDictionary<int, int> types = null, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Quorum(string sender, int all, IDictionary<int, int> types = null, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			All = all;
 			Types = types;

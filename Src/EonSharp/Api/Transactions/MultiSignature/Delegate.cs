@@ -44,7 +44,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public Delegate(string sender, string account,int weight, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Delegate(string sender, string account,int weight, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			Account = account;
 			Weight = weight;

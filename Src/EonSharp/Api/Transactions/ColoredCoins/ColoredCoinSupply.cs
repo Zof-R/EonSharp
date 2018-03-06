@@ -33,7 +33,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public ColoredCoinSupply(string sender, long moneySupply, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public ColoredCoinSupply(string sender, long moneySupply, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			MoneySupply = moneySupply;
 			Sender = sender;

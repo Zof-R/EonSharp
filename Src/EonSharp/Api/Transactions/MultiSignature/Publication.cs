@@ -33,7 +33,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public Publication(string sender, string seed, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Publication(string sender, string seed, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			Seed = seed;
 			Sender = sender;

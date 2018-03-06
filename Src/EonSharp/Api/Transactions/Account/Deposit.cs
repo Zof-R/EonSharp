@@ -33,7 +33,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public Deposit(string sender, long amount, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Deposit(string sender, long amount, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			this.Amount = amount;
 			Sender = sender;

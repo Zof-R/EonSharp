@@ -33,7 +33,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public Rejection(string sender, string account, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Rejection(string sender, string account, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			Account = account;
 			Sender = sender;

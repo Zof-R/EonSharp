@@ -46,7 +46,7 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public ColoredCoinRegistration(string sender, long emission, int decimalPoint, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public ColoredCoinRegistration(string sender, long emission, int decimalPoint, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			Emission = emission;
 			DecimalPoint = decimalPoint;
