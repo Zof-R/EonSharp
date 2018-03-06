@@ -65,13 +65,9 @@ namespace EonSharp.Api
 				[nameof(Deadline).ToLower()] = new BEncoding.BInteger(Deadline),
 				[nameof(Fee).ToLower()] = new BEncoding.BInteger((long)Fee),
 				[nameof(Sender).ToLower()] = new BEncoding.BString(Sender),
-				[nameof(Network).ToLower()] = new BEncoding.BString(Network)
+				[nameof(Network).ToLower()] = new BEncoding.BString(Network),
+				[nameof(Version).ToLower()] = new BEncoding.BInteger(Version)
 			};
-			if (Version > 1)
-			{
-				be[nameof(Version).ToLower()] = new BEncoding.BInteger(Version);
-			}
-
 			var bestr = be.ToBencodedString().ToUpper();
 			var buffer = UTF8Encoding.UTF8.GetBytes(bestr);
 			return Chaos.NaCl.Ed25519.Sign(buffer, expandedPrivateKey);

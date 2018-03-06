@@ -46,13 +46,14 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public Registration(string sender, string id, string publicKey, int deadline = 3600, long fee = 10, int version = 2) : this(version)
+		public Registration(string sender, string id, string publicKey, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			AccountId = id;
 			PublicKey = publicKey;
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
+			Version = version;
 		}
 		public Registration(SerializationInfo info, StreamingContext context) : base(info, context)
 		{

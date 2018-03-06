@@ -52,6 +52,7 @@ namespace EonSharp.Api.Transactions
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
+			Version = version;
 		}
 
 		public Quorum(SerializationInfo info, StreamingContext context) : base(info, context)

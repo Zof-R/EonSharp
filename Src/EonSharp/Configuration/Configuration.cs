@@ -15,7 +15,7 @@ namespace EonSharp
 		/// Is used in Transaction processing.
 		/// Afects all transport contexts for now.
 		/// </summary>
-		public static string NetworkId { get; set; } = "EON-B-2CMBX-669EY-TWFBK";
+		public static string NetworkId { get; set; } = "EON-B-2UUHB-F79EY-TWFRY";
 
 		/// <summary>
 		/// Usefull only during beta. Default is false.

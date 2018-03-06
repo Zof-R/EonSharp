@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Refactoring of transaction classes to keep in par with version 2.0 of the Eon API
 - IdProvider core function changed to keep in par with version 2.0 of the Eon API
 - Bot.ColoredCoin.GetInfo method signature changed to keep in par with version 2.0 of the Eon API
+- Serialization of Wallet class to allow for partial AccountDetails persistence
 
 ### Fixed
 - PublicKeyPairGenerator

@@ -49,6 +49,7 @@ namespace EonSharp.Api.Transactions
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
+			Version = version;
 		}
 		public Payment(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
