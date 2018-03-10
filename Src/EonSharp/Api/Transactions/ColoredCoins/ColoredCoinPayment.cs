@@ -20,6 +20,28 @@ namespace EonSharp.Api.Transactions
 				((Attachments.ColoredCoinPaymentAttachment)Attachment).Amount = value;
 			}
 		}
+		public string Recipient
+		{
+			get
+			{
+				return ((Attachments.ColoredCoinPaymentAttachment)Attachment).Recipient;
+			}
+			set
+			{
+				((Attachments.ColoredCoinPaymentAttachment)Attachment).Recipient = value;
+			}
+		}
+		public string Color
+		{
+			get
+			{
+				return ((Attachments.ColoredCoinPaymentAttachment)Attachment).Color;
+			}
+			set
+			{
+				((Attachments.ColoredCoinPaymentAttachment)Attachment).Color = value;
+			}
+		}
 
 		public ColoredCoinPayment() : base()
 		{
@@ -33,9 +55,11 @@ namespace EonSharp.Api.Transactions
 			Version = version;
 
 		}
-		public ColoredCoinPayment(string sender, long amount, int deadline = 3600, long fee = 10, int version = 1) : this(version)
+		public ColoredCoinPayment(string sender, long amount, string recipient, string color, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			this.Amount = amount;
+			this.Recipient = recipient;
+			this.Color = color;
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
@@ -62,6 +86,8 @@ namespace EonSharp.Api.Transactions
 			return new BEncoding.BDictionary
 			{
 				[nameof(Amount).ToLower()] = new BEncoding.BInteger(Amount),
+				[nameof(Recipient).ToLower()] = new BEncoding.BString(Recipient),
+				[nameof(Color).ToLower()] = new BEncoding.BString(Color),
 			};
 		}
 	}
