@@ -69,7 +69,7 @@ namespace EonSharp.Keystore
 				var cypherkey = ComputeCypherKey(password);
 				return Crypto.Decrypt(Helpers.HexHelper.HexStringToByteArray(Ciphertext), cypherkey);
 			}
-			throw new Exception("Password missmatch");
+			throw new Exception("Password mismatch");
 		}
 
 		#endregion

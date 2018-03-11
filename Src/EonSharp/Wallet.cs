@@ -152,6 +152,17 @@ namespace EonSharp
 			}
 		}
 		private Info m_information;
+		public Balance Balance
+		{
+			get { return m_balance; }
+			set
+			{
+				m_balance = value;
+				OnPropertyChanged();
+			}
+		}
+		private Balance m_balance;
+
 		public bool AutoRefreshEnabled { get; private set; }
 
 		CancellationTokenSource m_refreshLoop;
@@ -235,6 +246,15 @@ namespace EonSharp
 			else
 			{
 				throw new Exception(info?.State?.Name);
+			}
+			var bal = await client.Bot.Accounts.GetBalanceAsync(AccountDetails.AccountId);
+			if (bal?.State)
+			{
+				Balance = bal;
+			}
+			else
+			{
+				throw new Exception(bal?.State?.Name);
 			}
 		}
 

@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Polling methods to Wallet class
 - PuTransactionAsync method to Wallet class
 - virtual methods to base class Transaction
+- Balance to Wallet class
 
 ### Changed
 - Refactored Wallet class
