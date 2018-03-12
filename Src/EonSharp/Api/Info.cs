@@ -22,7 +22,7 @@ namespace EonSharp.Api
 		public VotingRights VotingRights { get; set; }
 		public Quorum Quorum { get; set; }
 		public string Seed { get; set; }
-		public Dictionary<string, int> Voter { get; set; }
+		public IDictionary<string, int> Voter { get; set; }
 
 		public string ColoredCoin { get; set; }
 

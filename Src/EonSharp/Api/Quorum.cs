@@ -13,7 +13,7 @@ namespace EonSharp.Api
 	{
 		//lowercase first letter due to c# rules
 		public int quorum { get; set; }
-		public Dictionary<int, int> QuorumByTypes { get; set; }
+		public IDictionary<int, int> QuorumByTypes { get; set; }
 
 
 

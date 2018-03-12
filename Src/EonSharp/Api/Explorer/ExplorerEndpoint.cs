@@ -34,13 +34,13 @@ namespace EonSharp.Api.Explorer
 		async Task<Balance> IAccounts.GetBalanceAsync(string id)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getBalance", new object[] { id }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<Balance>();
+			return (res.Result as JObject)?.ToBalance();
 		}
 
 		async Task<Info> IAccounts.GetInformationAsync(string id)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getInformation", new object[] { id }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<Info>();
+			return (res.Result as JObject)?.ToInfo();
 		}
 
 		#endregion

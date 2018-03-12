@@ -13,7 +13,7 @@ namespace EonSharp.Api
 	{
 
 		public int Weight { get; set; }
-		public Dictionary<string,int> Delegates { get; set; }
+		public IDictionary<string,int> Delegates { get; set; }
 
 
 		//public Integer weight;

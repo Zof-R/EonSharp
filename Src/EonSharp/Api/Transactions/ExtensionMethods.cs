@@ -92,6 +92,69 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 			return null;
 		}
 
+		public static Balance ToBalance(this JObject jo)
+		{
+			if (jo == null)
+			{
+				return null;
+			}
+
+			var bal = jo.ToObject<Balance>();
+			bal.ColoredCoins = jo["colored_coins"].ToObject<IDictionary<string, long>>();
+			return bal;
+		}
+		public static Info ToInfo(this JObject jo)
+		{
+			if (jo == null)
+			{
+				return null;
+			}
+
+			var info = jo.ToObject<Info>();
+
+			if (jo.TryGetValue("voter", out JToken voter))
+			{
+				info.Voter = voter.ToObject<IDictionary<string, int>>();
+			}
+			if (jo.TryGetValue("voting_rights", out JToken votingrights))
+			{
+				var jot = new JObject(votingrights);
+				info.VotingRights = jot.ToVotingRights();
+			}
+			if (jo.TryGetValue("quorum", out JToken quo))
+			{
+				var jot = new JObject(quo);
+				info.Quorum = jot.ToQuorum();
+			}
+			return info;
+		}
+		public static VotingRights ToVotingRights(this JObject jo)
+		{
+			if (jo == null)
+			{
+				return null;
+			}
+			var votingrights = jo.ToObject<VotingRights>();
+			if (jo.TryGetValue("delegates", out JToken del))
+			{
+				votingrights.Delegates = del.ToObject<IDictionary<string, int>>();
+			}
+			return votingrights;
+		}
+		public static EonSharp.Api.Quorum ToQuorum(this JObject jo)
+		{
+			if (jo == null)
+			{
+				return null;
+			}
+			var quorum = jo.ToObject<EonSharp.Api.Quorum>();
+			if (jo.TryGetValue("quorum_by_types", out JToken del))
+			{
+				quorum.QuorumByTypes = del.ToObject<IDictionary<int, int>>();
+			}
+			return quorum;
+		}
+
 
 
 	}
