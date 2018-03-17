@@ -100,7 +100,7 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 			}
 
 			var bal = jo.ToObject<Balance>();
-			bal.ColoredCoins = jo["colored_coins"].ToObject<IDictionary<string, long>>();
+			bal.ColoredCoins = jo["colored_coins"]?.ToObject<IDictionary<string, long>>();
 			return bal;
 		}
 		public static Info ToInfo(this JObject jo)
