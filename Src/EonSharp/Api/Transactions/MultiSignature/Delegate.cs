@@ -74,8 +74,7 @@ namespace EonSharp.Api.Transactions
 		{
 			return new BEncoding.BDictionary
 			{
-				[nameof(Account).ToLower()] = new BEncoding.BString(Account),
-				[nameof(Weight).ToLower()] = new BEncoding.BInteger(Weight)
+				[Account] = new BEncoding.BInteger(Weight)
 			};
 		}
 	}
