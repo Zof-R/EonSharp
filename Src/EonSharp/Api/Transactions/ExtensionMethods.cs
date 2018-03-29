@@ -118,13 +118,13 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 			}
 			if (jo.TryGetValue("voting_rights", out JToken votingrights))
 			{
-				var jot = new JObject(votingrights);
-				info.VotingRights = jot.ToVotingRights();
+				var jot = votingrights as JObject;
+				info.VotingRights = jot?.ToVotingRights();
 			}
 			if (jo.TryGetValue("quorum", out JToken quo))
 			{
-				var jot = new JObject(quo);
-				info.Quorum = jot.ToQuorum();
+				var jot = quo as JObject;
+				info.Quorum = jot?.ToQuorum();
 			}
 			return info;
 		}
