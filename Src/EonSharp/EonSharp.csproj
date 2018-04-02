@@ -51,6 +51,7 @@
     <Compile Include="Api\Bot\IColoredCoin.cs" />
     <Compile Include="Api\ColoredCoinInfo.cs" />
     <Compile Include="Api\Attributes.cs" />
+    <Compile Include="Api\Peer\ISnapshot.cs" />
     <Compile Include="Api\Transactions\Account\Attachments\DepositAttachment.cs" />
     <Compile Include="Api\Transactions\Account\Attachments\PaymentAttachment.cs" />
     <Compile Include="Api\Transactions\Account\Attachments\RegistrationAttachment.cs" />

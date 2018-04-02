@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - PuTransactionAsync method to Wallet class
 - virtual methods to base class Transaction
 - Balance to Wallet class
+- Note to Transaction class
+- Peer.Snapshot interface and methods
 
 ### Changed
 - Refactored Wallet class

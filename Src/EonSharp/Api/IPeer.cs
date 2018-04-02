@@ -12,6 +12,7 @@ namespace EonSharp.Api
 		IBlocks Blocks { get; }
 		IMetadata Metadata { get; }
 		ITransactions Transactions { get; }
+		ISnapshot Snapshot { get; }
 
 	}
 }

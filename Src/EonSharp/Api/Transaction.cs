@@ -27,6 +27,8 @@ namespace EonSharp.Api
 		public IDictionary<string, string> Confirmations { get; set; }
 		public int Version { get; set; } = 1;
 		public string Network { get; set; } = Configuration.NetworkId;
+		public string Note { get; set; }
+
 
 		public Transaction()
 		{
@@ -88,6 +90,7 @@ namespace EonSharp.Api
 			{ "confirmations",(info, tx)=> tx.Confirmations = (Dictionary<string,string>)info.GetValue("confirmations", typeof(Dictionary<string, string>)) },
 			{ "version",(info, tx)=> tx.Version = info.GetInt32("version") },
 			{ "network",(info, tx)=> tx.Network = info.GetString("network") },
+			{ "note",(info, tx)=> tx.Note = info.GetString("note") },
 		};
 
 		public Transaction(SerializationInfo info, StreamingContext context)
@@ -117,6 +120,7 @@ namespace EonSharp.Api
 			}
 			info.AddValue("version", Version);
 			info.AddValue("network", Network);
+			info.AddValue("note", Note);
 		}
 
 
@@ -131,7 +135,7 @@ namespace EonSharp.Api
 		public virtual void SignTransaction(byte[] expandedPrivateKey) { }
 
 		public virtual void ConfirmTransaction(string accountId, byte[] expandedPrivateKey) { }
-	
+
 
 		#endregion
 

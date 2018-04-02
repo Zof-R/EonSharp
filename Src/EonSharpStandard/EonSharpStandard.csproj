@@ -50,6 +50,7 @@
     <Compile Include="..\EonSharp\Api\Metrics\MetricsEndpoint.cs" Link="Api\Metrics\MetricsEndpoint.cs" />
     <Compile Include="..\EonSharp\Api\Peer\IBlocks.cs" Link="Api\Peer\IBlocks.cs" />
     <Compile Include="..\EonSharp\Api\Peer\IMetadata.cs" Link="Api\Peer\IMetadata.cs" />
+    <Compile Include="..\EonSharp\Api\Peer\ISnapshot.cs" Link="Api\Peer\ISnapshot.cs" />
     <Compile Include="..\EonSharp\Api\Peer\ITransactions.cs" Link="Api\Peer\ITransactions.cs" />
     <Compile Include="..\EonSharp\Api\Peer\PeerEndpoint.cs" Link="Api\Peer\PeerEndpoint.cs" />
     <Compile Include="..\EonSharp\Api\Quorum.cs" Link="Api\Quorum.cs" />
