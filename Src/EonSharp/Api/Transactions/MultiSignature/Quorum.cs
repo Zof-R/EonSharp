@@ -32,14 +32,12 @@ namespace EonSharp.Api.Transactions
 			}
 		}
 
-
 		public Quorum() : base()
 		{
 			Type = 410;
 			Attachment = new Attachments.QuorumAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
-
 		public Quorum(int version) : this()
 		{
 			Version = version;
@@ -54,7 +52,6 @@ namespace EonSharp.Api.Transactions
 			Fee = fee;
 			Version = version;
 		}
-
 		public Quorum(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 

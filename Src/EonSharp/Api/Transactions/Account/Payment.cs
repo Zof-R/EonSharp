@@ -31,6 +31,7 @@ namespace EonSharp.Api.Transactions
 				((Attachments.PaymentAttachment)Attachment).Recipient = value;
 			}
 		}
+
 		public Payment() : base()
 		{
 			Type = 200;

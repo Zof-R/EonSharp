@@ -27,7 +27,6 @@ namespace EonSharp.Api.Transactions
 			Attachment = new Attachments.PublicationAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
-
 		public Publication(int version) : this()
 		{
 			Version = version;
@@ -41,7 +40,6 @@ namespace EonSharp.Api.Transactions
 			Fee = fee;
 			Version = version;
 		}
-
 		public Publication(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 

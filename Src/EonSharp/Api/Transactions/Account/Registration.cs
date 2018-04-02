@@ -21,7 +21,6 @@ namespace EonSharp.Api.Transactions
 				((Attachments.RegistrationAttachment)Attachment).AccountId = value;
 			}
 		}
-
 		public string PublicKey
 		{
 			get
@@ -40,7 +39,6 @@ namespace EonSharp.Api.Transactions
 			Attachment = new Attachments.RegistrationAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
-
 		public Registration(int version) : this()
 		{
 			Version = version;
@@ -65,13 +63,11 @@ namespace EonSharp.Api.Transactions
 			var beattach = AttachmentToBEncoding();
 			base.SignTransaction(beattach, expandedPrivateKey);
 		}
-
 		public override void ConfirmTransaction(string accountId, byte[] expandedPrivateKey)
 		{
 			var beattach = AttachmentToBEncoding();
 			base.ConfirmTransaction(beattach, accountId, expandedPrivateKey);
 		}
-
 
 		public BEncoding.BDictionary AttachmentToBEncoding()
 		{

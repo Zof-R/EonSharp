@@ -71,6 +71,18 @@ namespace EonSharp.Keystore
 			}
 			throw new Exception("Password mismatch");
 		}
+		public string EncryptMessage(string message, string password)
+		{
+			var cypherkey = ComputeCypherKey(password);
+			var messagearray = Crypto.Encrypt(UTF8Encoding.UTF8.GetBytes(message), cypherkey);
+			return Helpers.HexHelper.ArrayToHexString(messagearray);
+		}
+		public string DecryptMessage(string encryptedMessage, string password)
+		{
+			var cypherkey = ComputeCypherKey(password);
+			var messagearray = Crypto.Decrypt(Helpers.HexHelper.HexStringToByteArray(encryptedMessage), cypherkey);
+			return UTF8Encoding.UTF8.GetString(messagearray);
+		}
 
 		#endregion
 		#region ISerializable
@@ -92,7 +104,7 @@ namespace EonSharp.Keystore
 						break;
 				}
 			}
-			else if(info.GetValue("kdf", typeof(Pbkdf2)) is Pbkdf2 pbkdf2)
+			else if (info.GetValue("kdf", typeof(Pbkdf2)) is Pbkdf2 pbkdf2)
 			{
 				Kdf = pbkdf2;
 			}
@@ -107,7 +119,7 @@ namespace EonSharp.Keystore
 		}
 
 		#endregion
-		
+
 
 		byte[] ComputeCypherKey(string password)
 		{

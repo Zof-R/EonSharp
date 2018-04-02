@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Balance to Wallet class
 - Note to Transaction class
 - Peer.Snapshot interface and methods
+- EncryptMessage and DecryptMessage to Keystore Interface and classes
 
 ### Changed
 - Refactored Wallet class

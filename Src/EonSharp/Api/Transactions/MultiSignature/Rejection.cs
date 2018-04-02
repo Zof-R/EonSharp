@@ -27,7 +27,6 @@ namespace EonSharp.Api.Transactions
 			Attachment = new Attachments.RejectionAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
-
 		public Rejection(int version) : this()
 		{
 			Version = version;
@@ -41,7 +40,6 @@ namespace EonSharp.Api.Transactions
 			Fee = fee;
 			Version = version;
 		}
-
 		public Rejection(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
 

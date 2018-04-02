@@ -21,7 +21,6 @@ namespace EonSharp.Api.Transactions
 				((Attachments.ColoredCoinRegistrationAttachment)Attachment).Emission = value;
 			}
 		}
-
 		public int DecimalPoint
 		{
 			get
@@ -40,7 +39,6 @@ namespace EonSharp.Api.Transactions
 			Attachment = new Attachments.ColoredCoinRegistrationAttachment();
 			Timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
 		}
-
 		public ColoredCoinRegistration(int version) : this()
 		{
 			Version = version;

@@ -16,7 +16,7 @@ namespace EonSharp.Keystore
 
 
 		byte[] GetPrivateKey(string password);
-
-
+		string EncryptMessage(string message, string password);
+		string DecryptMessage(string encryptedMessage, string password);
 	}
 }
