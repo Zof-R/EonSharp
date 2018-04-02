@@ -70,6 +70,10 @@ namespace EonSharp.Api
 				[nameof(Network).ToLower()] = new BEncoding.BString(Network),
 				[nameof(Version).ToLower()] = new BEncoding.BInteger(Version)
 			};
+			if (Note != null)
+			{
+				be[nameof(Note).ToLower()]= new BEncoding.BString(Note);
+			}
 			var bestr = be.ToBencodedString().ToUpper();
 			var buffer = UTF8Encoding.UTF8.GetBytes(bestr);
 			return Chaos.NaCl.Ed25519.Sign(buffer, expandedPrivateKey);
