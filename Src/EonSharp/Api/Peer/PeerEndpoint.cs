@@ -81,7 +81,7 @@ namespace EonSharp.Api.Peer
 		async Task<IDictionary<string, object>> ISnapshot.GetAccountsAsync(string blockID)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("snapshot.getAccounts", new object[] { blockID }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<Dictionary<string,object>>();
+			return (res.Result as JObject)?.ToObject<Dictionary<string, object>>();
 		}
 		async Task<IDictionary<string, object>> ISnapshot.GetNextAccountsAsync(string blockID, string accountID)
 		{

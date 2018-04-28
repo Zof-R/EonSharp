@@ -132,6 +132,10 @@ namespace EonSharp.Api
 		{
 			return jsontx.ToTransaction();
 		}
+		public static explicit operator string(Transaction transaction)
+		{
+			return transaction.ToJson();
+		}
 
 
 		#region Must override

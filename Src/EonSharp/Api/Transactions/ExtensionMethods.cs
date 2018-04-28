@@ -155,7 +155,9 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 			return quorum;
 		}
 
-
-
+		public static string ToJson(this Transaction transaction)
+		{
+			return JsonConvert.SerializeObject(transaction, Formatting.None, new JsonSerializerSettings { Formatting = Formatting.None, StringEscapeHandling = StringEscapeHandling.EscapeHtml, ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver() });
+		}
 	}
 }
