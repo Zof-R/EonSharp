@@ -159,5 +159,42 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 		{
 			return JsonConvert.SerializeObject(transaction, Formatting.None, new JsonSerializerSettings { Formatting = Formatting.None, StringEscapeHandling = StringEscapeHandling.EscapeHtml, ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver() });
 		}
+		public static string ToJson(this IEnumerable<Transaction> transactions)
+		{
+			return JsonConvert.SerializeObject(transactions, Formatting.None, new JsonSerializerSettings { Formatting = Formatting.None, StringEscapeHandling = StringEscapeHandling.EscapeHtml, ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver() });
+		}
+
+
+
+		public static void ToJson(this EonSharp.Api.Transaction transaction, System.IO.Stream stream)
+		{
+			using (var writer = new System.IO.StreamWriter(stream))
+			{
+				writer.Write(ToJson(transaction));
+				writer.Flush();
+			}
+		}
+		public static void ToJson(this IEnumerable<EonSharp.Api.Transaction> transactions, System.IO.Stream stream)
+		{
+			using (var writer = new System.IO.StreamWriter(stream))
+			{
+				writer.Write(ToJson(transactions));
+				writer.Flush();
+			}
+		}
+		public static EonSharp.Api.Transaction ToTransaction(this System.IO.Stream jsonstream)
+		{
+			using (var reader = new System.IO.StreamReader(jsonstream))
+			{
+				return ToTransaction(reader.ReadToEnd());
+			}
+		}
+		public static IEnumerable<EonSharp.Api.Transaction> ToTransactionCollection(this System.IO.Stream jsonstream)
+		{
+			using (var reader = new System.IO.StreamReader(jsonstream))
+			{
+				return ToTransactionCollection(reader.ReadToEnd());
+			}
+		}
 	}
 }
