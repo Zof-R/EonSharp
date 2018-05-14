@@ -9,15 +9,15 @@ namespace EonSharp.Api.Transactions
 {
 	public class ColoredCoinSupply : Transaction
 	{
-		public long MoneySupply
+		public long Supply
 		{
 			get
 			{
-				return ((Attachments.ColoredCoinSupplyAttachment)Attachment).MoneySupply;
+				return ((Attachments.ColoredCoinSupplyAttachment)Attachment).Supply;
 			}
 			set
 			{
-				((Attachments.ColoredCoinSupplyAttachment)Attachment).MoneySupply = value;
+				((Attachments.ColoredCoinSupplyAttachment)Attachment).Supply = value;
 			}
 		}
 
@@ -34,7 +34,7 @@ namespace EonSharp.Api.Transactions
 		}
 		public ColoredCoinSupply(string sender, long moneySupply, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
-			MoneySupply = moneySupply;
+			Supply = moneySupply;
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
@@ -59,7 +59,7 @@ namespace EonSharp.Api.Transactions
 		{
 			return new BEncoding.BDictionary
 			{
-				["moneySupply"] = new BEncoding.BInteger(MoneySupply)
+				["supply"] = new BEncoding.BInteger(Supply)
 			};
 		}
 	}

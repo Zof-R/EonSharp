@@ -19,7 +19,7 @@ namespace EonSharp.Api.Explorer
 		public IExplorer Explorer { get { return this; } }
 
 
-		public ExplorerEndpoint(ITransportContext client) : base(client, "explorer/")
+		public ExplorerEndpoint(ITransportContext client) : base(client, "explorer/v1")
 		{
 		}
 

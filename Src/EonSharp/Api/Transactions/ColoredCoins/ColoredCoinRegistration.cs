@@ -21,15 +21,15 @@ namespace EonSharp.Api.Transactions
 				((Attachments.ColoredCoinRegistrationAttachment)Attachment).Emission = value;
 			}
 		}
-		public int DecimalPoint
+		public int Decimal
 		{
 			get
 			{
-				return ((Attachments.ColoredCoinRegistrationAttachment)Attachment).DecimalPoint;
+				return ((Attachments.ColoredCoinRegistrationAttachment)Attachment).Decimal;
 			}
 			set
 			{
-				((Attachments.ColoredCoinRegistrationAttachment)Attachment).DecimalPoint = value;
+				((Attachments.ColoredCoinRegistrationAttachment)Attachment).Decimal = value;
 			}
 		}
 
@@ -47,7 +47,7 @@ namespace EonSharp.Api.Transactions
 		public ColoredCoinRegistration(string sender, long emission, int decimalPoint, int deadline = 3600, long fee = 10, int version = 1) : this(version)
 		{
 			Emission = emission;
-			DecimalPoint = decimalPoint;
+			Decimal = decimalPoint;
 			Sender = sender;
 			Deadline = deadline;
 			Fee = fee;
@@ -73,7 +73,7 @@ namespace EonSharp.Api.Transactions
 			return new BEncoding.BDictionary
 			{
 				[nameof(Emission).ToLower()] = new BEncoding.BInteger(Emission),
-				["decimalPoint"] = new BEncoding.BInteger(DecimalPoint)
+				["decimal"] = new BEncoding.BInteger(Decimal)
 			};
 		}
 

@@ -10,8 +10,9 @@ namespace EonSharp.Api
 	public class ColoredCoinInfo : ISerializable
 	{
 		public State State { get; set; }
-		public long MoneySupply { get; set; }
-		public int DecimalPoint { get; set; }
+		public long Supply { get; set; }
+		public int Decimal { get; set; }
+		public int Timestamp { get; set; }
 
 
 		public ColoredCoinInfo()
@@ -22,8 +23,9 @@ namespace EonSharp.Api
 		static Dictionary<string, Action<SerializationInfo, ColoredCoinInfo>> s_entryDict = new Dictionary<string, Action<SerializationInfo, ColoredCoinInfo>>
 		{
 			{ "state",(info, i)=> i.State = (State)info.GetValue("state", typeof(State)) },
-			{ "money_supply",(info, i)=> i.MoneySupply = info.GetInt64("money_supply") },
-			{ "decimal_point",(info, i)=> i.DecimalPoint = info.GetInt32("decimal_point") }
+			{ "supply",(info, i)=> i.Supply = info.GetInt64("supply") },
+			{ "decimal",(info, i)=> i.Decimal = info.GetInt32("decimal") },
+			{ "timestamp",(info, i)=> i.Timestamp = info.GetInt32("timestamp") }
 		};
 		public ColoredCoinInfo(SerializationInfo info, StreamingContext context)
 		{
@@ -38,8 +40,9 @@ namespace EonSharp.Api
 		public void GetObjectData(SerializationInfo info, StreamingContext context)
 		{
 			info.AddValue("state", State);
-			info.AddValue("money_supply", MoneySupply);
-			info.AddValue("decimal_point", DecimalPoint);
+			info.AddValue("supply", Supply);
+			info.AddValue("decimal", Decimal);
+			info.AddValue("timestamp", Timestamp);
 		}
 	}
 }

@@ -88,6 +88,10 @@ namespace EonSharp.Api.Transactions.ExtensionMethods
 					trans = jo.ToObject<ColoredCoinSupply>();
 					trans.Attachment = jo["attachment"].ToObject<ColoredCoinSupplyAttachment>();
 					return trans;
+				//case 600:
+				//	trans = jo.ToObject<ComplexPayment>();
+				//	trans.Attachment = jo["attachment"].ToObject<ComplexPaymentAttachment>();
+				//	return trans;
 			}
 			return null;
 		}

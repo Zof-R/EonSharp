@@ -11,7 +11,7 @@ namespace EonSharp.Api.Transactions.Attachments
 	{
 
 		public long Emission { get; set; }
-		public int DecimalPoint { get; set; }
+		public int Decimal { get; set; }
 
 		public ColoredCoinRegistrationAttachment()
 		{

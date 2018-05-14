@@ -22,7 +22,7 @@ namespace EonSharp.Api.Bot
 		public ITransactions Transactions { get { return this; } }
 		public IColoredCoin ColoredCoin { get { return this; } }
 
-		public BotEndpoint(ITransportContext client) : base(client, "bot/")
+		public BotEndpoint(ITransportContext client) : base(client, "bot/v1")
 		{
 		}
 
@@ -97,7 +97,7 @@ namespace EonSharp.Api.Bot
 
 		async Task<ColoredCoinInfo> IColoredCoin.GetInfo(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("coloredCoin.getInfo", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("colored.getInfo", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<ColoredCoinInfo>();
 		}
 	}

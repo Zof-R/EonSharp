@@ -28,6 +28,7 @@ namespace EonSharp.Api
 		public int Version { get; set; } = 1;
 		public string Network { get; set; } = Configuration.NetworkId;
 		public string Note { get; set; }
+		public string NestedTransactions { get; set; }
 
 
 		public Transaction()
@@ -88,13 +89,14 @@ namespace EonSharp.Api
 			{ "deadline",(info, tx)=> tx.Deadline = info.GetInt32("deadline") },
 			{ "fee",(info, tx)=> tx.Fee = info.GetInt64("fee") },
 			{ "sender",(info, tx)=> tx.Sender = info.GetString("sender") },
-			{ "referencedTransaction",(info, tx)=> tx.ReferencedTransaction = info.GetString("referencedTransaction") },
+			{ "reference",(info, tx)=> tx.ReferencedTransaction = info.GetString("reference") },
 			//Attachment is dealt with in the Enpoint classes
 			{ "signature",(info, tx)=> tx.Signature = info.GetString("signature") },
 			{ "confirmations",(info, tx)=> tx.Confirmations = (Dictionary<string,string>)info.GetValue("confirmations", typeof(Dictionary<string, string>)) },
 			{ "version",(info, tx)=> tx.Version = info.GetInt32("version") },
 			{ "network",(info, tx)=> tx.Network = info.GetString("network") },
 			{ "note",(info, tx)=> tx.Note = info.GetString("note") },
+			{ "bills",(info, tx)=> tx.NestedTransactions = info.GetString("bills") },
 		};
 
 		public Transaction(SerializationInfo info, StreamingContext context)

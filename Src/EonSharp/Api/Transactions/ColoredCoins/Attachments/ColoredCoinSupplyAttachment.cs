@@ -10,7 +10,7 @@ namespace EonSharp.Api.Transactions.Attachments
 	public class ColoredCoinSupplyAttachment
 	{
 
-		public long MoneySupply { get; set; }
+		public long Supply { get; set; }
 
 		public ColoredCoinSupplyAttachment()
 		{

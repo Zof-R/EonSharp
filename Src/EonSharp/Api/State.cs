@@ -15,7 +15,7 @@ namespace EonSharp.Api
 
 		public int Code { get; set; }
 		public string Name { get; set; }
-		public string ColoredCoin { get; set; }
+		//public string ColoredCoin { get; set; }
 
 
 		public State()
