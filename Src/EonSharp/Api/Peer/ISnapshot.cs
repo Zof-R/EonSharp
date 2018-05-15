@@ -11,7 +11,7 @@ namespace EonSharp.Api.Peer
 		Task<Block> GetLastBlockAsync();
 		Task<Block> GetBlockByHeightAsync(int height);
 		Task<IEnumerable<Block>> GetBlocksHeadFromAsync(int height);
-		Task<IDictionary<string, object>> GetAccountsAsync(string blockID);
-		Task<IDictionary<string, object>> GetNextAccountsAsync(string blockID, string accountID);
+		Task<IEnumerable<Account>> GetAccountsAsync(string blockID);
+		Task<IEnumerable<Account>> GetNextAccountsAsync(string blockID, string accountID);
 	}
 }

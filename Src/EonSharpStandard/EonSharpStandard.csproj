@@ -26,6 +26,9 @@
 
   <ItemGroup>
     <Compile Include="..\EonSharp\ActivatorDescriptor.cs" Link="ActivatorDescriptor.cs" />
+    <Compile Include="..\EonSharp\Api\Account.cs" Link="Api\Account.cs" />
+    <Compile Include="..\EonSharp\Api\AccountBalance.cs" Link="Api\AccountBalance.cs" />
+    <Compile Include="..\EonSharp\Api\AccountPublicKey.cs" Link="Api\AccountPublicKey.cs" />
     <Compile Include="..\EonSharp\Api\Attributes.cs" Link="Api\Attributes.cs" />
     <Compile Include="..\EonSharp\Api\Balance.cs" Link="Api\Balance.cs" />
     <Compile Include="..\EonSharp\Api\Block.cs" Link="Api\Block.cs" />

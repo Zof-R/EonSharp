@@ -74,12 +74,6 @@ namespace EonSharp.Api.Explorer
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 
-		async Task<Transaction> IExplorer.GetRegTransactionAsync(string id)
-		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getRegTransaction", new object[] { id }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToTransaction();
-		}
-
 		async Task<IEnumerable<Block>> IExplorer.GetLastBlocksAsync()
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getLastBlocks", null, Interlocked.Increment(ref m_id)));
@@ -102,12 +96,6 @@ namespace EonSharp.Api.Explorer
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getBlockById", new object[] { blockId }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<Block>();
-		}
-
-		async Task<IEnumerable<Transaction>> IExplorer.GetTrsByBlockIdAsync(string blockId)
-		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getTrsByBlockId", new object[] { blockId }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JArray)?.ToObject<Transaction[]>();
 		}
 
 		async Task<Transaction> IExplorer.GetTransactionByIdAsync(string trId)

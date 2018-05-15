@@ -10,7 +10,7 @@ namespace EonSharp.Api
 	/**
 	 * Account balance
 	 */
-	public class Balance
+	public class Balance : ISerializable
 	{
 		public State State { get; set; }
 		public long Amount { get; set; }

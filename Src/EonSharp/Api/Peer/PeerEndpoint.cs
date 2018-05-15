@@ -78,15 +78,15 @@ namespace EonSharp.Api.Peer
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("snapshot.get_blocks_head_from", new object[] { height }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToObject<Block[]>();
 		}
-		async Task<IDictionary<string, object>> ISnapshot.GetAccountsAsync(string blockID)
+		async Task<IEnumerable<Account>> ISnapshot.GetAccountsAsync(string blockID)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("snapshot.get_accounts", new object[] { blockID }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<Dictionary<string, object>>();
+			return (res.Result as JArray)?.ToObject<Account[]>();
 		}
-		async Task<IDictionary<string, object>> ISnapshot.GetNextAccountsAsync(string blockID, string accountID)
+		async Task<IEnumerable<Account>> ISnapshot.GetNextAccountsAsync(string blockID, string accountID)
 		{
 			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("snapshot.get_next_accounts", new object[] { blockID, accountID }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JObject)?.ToObject<Dictionary<string, object>>();
+			return (res.Result as JArray)?.ToObject<Account[]>();
 		}
 	}
 }

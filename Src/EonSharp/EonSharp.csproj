@@ -48,6 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActivatorDescriptor.cs" />
+    <Compile Include="Api\Account.cs" />
+    <Compile Include="Api\AccountBalance.cs" />
+    <Compile Include="Api\AccountPublicKey.cs" />
     <Compile Include="Api\Bot\IColoredCoin.cs" />
     <Compile Include="Api\ColoredCoinInfo.cs" />
     <Compile Include="Api\Attributes.cs" />

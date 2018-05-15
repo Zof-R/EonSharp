@@ -35,7 +35,7 @@ namespace EonSharp.Api
 		static Dictionary<string, Action<SerializationInfo, Info>> s_entryDict = new Dictionary<string, Action<SerializationInfo, Info>>
 		{
 			{ "state",(info, i)=> i.State = (State)info.GetValue("state", typeof(State)) },
-			{ "publicKey",(info, i)=> i.PublicKey = info.GetString("publicKey") },
+			{ "public_key",(info, i)=> i.PublicKey = info.GetString("public_key") },
 			{ "amount",(info, i)=> i.Amount = info.GetInt64("amount") },
 			{ "deposit",(info, i)=> i.Deposit = info.GetInt64("deposit") },
 			{ "sign_type",(info, i)=> i.SignType = info.GetString("sign_type") },
@@ -58,7 +58,7 @@ namespace EonSharp.Api
 		public void GetObjectData(SerializationInfo info, StreamingContext context)
 		{
 			info.AddValue("state", State);
-			info.AddValue("publicKey", PublicKey);
+			info.AddValue("public_key", PublicKey);
 			info.AddValue("amount", Amount);
 			info.AddValue("deposit", Deposit);
 			info.AddValue("sign_type", SignType);
