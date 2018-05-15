@@ -15,7 +15,7 @@ namespace EonSharp
 	/// </summary>
 	public class EonClient : IDisposable
 	{
-		const string SERVER_ADDRESS = "https://peer.testnet.eontechnology.org:9443";
+		const string SERVER_ADDRESS = Constants.NETWORK_TESTNET;
 		const string SERVER_USER = null; // default "admin"
 		const string SERVER_PASSWORD = null; //default "pass"
 

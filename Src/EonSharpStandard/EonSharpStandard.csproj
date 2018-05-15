@@ -84,6 +84,7 @@
     <Compile Include="..\EonSharp\Api\VotingRights.cs" Link="Api\VotingRights.cs" />
     <Compile Include="..\EonSharp\BEncoding\BEncoding.cs" Link="BEncoding\BEncoding.cs" />
     <Compile Include="..\EonSharp\Configuration\Configuration.cs" Link="Configuration\Configuration.cs" />
+    <Compile Include="..\EonSharp\Constants.cs" Link="Constants.cs" />
     <Compile Include="..\EonSharp\EonClient.cs" Link="EonClient.cs" />
     <Compile Include="..\EonSharp\ExtensionMethods.cs" Link="ExtensionMethods.cs" />
     <Compile Include="..\EonSharp\Generators\AccountGenerator.cs" Link="Generators\AccountGenerator.cs" />
