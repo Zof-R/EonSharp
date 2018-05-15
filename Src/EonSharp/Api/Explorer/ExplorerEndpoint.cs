@@ -27,19 +27,19 @@ namespace EonSharp.Api.Explorer
 
 		async Task<State> IAccounts.GetStateAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getState", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.get_state", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<State>();
 		}
 
 		async Task<Balance> IAccounts.GetBalanceAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getBalance", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.get_balance", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToBalance();
 		}
 
 		async Task<Info> IAccounts.GetInformationAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getInformation", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.get_information", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToInfo();
 		}
 
@@ -51,7 +51,7 @@ namespace EonSharp.Api.Explorer
 			var results = new List<IEnumerable<Transaction>>();
 			for (int i = 0; ; i++)
 			{
-				var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getCommittedPage", new object[] { accountId, i }, Interlocked.Increment(ref m_id)));
+				var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_committed_page", new object[] { accountId, i }, Interlocked.Increment(ref m_id)));
 				var tcol = (res.Result as JArray)?.ToTransactionCollection();
 				if (tcol == null || tcol.Count() == 0)
 				{
@@ -64,49 +64,49 @@ namespace EonSharp.Api.Explorer
 
 		async Task<IEnumerable<Transaction>> IExplorer.GetCommittedPageAsync(string accountId, int page)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getCommittedPage", new object[] { accountId, page }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_committed_page", new object[] { accountId, page }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 
 		async Task<IEnumerable<Transaction>> IExplorer.GetUncommittedAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getUncommitted", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_uncommitted", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 
-		async Task<IEnumerable<Block>> IExplorer.GetLastBlocksAsync()
+		async Task<IEnumerable<BlockHeader>> IExplorer.GetLastBlocksAsync()
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getLastBlocks", null, Interlocked.Increment(ref m_id)));
-			return (res.Result as JArray)?.ToObject<Block[]>();
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_last_blocks", null, Interlocked.Increment(ref m_id)));
+			return (res.Result as JArray)?.ToObject<BlockHeader[]>();
 		}
 
-		async Task<IEnumerable<Block>> IExplorer.GetLastBlocksFromAsync(int height)
+		async Task<IEnumerable<BlockHeader>> IExplorer.GetLastBlocksFromAsync(int height)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getLastBlocksFrom", new object[] { height }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JArray)?.ToObject<Block[]>();
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_last_blocks_from", new object[] { height }, Interlocked.Increment(ref m_id)));
+			return (res.Result as JArray)?.ToObject<BlockHeader[]>();
 		}
 
 		async Task<Block> IExplorer.GetBlockByHeightAsync(int height)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getBlockByHeight", new object[] { height }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_block_by_height", new object[] { height }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<Block>();
 		}
 
 		async Task<Block> IExplorer.GetBlockByIdAsync(string blockId)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getBlockById", new object[] { blockId }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_block_by_id", new object[] { blockId }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<Block>();
 		}
 
 		async Task<Transaction> IExplorer.GetTransactionByIdAsync(string trId)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getTransactionById", new object[] { trId }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_transaction_by_id", new object[] { trId }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToTransaction();
 		}
 
 		async Task<IEnumerable<Transaction>> IExplorer.GetLastUncommittedTrsAsync()
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.getLastUncommittedTrs", null, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("explorer.get_last_uncommitted_trs", null, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 

@@ -13,8 +13,8 @@ namespace EonSharp.Api.Explorer
 		Task<IEnumerable<Transaction>> GetCommittedAllAsync(string accountId);
 		Task<IEnumerable<Transaction>> GetCommittedPageAsync(string accountId, int page);
 		Task<IEnumerable<Transaction>> GetUncommittedAsync(string id);
-		Task<IEnumerable<Block>> GetLastBlocksAsync();
-		Task<IEnumerable<Block>> GetLastBlocksFromAsync(int height);
+		Task<IEnumerable<BlockHeader>> GetLastBlocksAsync();
+		Task<IEnumerable<BlockHeader>> GetLastBlocksFromAsync(int height);
 		Task<Block> GetBlockByHeightAsync(int height);
 		Task<Block> GetBlockByIdAsync(string blockId);
 		Task<Transaction> GetTransactionByIdAsync(string trId);

@@ -28,25 +28,25 @@ namespace EonSharp.Api.Bot
 
 		async Task<State> IAccounts.GetStateAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getState", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.get_state", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<State>();
 		}
 
 		async Task<Balance> IAccounts.GetBalanceAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getBalance", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.get_balance", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToBalance();
 		}
 		
 		async Task<Info> IAccounts.GetInformationAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.getInformation", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("accounts.get_information", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToInfo();
 		}
 
 		async Task<IEnumerable<Transaction>> IHistory.GetCommittedAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.getCommitted", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.get_committed", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 
@@ -55,7 +55,7 @@ namespace EonSharp.Api.Bot
 			var results = new List<IEnumerable<Transaction>>();
 			for (int i = 0; ; i++)
 			{
-				var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.getCommittedPage", new object[] { id, i }, Interlocked.Increment(ref m_id)));
+				var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.get_committed_page", new object[] { id, i }, Interlocked.Increment(ref m_id)));
 				var tcol = (res.Result as JArray)?.ToTransactionCollection();
 				if (tcol == null || tcol.Count() == 0)
 				{
@@ -68,20 +68,20 @@ namespace EonSharp.Api.Bot
 
 		async Task<IEnumerable<Transaction>> IHistory.GetCommittedPageAsync(string id, int page)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.getCommittedPage", new object[] { id, page }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.get_committed_page", new object[] { id, page }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 
 		async Task<IEnumerable<Transaction>> IHistory.GetUncommittedAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.getUncommitted", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.get_uncommitted", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JArray)?.ToTransactionCollection();
 		}
 
-		async Task<IEnumerable<Block>> IHistory.GetSignedBlockAsync(string id)
+		async Task<IEnumerable<BlockHeader>> IHistory.GetSignedBlockAsync(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.getSignedBlock", new object[] { id }, Interlocked.Increment(ref m_id)));
-			return (res.Result as JArray)?.ToObject<Block[]>();
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("history.get_signed_block", new object[] { id }, Interlocked.Increment(ref m_id)));
+			return (res.Result as JArray)?.ToObject<BlockHeader[]>();
 		}
 
 		async Task<long> ITime.GetAsync()
@@ -92,12 +92,12 @@ namespace EonSharp.Api.Bot
 
 		async Task ITransactions.PutTransactionAsync(Transaction tx)
 		{
-			await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("transactions.putTransaction", new object[] { tx }, Interlocked.Increment(ref m_id)));
+			await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("transactions.put_transaction", new object[] { tx }, Interlocked.Increment(ref m_id)));
 		}
 
 		async Task<ColoredCoinInfo> IColoredCoin.GetInfo(string id)
 		{
-			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("colored.getInfo", new object[] { id }, Interlocked.Increment(ref m_id)));
+			var res = await m_transportClient.ProcessCommandAsync(EndpointUrl, new RpcRequest("colored.get_info", new object[] { id }, Interlocked.Increment(ref m_id)));
 			return (res.Result as JObject)?.ToObject<ColoredCoinInfo>();
 		}
 	}

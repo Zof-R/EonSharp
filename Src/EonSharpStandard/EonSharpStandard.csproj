@@ -32,6 +32,7 @@
     <Compile Include="..\EonSharp\Api\Attributes.cs" Link="Api\Attributes.cs" />
     <Compile Include="..\EonSharp\Api\Balance.cs" Link="Api\Balance.cs" />
     <Compile Include="..\EonSharp\Api\Block.cs" Link="Api\Block.cs" />
+    <Compile Include="..\EonSharp\Api\BlockHeader.cs" Link="Api\BlockHeader.cs" />
     <Compile Include="..\EonSharp\Api\Bot\BotEndpoint.cs" Link="Api\Bot\BotEndpoint.cs" />
     <Compile Include="..\EonSharp\Api\Bot\IAccounts.cs" Link="Api\Bot\IAccounts.cs" />
     <Compile Include="..\EonSharp\Api\Bot\IColoredCoin.cs" Link="Api\Bot\IColoredCoin.cs" />

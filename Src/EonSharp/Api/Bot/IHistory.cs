@@ -13,7 +13,7 @@ namespace EonSharp.Api.Bot
 		Task<IEnumerable<Transaction>> GetCommittedAllAsync(string id);
 		Task<IEnumerable<Transaction>> GetCommittedPageAsync(string id, int page);
 		Task<IEnumerable<Transaction>> GetUncommittedAsync(string id);
-		Task<IEnumerable<Block>> GetSignedBlockAsync(string id);
+		Task<IEnumerable<BlockHeader>> GetSignedBlockAsync(string id);
 
 	}
 }
