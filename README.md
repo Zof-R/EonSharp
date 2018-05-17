@@ -8,19 +8,35 @@ The library also implements a simple/pure DI approach using a ClassMapper class 
 
 ---
 
-[![GitHub Releases](https://img.shields.io/github/release/zof-r/EonSharp.svg)](https://github.com/zof-r/EonSharp/releases)
+[![GitHub Releases](https://img.shields.io/github/release/zof-r/eonsharp/all.svg)](https://github.com/zof-r/EonSharp/releases)
 [![Documentation](https://img.shields.io/badge/docs-docfx-blue.svg)](http://zof-r.github.io/EonSharp)
 [![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/Zof-R/EonSharp/blob/master/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/zof-r/EonSharp.svg)](http://github.com/zof-r/EonSharp/issues)
 
+##### Table of Contents  
+* [Resources](#resources)
+* [Simple usage example](#simpleusage)  
+  * [Initialization](#initialization)
+  * [Creating an account](#creatingaccount)
+  * [Processing a Transaction](#processingtransaction)
+* [Documentation](#documentation)
+* [Changelog](#changelog)
+* [Thanks and Credits](#credits)
+* [Acknowledgements](#ack)
+* [License](#license)
+---
 
+<a name="resources"/>
 
 ## Resources
 
 You can find information and JsonRpc Api documentation related to **Eon Technology** at https://eontechnology.org/
 
+<a name="simpleusage"/>
 
 ## Simple usage example
+
+<a name="initialization"/>
 
 ### Initialization
 
@@ -47,6 +63,7 @@ You can find information and JsonRpc Api documentation related to **Eon Technolo
     //Needs to be called at least once to update internal variables related to blockchain state.
     await eonClient.UpdateBlockchainDetails();
 ```
+<a name="creatingaccount"/>
 
 ### Creating an account
 
@@ -62,6 +79,7 @@ You can find information and JsonRpc Api documentation related to **Eon Technolo
     Console.WriteLine($"Public Key:     {account.PublicKeyToString()}"); 
     Console.WriteLine($"Expanded Key:   {account.ExpandedPrivateKeyToString()}"); //combined priv+pub keys
 ```
+<a name="processingtransaction"/>
 
 ### Processing a Transaction
 
@@ -75,23 +93,27 @@ You can find information and JsonRpc Api documentation related to **Eon Technolo
     //Sends the Transaction to the network  
     await eonClient.Bot.Transactions.PutTransactionAsync(refill);
 ```
+<a name="documentation"/>
 
 ## Documentation
 
 It's still a work in progress but an early version can be found [here](http://Zof-R.github.io/EonSharp)
 
+<a name="changelog"/>
 
 ## Changelog
 
 You can check the full [changelog](CHANGELOG.md)
 
 
+<a name="credits"/>
 
 ## Thanks and Credits
 
 To @acidburn and @gassman for testing and suggestions, also some of the IdProvider class methods where initially based on @gassman's port from java to c# of the EonTechnology Format.java src.
 
 
+<a name="ack"/>
 
 ## Acknowledgements
 
@@ -102,6 +124,7 @@ The EonSharp library uses code from the following external dependencies:
 - [Json.NET by Newtonsoft](https://www.newtonsoft.com/json)
 
 
+<a name="license"/>
 
 ## License
 
