@@ -1,6 +1,6 @@
 ﻿# ![EonSharp](images/logo.png)
 
-EonSharp is a .Net integration library for **[Eon's](https://github.com/EonTechnology)** JsonRpc Api, at the time of writing at version 0.9.0 of the Eon blockchain.
+**EonSharp** is a .Net integration library for **[Eon's](https://github.com/EonTechnology)** JsonRpc Api, at the time of writing at version 0.12.0 of the **Eon blockchain**.
 The library provides an object oriented abstraction of the underlying Api and implements support for version 2.0 of the Eon API.
 The supported Api features include Account generation, Transaction processing, node specific calls to obtain metrics, Blocks and Transactions, Multi Signature and Colored Coins.
 The library also implements a simple/pure DI approach using a ClassMapper class for custom extensibility.
