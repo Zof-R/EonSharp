@@ -118,5 +118,32 @@ namespace EonSharp
 				}
 			}
 		}
+
+
+		public static EonSharp.Api.Transaction SignAndConfirmTransaction(this IEnumerable<Wallet> wallets, EonSharp.Api.Transaction transaction, Func<Wallet, byte[]> getExpandedKey)
+		{
+			var signwallet = wallets.FirstOrDefault();
+			var confirmwallets = wallets.Skip(1);
+
+			transaction.SignTransaction(getExpandedKey(signwallet));
+
+			foreach (var wlt in confirmwallets)
+			{
+				transaction.ConfirmTransaction(signwallet.AccountDetails.AccountId, getExpandedKey(wlt));
+			}
+
+			return transaction;
+		}
+
+		public async static Task<EonSharp.Api.Transaction> PutTransaction(this IEnumerable<Wallet> wallets, EonSharp.Api.Transaction transaction, Func<Wallet, byte[]> getExpandedKey, EonClient eclient)
+		{
+			var tx = wallets.SignAndConfirmTransaction(transaction, getExpandedKey);
+
+			await eclient.Bot.Transactions.PutTransactionAsync(tx);
+
+			return tx;
+		}
+
+
 	}
 }
