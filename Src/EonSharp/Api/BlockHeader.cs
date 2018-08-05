@@ -15,8 +15,8 @@ namespace EonSharp.Api
 		public string Generator { get; set; }
 		public string Signature { get; set; }
 		public int Height { get; set; }
-		public int TransactionCount { get; set; }
-		public long TotalFee { get; set; }
+		public int TransactionsCount { get; set; }
+		public long TransactionsFee { get; set; }
 
 
 
@@ -27,8 +27,8 @@ namespace EonSharp.Api
 			{ "generator",(info, i)=> i.Generator = info.GetString("generator") },
 			{ "signature",(info, i)=> i.Signature = info.GetString("signature") },
 			{ "height",(info, i)=> i.Height = info.GetInt32("height") },
-			{ "transaction_count",(info, i)=> i.TransactionCount = info.GetInt32("transaction_count") },
-			{ "total_fee",(info, i)=> i.TotalFee = info.GetInt64("total_fee") }
+			{ "transactions_count",(info, i)=> i.TransactionsCount = info.GetInt32("transactions_count") },
+			{ "transactions_fee",(info, i)=> i.TransactionsFee = info.GetInt64("transactions_fee") }
 		};
 		public BlockHeader(SerializationInfo info, StreamingContext context)
 		{
@@ -48,8 +48,8 @@ namespace EonSharp.Api
 			info.AddValue("generator", Generator);
 			info.AddValue("signature", Signature);
 			info.AddValue("height", Height);
-			info.AddValue("transaction_count", TransactionCount);
-			info.AddValue("total_fee", TotalFee);
+			info.AddValue("transactions_count", TransactionsCount);
+			info.AddValue("transactions_fee", TransactionsFee);
 		}
 
 	}
