@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EonSharp</RootNamespace>
     <AssemblyName>EonSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,8 +34,8 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="SecurityDriven.Inferno, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Inferno.1.4.0\lib\net452\SecurityDriven.Inferno.dll</HintPath>
+    <Reference Include="SecurityDriven.Inferno, Version=1.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Inferno.1.5.1\lib\net462\SecurityDriven.Inferno.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,97 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivatorDescriptor.cs" />
-    <Compile Include="Api\Account.cs" />
-    <Compile Include="Api\AccountBalance.cs" />
-    <Compile Include="Api\AccountPublicKey.cs" />
-    <Compile Include="Api\BlockHeader.cs" />
-    <Compile Include="Api\Bot\IColoredCoin.cs" />
-    <Compile Include="Api\ColoredCoinInfo.cs" />
-    <Compile Include="Api\Attributes.cs" />
-    <Compile Include="Api\Peer\ISnapshot.cs" />
-    <Compile Include="Api\Transactions\Account\Attachments\DepositAttachment.cs" />
-    <Compile Include="Api\Transactions\Account\Attachments\PaymentAttachment.cs" />
-    <Compile Include="Api\Transactions\Account\Attachments\RegistrationAttachment.cs" />
-    <Compile Include="Api\Transactions\Account\Deposit.cs" />
-    <Compile Include="Api\Transactions\Account\Payment.cs" />
-    <Compile Include="Api\Transactions\Account\Registration.cs" />
-    <Compile Include="Api\Transactions\ColoredCoins\Attachments\ColoredCoinSupplyAttachment.cs" />
-    <Compile Include="Api\Transactions\ColoredCoins\Attachments\ColoredCoinPaymentAttachment.cs" />
-    <Compile Include="Api\Transactions\ColoredCoins\Attachments\ColoredCoinRegistrationAttachment.cs" />
-    <Compile Include="Api\Transactions\ColoredCoins\ColoredCoinSupply.cs" />
-    <Compile Include="Api\Transactions\ColoredCoins\ColoredCoinRegistration.cs" />
-    <Compile Include="Api\Block.cs" />
-    <Compile Include="Api\Bot\BotEndpoint.cs" />
-    <Compile Include="Api\Bot\IAccounts.cs" />
-    <Compile Include="Api\Bot\IHistory.cs" />
-    <Compile Include="Api\Bot\ITime.cs" />
-    <Compile Include="Api\Bot\ITransactions.cs" />
-    <Compile Include="Api\Deposit.cs" />
-    <Compile Include="Api\Difficulty.cs" />
-    <Compile Include="Api\EndpointBase.cs" />
-    <Compile Include="Api\Balance.cs" />
-    <Compile Include="Api\Explorer\ExplorerEndpoint.cs" />
-    <Compile Include="Api\Explorer\IAccounts.cs" />
-    <Compile Include="Api\Explorer\IExplorer.cs" />
-    <Compile Include="Api\IBot.cs" />
-    <Compile Include="Api\IExplorer.cs" />
-    <Compile Include="Api\IMetrics.cs" />
-    <Compile Include="Api\Info.cs" />
-    <Compile Include="Api\IPeer.cs" />
-    <Compile Include="Api\Metrics\MetricsEndpoint.cs" />
-    <Compile Include="Api\Peer\PeerEndpoint.cs" />
-    <Compile Include="Api\Peer\IBlocks.cs" />
-    <Compile Include="Api\Peer\IMetadata.cs" />
-    <Compile Include="Api\Peer\ITransactions.cs" />
-    <Compile Include="Api\Quorum.cs" />
-    <Compile Include="Api\Transactions\ColoredCoins\ColoredCoinPayment.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Attachments\PublicationAttachment.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Attachments\QuorumAttachment.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Attachments\RejectionAttachment.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Attachments\DelegateAttachment.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Publication.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Rejection.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Quorum.cs" />
-    <Compile Include="Api\Transactions\MultiSignature\Delegate.cs" />
-    <Compile Include="Api\Transactions\ExtensionMethods.cs" />
-    <Compile Include="Configuration\Configuration.cs" />
-    <Compile Include="Constants.cs" />
-    <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="Generators\PublicAccountGenerator.cs" />
-    <Compile Include="Generators\PublicKeyPairGenerator.cs" />
-    <Compile Include="Helpers\ExtensionMethods.cs" />
-    <Compile Include="Helpers\HexHelper.cs" />
-    <Compile Include="Keystore\Crypto\Aes128Ctr.cs" />
-    <Compile Include="Keystore\ICrypto.cs" />
-    <Compile Include="Keystore\IKdf.cs" />
-    <Compile Include="Keystore\IKeystore.cs" />
-    <Compile Include="Keystore\KdfTypes.cs" />
-    <None Include="Keystore\Kdf\Argon2.cs" />
-    <Compile Include="Keystore\Kdf\Pbkdf2.cs" />
-    <Compile Include="Keystore\KeystoreV1.cs" />
-    <Compile Include="Logging\HttpTransportLogger.cs" />
-    <Compile Include="Logging\ILog.cs" />
-    <Compile Include="Logging\LogMessage.cs" />
-    <Compile Include="Logging\LogMessageType.cs" />
-    <Compile Include="Protocol\ProtocolException.cs" />
-    <Compile Include="BEncoding\BEncoding.cs" />
-    <Compile Include="Providers\IdProvider.cs" />
-    <Compile Include="Wallet.cs" />
-    <None Include="Api\SignType.cs" />
-    <Compile Include="Api\State.cs" />
-    <Compile Include="Api\Transaction.cs" />
-    <Compile Include="Api\VotingRights.cs" />
-    <Compile Include="EonClient.cs" />
-    <Compile Include="Generators\AccountGenerator.cs" />
-    <Compile Include="Generators\KeyPairGenerator.cs" />
-    <Compile Include="Generators\SeedGenerator.cs" />
-    <Compile Include="Network\ITransportContext.cs" />
-    <Compile Include="Protocol\RpcError.cs" />
-    <Compile Include="Protocol\ExtensionMethods.cs" />
-    <Compile Include="Protocol\RpcResponse.cs" />
-    <Compile Include="Protocol\RpcRequest.cs" />
-    <Compile Include="Network\Transports\HttpTransportClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -152,5 +62,6 @@
       <Name>Chaos.NaCl</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="..\EonSharp.Shared\EonSharp.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cae2cb2d-ec84-4003-be9d-0941e65e5889</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>EonSharp.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ActivatorDescriptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\AccountBalance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\AccountPublicKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Attributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Balance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Block.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\BlockHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Bot\BotEndpoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Bot\IAccounts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Bot\IColoredCoin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Bot\IHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Bot\ITime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Bot\ITransactions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ColoredCoinInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Deposit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Difficulty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\EndpointBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Explorer\ExplorerEndpoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Explorer\IAccounts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Explorer\IExplorer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IBot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IExplorer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IMetrics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Info.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IPeer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Metrics\MetricsEndpoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Peer\IBlocks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Peer\IMetadata.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Peer\ISnapshot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Peer\ITransactions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Peer\PeerEndpoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Quorum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\State.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\Account\Attachments\DepositAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\Account\Attachments\PaymentAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\Account\Attachments\RegistrationAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\Account\Deposit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\Account\Payment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\Account\Registration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ColoredCoins\Attachments\ColoredCoinPaymentAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ColoredCoins\Attachments\ColoredCoinRegistrationAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ColoredCoins\Attachments\ColoredCoinSupplyAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ColoredCoins\ColoredCoinPayment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ColoredCoins\ColoredCoinRegistration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ColoredCoins\ColoredCoinSupply.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\ExtensionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Attachments\DelegateAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Attachments\PublicationAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Attachments\QuorumAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Attachments\RejectionAttachment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Delegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Publication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Quorum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Transactions\MultiSignature\Rejection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\VotingRights.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BEncoding\BEncoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Configuration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EonClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ExtensionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Generators\AccountGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Generators\KeyPairGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Generators\PublicAccountGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Generators\PublicKeyPairGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Generators\SeedGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExtensionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\HexHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\Crypto\Aes128Ctr.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\ICrypto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\IKdf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\IKeystore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\KdfTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\Kdf\Pbkdf2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keystore\KeystoreV1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logging\HttpTransportLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logging\ILog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logging\LogMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logging\LogMessageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Network\ITransportContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Network\Transports\HttpTransportClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\ExtensionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\ProtocolException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\RpcError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\RpcRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\RpcResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\IdProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wallet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Api\SignType.cs" />
+    <None Include="$(MSBuildThisFileDirectory)Keystore\Kdf\Argon2.cs" />
+  </ItemGroup>
+</Project>

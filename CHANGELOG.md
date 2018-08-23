@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Note to Transaction class
 - Peer.Snapshot interface and methods
 - EncryptMessage and DecryptMessage to Keystore Interface and classes
+- Shared project
+- .NET Core 2.1 project
 
 ### Changed
 - Refactored Wallet class
@@ -27,6 +29,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - IdProvider core function changed to keep in par with version 2.0 of the Eon API
 - Bot.ColoredCoin.GetInfo method signature changed to keep in par with version 2.0 of the Eon API
 - Serialization of Wallet class to allow for partial AccountDetails persistence
+- Raised minimum .NET Framework requirement to version 4.6.2
 
 ### Fixed
 - PublicKeyPairGenerator

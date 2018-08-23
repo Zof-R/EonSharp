@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Inferno" Version="1.5.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Externals\Chaos.NaCl\Chaos.NaCl\Chaos.NaCl.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\EonSharp.Shared\EonSharp.Shared.projitems" Label="Shared" />
+
+</Project>
