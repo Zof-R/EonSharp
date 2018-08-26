@@ -23,6 +23,7 @@ namespace EonSharp.Network.Transports
 		internal HttpClient m_client;
 		internal AuthenticationHeaderValue m_authHeader;
 
+#if !NETCOREAPP2_1
 		static HttpTransportClient()
 		{
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
@@ -35,6 +36,7 @@ namespace EonSharp.Network.Transports
 				return false;
 			};
 		}
+#endif
 
 		public HttpTransportClient(string serverAddress, string user = null, string password = null) : this(null, serverAddress, user, password)
 		{
@@ -47,13 +49,21 @@ namespace EonSharp.Network.Transports
 			//var spoint = ServicePointManager.FindServicePoint(new Uri(serverAddress));
 			//spoint.ConnectionLeaseTimeout = 60 * 1000;
 
-			//var handler = new HttpClientHandler();
-			//handler.CookieContainer = new System.Net.CookieContainer();
-			//handler.UseCookies = true;
-
 			if (client == null)
 			{
+#if NETCOREAPP2_1
+
+				var handler = new HttpClientHandler
+				{
+					ServerCertificateCustomValidationCallback = Configuration.IgnoreSslErrors ? HttpClientHandler.DangerousAcceptAnyServerCertificateValidator : null
+				};
+				//handler.CookieContainer = new System.Net.CookieContainer();
+				//handler.UseCookies = true;
+				m_client = new HttpClient(handler);
+#else
 				m_client = new HttpClient();
+#endif
+
 				m_client.DefaultRequestHeaders.Accept.Clear();
 				m_client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("*/*"));
 				//m_client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -64,18 +74,17 @@ namespace EonSharp.Network.Transports
 				IsSecondaryContext = true;
 			}
 
-			Uri srvaddr;
-			if (Uri.TryCreate(serverAddress, UriKind.Absolute, out srvaddr))
+			if (Uri.TryCreate(serverAddress, UriKind.Absolute, out Uri srvaddr))
 			{
-				this.ServerAddress = srvaddr;
+				ServerAddress = srvaddr;
 			}
 			else
 			{
 				throw new UriFormatException("Malformed address.");
 			}
 
-			this.User = user;
-			this.Password = password;
+			User = user;
+			Password = password;
 
 			if (user != null)
 			{
@@ -103,7 +112,7 @@ namespace EonSharp.Network.Transports
 
 		public async Task<RpcResponse> ProcessCommandAsync(string endpointUrl, string rpcrequest)
 		{
-			if (this.ServerAddress == null)
+			if (ServerAddress == null)
 			{
 				throw new Exception("ServerAddress is required");
 
@@ -135,7 +144,7 @@ namespace EonSharp.Network.Transports
 
 		public async Task<string> GetPageAsync(string endpointUrl)
 		{
-			if (this.ServerAddress == null)
+			if (ServerAddress == null)
 			{
 				throw new Exception("ServerAddress is required");
 
