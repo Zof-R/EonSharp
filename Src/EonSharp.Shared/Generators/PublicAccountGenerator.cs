@@ -31,12 +31,16 @@ namespace EonSharp.Generators
 
 		#region ISerializable
 
-		public PublicAccountGenerator(SerializationInfo info, StreamingContext context) : base(null)
+		public PublicAccountGenerator(SerializationInfo info, StreamingContext context) : base(info, context)
 		{
+			AccountNumber = info.GetInt64("accountnumber");
 			AccountId = info.GetString("accountid");
 		}
-		public void GetObjectData(SerializationInfo info, StreamingContext context)
+		public new void GetObjectData(SerializationInfo info, StreamingContext context)
 		{
+			base.GetObjectData(info, context);
+
+			info.AddValue("accountnumber", AccountNumber);
 			info.AddValue("accountid", AccountId);
 		}
 

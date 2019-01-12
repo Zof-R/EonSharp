@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using EonSharp.Helpers;
@@ -46,5 +47,20 @@ namespace EonSharp.Generators
 			Buffer.BlockCopy(sec.PublicKeyArray, 0, buffer, privatekey.Length, sec.PublicKeyArray.Length);
 			return buffer;
 		}
+
+		#region ISerializable
+
+		public PublicKeyPairGenerator(SerializationInfo info, StreamingContext context)
+		{
+			PublicKeyArray = info.GetValue("publickeyarray", typeof(byte[])) as byte[];
+			PublicKey = info.GetString("publickey");
+		}
+		public void GetObjectData(SerializationInfo info, StreamingContext context)
+		{
+			info.AddValue("publickeyarray", PublicKeyArray);
+			info.AddValue("publickey", PublicKey);
+		}
+
+		#endregion
 	}
 }

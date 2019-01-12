@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Numerics;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,10 +11,12 @@ namespace EonSharp.Providers
 	public static class IdProvider
 	{
 		const string ALPHABET = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
+		//0x10000000000000000 = 0xFFFFFFFFFFFFFFFF + 1
 		static readonly BigInteger TWO64 = BigInteger.Parse("18446744073709551616");
 		static readonly BigInteger MASK_B74 = BigInteger.Parse("18889465931478580854784");
 		static readonly BigInteger AND_VAL = 0x3FF;
 		static readonly BigInteger AND_VAL2 = 0x1F;
+		static readonly int ID_LEN = 18;
 		public static class IdType
 		{
 			public const string Account = "EON";
@@ -68,16 +70,16 @@ namespace EonSharp.Providers
 
 
 
-		public static string ComputeID(long accountId, string prefix = IdType.Account)
+		public static string ComputeID(long id, string prefix = IdType.Account)
 		{
-			var id = new BigInteger(accountId);
-			if (accountId < 0)
+			var biid = new BigInteger(id);
+			if (id < 0)
 			{
-				id = BigInteger.Add(id, TWO64);
+				biid = BigInteger.Add(biid, TWO64);
 			}
 
 			BigInteger chs = BigInteger.Zero;
-			BigInteger tmp = id;
+			BigInteger tmp = biid;
 
 			while (tmp > BigInteger.Zero)
 			{
@@ -85,8 +87,8 @@ namespace EonSharp.Providers
 				tmp = tmp >> 10;
 			}
 
-			id = id | (chs << 64);
-			id = id | MASK_B74;
+			biid = biid | (chs << 64);
+			biid = biid | MASK_B74;
 
 			var idStr = new StringBuilder(prefix);
 			for (int i = 0; i < 15; i++)
@@ -95,16 +97,55 @@ namespace EonSharp.Providers
 				{
 					idStr.Append('-');
 				}
-				idStr.Append(ALPHABET[(int)(id & AND_VAL2)]);
-				id = id >> 5;
+				idStr.Append(ALPHABET[(int)(biid & AND_VAL2)]);
+				biid = biid >> 5;
 			}
 			return idStr.ToString();
 		}
 
+		public static long ParseID(string id, string prefix = IdType.Account)
+		{
+			id = id.Trim().ToUpper();
+			if (id.Length != ID_LEN + prefix.Length)
+			{
+				throw new Exception($"Malformed id string {id}");
+			}
+
+			var biid = BigInteger.Zero;
+			for (int i = id.Length - 1; i > prefix.Length; i--)
+			{
+				var p = ALPHABET.IndexOf(id[i]);
+				if (p >= 0)
+				{
+					biid = biid << 5;
+					biid = biid + p;
+				}
+			}
+
+			////NOT NEEDED IN C# IMPLEMENTATION
+			//for (int i = 64; i < 75; i++)
+			//{
+			//	biid = biid & ~(1 << i);
+			//}
+
+			var res = BitConverter.ToInt64(biid.ToByteArray(), 0);
+			if (id != (ComputeID(res, prefix)))
+			{
+				throw new Exception($"Error parsing {id}");
+			}
+
+			return res;
+		}
 
 
-
-
+		public static byte[] ParsePublicKey(long id)
+		{
+			return new BigInteger(id).ToByteArray();
+		}
+		public static byte[] ParsePublicKey(string id, string prefix = IdType.Account)
+		{
+			return new BigInteger(ParseID(id, prefix)).ToByteArray();
+		}
 
 
 	}
