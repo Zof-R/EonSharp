@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - EncryptMessage and DecryptMessage to Keystore Interface and classes
 - Shared project
 - .NET Core 2.1 project
+- Missing Methods in IdProvider
 
 ### Changed
 - Refactored Wallet class
@@ -37,6 +38,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Info, missing properties and fix deserialization of a few others
 - ColoredInfo, renaming to ColoredCoinInfo and fix deserialization
 - BlockHeader TransactionCount, TransactionFees refactoring and serialization
+- Serialization of PublicKeyPairGenerator and PublicAccountGenerator
 
 
 ## [0.13.0] - 2018-02-18
